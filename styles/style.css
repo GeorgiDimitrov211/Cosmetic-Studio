@@ -1,74 +1,269 @@
-/* Based on template from csslayoutgenerator.com */
-
-body {
-  font: 12px/18px Arial, sans-serif;
+@keyframes zoom {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
+  }
+  100% {
+   background-size: 100% 100%;
+  }
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
+body *{
+  font-family: 'Comfortaa', cursive;
 }
-
 /* Header
 -----------------------------------------------------------------------------*/
+#homePage #header *{
+  font-family: 'Roboto Slab', serif;
+}
 
-#header #header1{
+.disabled:hover{
+  cursor: default;
+  background: transparent;
+}
+#homePage #header{
+  padding:0;
+}
+#homePage #header #header1{
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
+  padding:0;
 }
-#header #header1 ul{
-  padding: 0% 7%;
+#homePage #header #header1 ul{
+  padding:0;
 }
-#header #header1 ul li a {
-  color:black;
-  line-height: 2.5em;
-} 
-#header #header1 ul li a:hover {
-  background-color: rgba(198, 198, 198);
-  background-color: rgba(198, 198, 198, 0.6);
-} 
-#header #header2{
-  background-color: rgba(198, 198, 198);
-  background-color: rgba(198, 198, 198, 0.6);
-}
-#header #header2 ul{
-  padding: 0% 16.5%;
-} 
-#header #header2 ul li a {
-  color:black;
-  line-height: 2.5em;
-} 
-#intro #introName{
-  padding: 10% 0 10% 7%;
-}
-#intro #introName h1{
-  font-family: 'Comfortaa', cursive;
-  font-size: 4rem;
-  color:black;
-}
-#intro #introName button{
-  color:white;
-  background-color: #7c616c;
-}
-#intro #introName button:last-child{
+#homePage #header #header1 ul li.disabled a{
   color: #7c616c;
-  background-color:white;
-  border: 1px solid #7c616c;
+  cursor: default;
+  pointer-events: none;
 }
 
+#homePage #header #header1 ul li a {
+  color:black;
+  line-height: 2.5em;
+} 
+#homePage #header #header1 ul li:nth-child(n+2):nth-last-child(n+3) a {
+  transition: background-color .8s;
+} 
 
+#homePage #header #header1 ul li:nth-child(n+2):nth-last-child(n+3) a:hover {
+  background-color: rgba(198, 198, 198);
+  background-color: rgba(198, 198, 198, 0.6);
+} 
+#homePage #header #header1 ul li:nth-last-child(-n+2) a {
+  transition: transform .5s;
+}
+#homePage #header #header1 ul li:nth-last-child(-n+2) a:hover {
+  transform: scale(1.3);
+} 
+#homePage #header #header2{
+  background-color: rgba(198, 198, 198);
+  background-color: rgba(198, 198, 198, 0.6);
+  padding:0;
+}
+#homePage #header #header2 ul{
+  padding:0;
+}
+#homePage #header #header2 ul li a {
+  color:black;
+  line-height: 2.5em;
+  transition: background-color .8s;
+} 
+#homePage #header #header2 ul li a:hover {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+} 
 /* Middle
 -----------------------------------------------------------------------------*/
-#intro{
+#homePage #intro{
+  margin:0;
   background-image: url('../assets/images/Home/Home-Background.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat:no-repeat;
+  animation: zoom 20s infinite;
+}
+#homePage #intro #introName{
+  padding: 10% 0;
+}
+#homePage #intro #introName h1{
+  font-weight: 300;
+  font-size: 4rem;
+  color:black;
+}
+#homePage #intro #introName h3{
+  font-weight: 300;
+  color:black;
+  padding-bottom:2%;
+}
+#homePage #intro #introName button{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color:white;
+  background-color: #7c616c;
+  transition: color 0.5s;
+  transition: background-color 0.8s;
 }
 
+#homePage #intro #introName button:last-child{
+  color: #7c616c;
+  background-color:transparent;
+  border: 1px solid #7c616c;
+}
+
+#homePage #intro #introName button:first-of-type:hover{
+  background-color: transparent;
+  color: #7c616c;
+  border:1px solid #7c616c;
+}
+#homePage #intro #introName button:last-of-type:hover{
+  color: white;
+  background-color: #7c616c;
+}
+#homePage #cards{
+  margin:0;
+  padding:0;
+  border-radius: 0;
+  border:0;
+  margin-top:-3%;
+}
+#homePage #cards .card {
+  margin:0;
+  padding:0;
+  border-radius: 0;
+  border:0;
+  box-shadow: 0 0 80px #aaa;
+  width: 30%;
+}
+#homePage #cards .col-5{
+  width: 20%;
+}
+#homePage #cards .card img {
+  margin:0;
+  padding:0;
+  border-radius: 0;
+  border:0;
+}
+#homePage #cards .card .imageHeading{
+  height:40vh;
+  position: relative;
+}
+#homePage #cards .card .imageHeading h4{
+  font-weight: 400;
+  color:#543c46;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin:0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 1%;
+  font-size:1.2em;
+}
+#homePage #cards .card:first-child .imageHeading{
+  background-image: url('../assets/images/Home/PochistvaneLice.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#homePage #cards .card:nth-child(2) .imageHeading{
+  background-image: url('../assets/images/Home/Hubavakoja.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+#homePage #cards .card .card-body .card-text{
+  font-size:0.9rem;
+}
+#homePage #cards .card .card-body .btn{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color:#7c616c;
+  background-color: white;
+  border: 1px solid #7c616c;
+  transition: background-color 0.8s;
+}
+#homePage #cards .card .card-body .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+#homePage #present h2{
+  text-transform: uppercase;
+  font-weight: 300;
+}
+#homePage #present div #text p{
+  font-family: 'Roboto Slab', serif;
+}
+#homePage #present div #text p:first-of-type{
+  font-weight: 300;
+}
+#homePage #present div #text button{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color:white;
+  background-color: #7c616c;
+  transition: background-color 0.8s;
+}
+#homePage #present div #text button:hover{
+  background-color: transparent;
+  color: #7c616c;
+  border:1px solid #7c616c;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
+#homePage footer{
+  background-color: #191919;
+  color:white;
+}
+#homePage footer h2{
+  color:white;
+  font-weight: 300;
+}
+#homePage footer #contact img{
+  width:10%;
+}
+#homePage footer #contact a{
+  color:white;
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  text-decoration: none;
+}
+#homePage footer #contact a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#homePage footer #contact a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#homePage footer #workingHours div p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+#homePage footer hr{
+  background-color:white;
+  width:80%;
+}
+#homePage footer #socialMedia a{
+  transition: transform .5s;
+}
+#homePage footer #socialMedia img{
+  width:40px;
+}
+#homePage footer #socialMedia a:hover{
+  transform: scale(1.3);
+  filter: drop-shadow(0px 0px 2px grey);
+}
