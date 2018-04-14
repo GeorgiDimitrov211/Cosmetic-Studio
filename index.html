@@ -4,67 +4,68 @@
 <head>
   <meta charset="utf-8" />
   <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <link href="styles/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
   <meta name="format-detection" content="telephone=no">
 </head>
 
 <body id="homePage">
   <main>
-    <div id="intro" class="row">
-      <header id="header" class="col-12">
+    <div id="intro" class="row m-0">
+      <header id="header" class="col-12 w-100">
         <nav id="header1" class="col-12">
           <ul class="nav col-11 justify-content-end" >
             <li class="nav-item disabled align-middle"><a class="nav-link" href="">Начало</a></li>
-            <li class="nav-item align-middle"><a class="nav-link" href="">За мен</a></li>
-            <li class="nav-item align-middle"><a class="nav-link" href="">Терапии</a></li>
-            <li class="nav-item align-middle"><a class="nav-link" href="">Ценоразпис</a></li>
-            <li class="nav-item align-middle"><a class="nav-link" href="">Контакти</a></li>
+            <li class="nav-item align-middle"><a class="nav-link" href="about.html">За мен</a></li>
+            <li class="nav-item align-middle"><a class="nav-link" href="therapies.html">Терапии</a></li>
+            <li class="nav-item align-middle"><a class="nav-link" href="pricelist.html">Ценоразпис</a></li>
+            <li class="nav-item align-middle"><a class="nav-link" href="contact.html">Контакти</a></li>
             <li class="nav-item align-middle"><a class="nav-link" href=""><img src="./assets/images/Icons/Header/facebook.svg" alt="facebook icon" width="30" height="30"></a></li>
             <li class="nav-item align-middle"><a class="nav-link" href=""><img src="./assets/images/Icons/Header/instagram.svg" alt="instagram icon" width="30" height="30"></a></li>
           </ul>
         </nav> <!-- end of header1 -->
         <nav id="header2" class="col-12">         
           <ul class="nav col-10 justify-content-end">
-            <li class="nav-item align-middle"><a class="nav-link" href="">Марки с които работя</a></li>
-            <li class="nav-item align-middle"><a class="nav-link" href="">Продукти за домашна употреба</a></li>
+            <li class="nav-item align-middle"><a class="nav-link" href="brands.html">Марки с които работя</a></li>
+            <li class="nav-item align-middle"><a class="nav-link" href="products.html">Продукти за домашна употреба</a></li>
           </ul>
         </nav> <!-- end of header2 -->
-      </header>
+      </header> <!-- end of headers -->
       <div id="introName" class="offset-1 col-5 text-center">
         <h1>Василена Янчева</h1>
         <h3>Kозметик, кинезитерапевт</h3>
-        <button class="btn w-25 mr-4">Още за мен</button>
-        <button class="btn w-25">Контакти</button>
+        <a class="btn w-25 mr-4" href="about.html">Още за мен</a>
+        <a class="btn w-25" href="contact.html">Контакти</a>
       </div> <!-- end of introName -->
     </div> <!-- end of intro -->
-    <div id="cards" class="card-deck row justify-content-center d-flex text-center mb-5">
-      <div class="card col-4 mr-3">
-        <div class="imageHeading">    
-          <h4 class="card-title">Защо да почистваме лицето си?</h4>
-        </div>
-        <div class="card-body d-flex flex-column">
-          <p class="card-text px-4">Повечето хора наистина не разбират какво може да предложи една добра професионална процедура за лице. Много мъже и жени чакат докато им се появи някакъв кожен проблем (суха сърбяща кожа, тъмни петна и т.н) или имат предстоящо събитие преди да отидат на процедура...</p>
-          <a href="#" class="btn btn-primary mt-auto w-50 align-self-center">Научи още</a>
-        </div>
-      </div>
-      <div class="card col-4 ml-3">
-        <div class="imageHeading">    
-          <h4 class="card-title">Хубавата кожа не става по случайност,става със запазване на час</h4>
-        </div>
-        <div class="card-body d-flex flex-column ">
-          <p class="card-text px-4">Ако сте имали удоволствието да си правите процедури за лице знаете, че най приятната част от процедурата е масажа. Естетиците масажират лицето нежно, освобождавайки напрежението от бузите, челюста и врата. Може да си мислите, че това е само за релаксация, но всички тези масажни техники са умишлени...</p>
-          <a href="#" class="btn btn-primary mt-auto w-50 align-self-center">Научи още</a>
-        </div> <!-- end of card-body -->
-      </div> <!-- end of card -->
-    </div> <!-- end of card-deck -->
-    <div id="present" class="row">
+      <div id="cards" class="card-deck row justify-content-center d-flex text-center mb-5">
+        <div class="card col-4 mr-3">
+          <div class="imageHeading">    
+            <h4 class="card-title">Защо да почистваме лицето си?</h4>
+          </div> <!-- end of imageHeading -->
+          <div class="card-body d-flex flex-column">
+            <p class="card-text px-4">Повечето хора наистина не разбират какво може да предложи една добра професионална процедура за лице. Много мъже и жени чакат докато им се появи някакъв кожен проблем (суха сърбяща кожа, тъмни петна и т.н) или имат предстоящо събитие преди да отидат на процедура...</p>
+            <a href="#" class="btn btn-primary mt-auto w-50 align-self-center">Научи още</a>
+          </div> <!-- end of card-body -->
+        </div> <!-- end of card -->
+        <div class="card col-4 ml-3">
+          <div class="imageHeading">    
+            <h4 class="card-title">Хубавата кожа не става по случайност,става със запазване на час</h4>
+          </div> <!-- end of imageHeading -->
+          <div class="card-body d-flex flex-column ">
+            <p class="card-text px-4">Ако сте имали удоволствието да си правите процедури за лице знаете, че най приятната част от процедурата е масажа. Естетиците масажират лицето нежно, освобождавайки напрежението от бузите, челюста и врата. Може да си мислите, че това е само за релаксация, но всички тези масажни техники са умишлени...</p>
+            <a href="#" class="btn btn-primary mt-auto w-50 align-self-center">Научи още</a>
+          </div> <!-- end of card-body -->
+        </div> <!-- end of card -->
+      </div> <!-- end of cards -->
+    <div id="gift" class="row">
       <h2 class="col-12 text-center mt-5 mb-3">Направете страхотен подарък за любим човек</h2>
       <div class="row justify-content-center">
         <img class"col-3" src="./assets/images/Home/vaucher.png" alt="">
@@ -72,10 +73,10 @@
           <p class="">Ако сте решили да изненадате любим човек и искате той да се почувства специален, то това е най-добрия начин. </p>
           <p class="">Може да поръчате своя ваучер подарък онлайн, или да си го закупите на място в козметичния салон. </p>
           <button class="btn w-50 align-self-center">Поръчай</button>
-        </div>
-      </div>
-    </div>
-  </main>
+        </div>  <!-- end of text -->
+      </div> 
+    </div> <!-- end of gift -->
+  </main>  <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
     <div id="contact" class="row justify-content-center pb-4">
@@ -91,7 +92,7 @@
         <img class="mr-3" src="./assets/images/Icons/Foote/Email.svg" alt="">
         <a class="pb-1 align-baseline"href="mailto:kozmetikvarna@gmail.com" target="_top">kozmetikvarna@gmail.com</a>
       </div>
-    </div>
+    </div> <!-- end of contact -->
     <hr size="30">
     <div id="workingHours" class="row justify-content-center pt-4">
       <div class="w-25">
@@ -106,7 +107,7 @@
           <p>Неделя</p>
           <p>Почивен ден</p>
       </div>
-    </div>
+    </div> <!-- end of workingHours -->
     <div id="socialMedia" class="row justify-content-center mt-5 ">
       <a class="text-right mr-2" href="">
         <img class="" src="./assets/images/Icons/Foote/facebook.svg" alt="">
@@ -114,11 +115,12 @@
       <a class="text-left ml-2" href="">
         <img class="" src="./assets/images/Icons/Foote/instagram.svg" alt="">
       </a>
-    </div>
-  </footer>
+    </div> <!-- end of socialMedia -->
+  </footer> <!-- end of footer -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 
