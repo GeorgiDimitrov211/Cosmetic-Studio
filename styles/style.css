@@ -385,6 +385,8 @@ footer #socialMedia a:hover {
   padding: 15% 0;
   font-family: 'Bad Script', cursive;
   position: relative;
+  text-decoration: none;
+  color:black;
 }
 #therapiesPage #therapies .row .therapy:hover{
   opacity: 0.65;
@@ -624,6 +626,7 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
 }
+/* medik8 */
 #medik8Page #medik8{
   margin-top:11%;
 }
@@ -662,3 +665,450 @@ footer #socialMedia a:hover {
   font-weight: 400;
   font-family: 'Roboto Slab', serif;
 }
+/* gatineau */
+#gatineauPage #gatineau{
+  margin-top:11%;
+}
+#gatineauPage #gatineau > h3{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+#gatineauPage #gatineau .gatineau-row{
+  margin-bottom:4%;
+}
+#gatineauPage #gatineau .gatineau-row:last-of-type{
+  margin-bottom:1%;
+}
+#gatineauPage #gatineau .gatineau-row .gatineau-item img{
+  /* width:100%; */
+  height: 40vh;
+}
+#gatineauPage #gatineau .gatineau-row .gatineau-item div h4{
+  font-size: 1rem;
+  color: #792841;
+}
+#gatineauPage #gatineau .gatineau-row .gatineau-item div p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter p{
+  font-family: 'Roboto Slab', serif;
+}
+#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter thin{
+  font-weight: 100;
+  font-family: 'Roboto Slab', serif;
+}
+#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter strong{
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+/* TherapiesPQ */
+#therapiesPQPage #therapiesPQ .therapiesPQbg{
+  background-image: url('../assets/images/Services/terapiesSub/PQAge1.jpg');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#therapiesPQPage #therapiesPQ .therapiesPQbg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#therapiesPQPage #therapiesPQ .text{
+  column-count: 2;
+}
+#therapiesPQPage #therapiesPQ .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#therapiesPQPage #therapiesPQ .text p{
+  font-size: 1rem;
+}
+#therapiesPQPage #therapiesPQ .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#therapiesPQPage #therapiesPQ .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#therapiesPQPage #therapiesPQ .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* oxygen */
+#oxygenPage #oxygen .oxygenbg{
+  background-image: url('../assets/images/Services/terapiesSub/Oxygen.png');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#oxygenPage #oxygen .oxygenbg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#oxygenPage #oxygen .text{
+  column-count: 2;
+}
+#oxygenPage #oxygen .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#oxygenPage #oxygen .text p{
+  font-size: 1rem;
+}
+#oxygenPage #oxygen .text ul{
+  color: #980c4a;
+}
+#oxygenPage #oxygen .text ul p{
+  color: black;
+}
+#oxygenPage #oxygen .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#oxygenPage #oxygen .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#oxygenPage #oxygen .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* massages */
+#massagesPage #massages .massagesbg{
+  background-image: url('../assets/images/Services/terapiesSub/masage.jpg');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#massagesPage #massages .massagesbg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#massagesPage #massages .text{
+  column-count: 2;
+}
+#massagesPage #massages .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#massagesPage #massages .text p{
+  font-size: 1rem;
+}
+#massagesPage #massages .text ul{
+  color: #980c4a;
+}
+#massagesPage #massages .text ul p{
+  color: black;
+}
+#massagesPage #massages .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#massagesPage #massages .text .caps{
+  text-transform: uppercase;
+}
+#massagesPage #massages .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#massagesPage #massages .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* eyelashes */
+#eyelashesPage #eyelashes .eyelashesbg{
+  background-image: url('../assets/images/Services/terapiesSub/migli.jpg');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#eyelashesPage #eyelashes .eyelashesbg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#eyelashesPage #eyelashes .text{
+  column-count: 2;
+}
+#eyelashesPage #eyelashes .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#eyelashesPage #eyelashes .text p{
+  font-size: 1rem;
+}
+#eyelashesPage #eyelashes .text ul{
+  color: #980c4a;
+}
+#eyelashesPage #eyelashes .text ul p{
+  color: black;
+}
+#eyelashesPage #eyelashes .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#eyelashesPage #eyelashes .text .caps{
+  text-transform: uppercase;
+}
+#eyelashesPage #eyelashes .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#eyelashesPage #eyelashes .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* mikrodermaobrazio */
+#mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg{
+  background-image: url('../assets/images/Services/terapiesSub/diamantenomikrodermabrazio.jpg');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text{
+  column-count: 2;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text p{
+  font-size: 1rem;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text ul{
+  color: #980c4a;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text ul p{
+  color: black;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .text .caps{
+  text-transform: uppercase;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#mikrodermaobrazioPage #mikrodermaobrazio .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* pochistvane */
+#pochistvanePage #pochistvane .pochistvanebg{
+  background-image: url('../assets/images/Services/terapiesSub/PochistvaneLice.jpg');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#pochistvanePage #pochistvane .pochistvanebg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#pochistvanePage #pochistvane .text{
+  column-count: 2;
+}
+#pochistvanePage #pochistvane .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#pochistvanePage #pochistvane .text p{
+  font-size: 1rem;
+}
+#pochistvanePage #pochistvane .text ul{
+  color: #980c4a;
+}
+#pochistvanePage #pochistvane .text ul p{
+  color: black;
+}
+#pochistvanePage #pochistvane .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#pochistvanePage #pochistvane .text .caps{
+  text-transform: uppercase;
+}
+#pochistvanePage #pochistvane .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#pochistvanePage #pochistvane .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* himichen */
+#himichenPage #himichen .himichenbg{
+  background-image: url('../assets/images/Services/terapiesSub/himichenpiling.jpg');
+  background-position: center;
+  background-size: cover;
+  height:80vh;
+  position: relative;
+}
+#himichenPage #himichen .himichenbg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 1.8rem;
+  line-height:3rem;
+  font-family: 'Bad Script', cursive;
+  color:#661c3a;
+}
+#himichenPage #himichen .text{
+  column-count: 2;
+}
+#himichenPage #himichen .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#himichenPage #himichen .text p{
+  font-size: 1rem;
+}
+#himichenPage #himichen .text ul{
+  color: #980c4a;
+}
+#himichenPage #himichen .text ul p{
+  color: black;
+}
+#himichenPage #himichen .text p:first-of-type{
+  color: #980c4a;
+}
+#himichenPage #himichen .text p.bold{
+  font-weight: bold;
+}
+#himichenPage #himichen .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#himichenPage #himichen .text .caps{
+  text-transform: uppercase;
+}
+#himichenPage #himichen .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#himichenPage #himichen .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+
