@@ -250,7 +250,7 @@ body {
   font-weight: 300;
 }
 
-#homePage #gift div #text button {
+#homePage #gift div #text a {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   color: white;
@@ -258,7 +258,7 @@ body {
   transition: background-color 0.8s;
 }
 
-#homePage #gift div #text button:hover {
+#homePage #gift div #text a:hover {
   background-color: transparent;
   color: #7c616c;
   border: 1px solid #7c616c;
@@ -1084,9 +1084,6 @@ footer #socialMedia a:hover {
 #himichenPage #himichen .text ul p{
   color: black;
 }
-#himichenPage #himichen .text p:first-of-type{
-  color: #980c4a;
-}
 #himichenPage #himichen .text p.bold{
   font-weight: bold;
 }
@@ -1111,4 +1108,471 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
 }
+/* enerpeelBrand */
+#enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg{
+  background-image: url('../assets/images/Marki/Enerpeel/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  padding:15% 0% 10% 0%;
+}
+#enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg p{
+  text-align:center;
+  padding:2%;
+  font-size: 6rem;
+  font-family: 'Roboto Slab', serif;
+  color:white;
+  font-weight: 200;
+}
+#enerpeelBrandPage #enerpeelBrand .text{
+  column-count: 2;
+}
+#enerpeelBrandPage #enerpeelBrand .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#enerpeelBrandPage #enerpeelBrand .text p{
+  font-size: 1rem;
+}
+#enerpeelBrandPage #enerpeelBrand .text p.pink{
+  color: #980c4a;
+}
+#enerpeelBrandPage #enerpeelBrand .text p.bold{
+  font-weight: bold;
+}
+#enerpeelBrandPage #enerpeelBrand .text .caps{
+  text-transform: uppercase;
+}
+#enerpeelBrandPage #enerpeelBrand .text ul p{
+  text-transform: none;
+}
+#enerpeelBrandPage #enerpeelBrand .text ul{
+  list-style-position: unset;
+}
+#enerpeelBrandPage #enerpeelBrand .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#enerpeelBrandPage #enerpeelBrand .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+#enerpeelBrandPage #enerpeelBrand .pink.bold.caps{
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  text-transform: uppercase;
+  color: #980c4a;
+  font-weight: bold;
+  font-size:1.5em;
+}
+/* gatineauBrand */
+#gatineauBrandPage #gatineauBrand{
+  margin-top: 8%;
+}
+#gatineauBrandPage #gatineauBrand .gatineauBrandbg p{
+  text-align:center;
+  padding:2%;
+  font-size: 6rem;
+  font-family: 'Roboto Slab', serif;
+  color:white;
+  font-weight: 200;
+}
+#gatineauBrandPage #gatineauBrand .text{
+  column-count: 2;
+}
+#gatineauBrandPage #gatineauBrand .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#gatineauBrandPage #gatineauBrand .text p{
+  font-size: 1rem;
+}
+#gatineauBrandPage #gatineauBrand .text .pink{
+  color: #980c4a;
+}
+#gatineauBrandPage #gatineauBrand .text .bold{
+  font-weight: bold;
+}
+#gatineauBrandPage #gatineauBrand .text .caps{
+  text-transform: uppercase;
+}
+#gatineauBrandPage #gatineauBrand .text ul p{
+  text-transform: none;
+}
+#gatineauBrandPage #gatineauBrand .text ul{
+  list-style-position: unset;
+}
+#gatineauBrandPage #gatineauBrand .text h4{
+  color: #980c4a;
+  
+}
+#gatineauBrandPage .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#gatineauBrandPage .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+#gatineauBrandPage #gatineauBrand .pink.bold.caps{
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  text-transform: uppercase;
+  color: #980c4a;
+  font-weight: bold;
+  font-size:1.5em;
+}
+/* medik8Brand */
+#medik8BrandPage #medik8Brand{
+  margin-top: 8%;
+}
+#medik8BrandPage #medik8Brand div img{
+width: 100%;
+}
 
+#medik8BrandPage #medik8Brand .medik8Brandbg p{
+  text-align:center;
+  padding:2%;
+  font-size: 6rem;
+  font-family: 'Roboto Slab', serif;
+  color:white;
+  font-weight: 200;
+}
+
+#medik8BrandPage #medik8Brand .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#medik8BrandPage #medik8Brand .text p{
+  font-size: 1rem;
+}
+#medik8BrandPage #medik8Brand .text .pink{
+  color: #980c4a;
+}
+#medik8BrandPage #medik8Brand .text .bold{
+  font-weight: bold;
+}
+#medik8BrandPage #medik8Brand .text .caps{
+  text-transform: uppercase;
+}
+#medik8BrandPage #medik8Brand .text ul p{
+  text-transform: none;
+}
+#medik8BrandPage #medik8Brand .text ul{
+  list-style-position: unset;
+}
+#medik8BrandPage #medik8Brand .text h4{
+  color: #980c4a;
+  
+}
+#medik8BrandPage .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#medik8BrandPage .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+#medik8BrandPage #medik8Brand .pink.bold.caps{
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  text-transform: uppercase;
+  color: #980c4a;
+  font-weight: bold;
+  font-size:1.5em;
+}
+/* promoitaliaBrand */
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg{
+  background-color: #646464;
+}
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p{
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  color:white;
+  font-weight: 200;
+}
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:first-child{
+  font-size: 6rem;
+  padding-top:15%;
+  margin-bottom:0;
+}
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:nth-of-type(2){
+  font-size: 3rem;
+}
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:last-child{
+  font-size: 2rem;
+  padding-top:2%;
+  padding-bottom:5%;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text p{
+  font-size: 1rem;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text .pink{
+  color: #980c4a;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text .bold{
+  font-weight: bold;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text .caps{
+  text-transform: uppercase;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text ul p{
+  text-transform: none;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text ul{
+  list-style-position: unset;
+}
+#promoitaliaBrandPage #promoitaliaBrand .text h4{
+  color: #980c4a;
+  
+}
+#promoitaliaBrandPage .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#promoitaliaBrandPage .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* homeBox1 */
+#homeBox1Page #homeBox1 .homeBox1bg{
+  background-image: url('../assets/images/Home/model-face-beautiful-black-and-white-407035-2.jpeg');
+  background-position: center;
+  background-size: cover;
+  height:90vh;
+  position: relative;
+  margin-top:5%;
+}
+#homeBox1Page #homeBox1 .homeBox1bg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 2.5rem;
+  line-height:3rem;
+  color:#980c4a
+}
+#homeBox1Page #homeBox1 .text{
+  column-count: 2;
+}
+#homeBox1Page #homeBox1 .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#homeBox1Page #homeBox1 .text p{
+  font-size: 1rem;
+}
+#homeBox1Page #homeBox1 .text ul{
+  color: #980c4a;
+}
+#homeBox1Page #homeBox1 .text ul p{
+  color: black;
+}
+#homeBox1Page #homeBox1 .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#homeBox1Page #homeBox1 .text .caps{
+  text-transform: uppercase;
+}
+#homeBox1Page #homeBox1 .text .pink{
+  color: #980c4a;
+}
+#homeBox1Page #homeBox1 .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#homeBox1Page #homeBox1 .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* homeBox2 */
+#homeBox2Page #homeBox2{
+  margin-top:7%;
+}
+#homeBox2Page #homeBox2 .homeBox2bg img{
+  width:100%;
+}
+#homeBox2Page #homeBox2 .homeBox2bg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 2.5rem;
+  line-height:3rem;
+  color:#980c4a
+}
+#homeBox2Page #homeBox2 .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+#homeBox2Page #homeBox2 .text p{
+  font-size: 1rem;
+}
+#homeBox2Page #homeBox2 .text ul{
+  color: #980c4a;
+}
+#homeBox2Page #homeBox2 .text ul p{
+  color: black;
+}
+#homeBox2Page #homeBox2 .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#homeBox2Page #homeBox2 .text .caps{
+  text-transform: uppercase;
+}
+#homeBox2Page #homeBox2 .text .pink{
+  color: #980c4a;
+}
+#homeBox2Page #homeBox2 .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#homeBox2Page #homeBox2 .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* homeBox3 */
+#homeBox3Page #homeBox3 .homeBox3bg{
+  background-image: url('../assets/images/Home/model-face-beautiful-black-and-white-407035-2.jpeg');
+  background-position: center;
+  background-size: cover;
+  height:90vh;
+  position: relative;
+  margin-top:5%;
+}
+#homeBox3Page #homeBox3 .homeBox3bg p{
+  position: absolute;
+  text-align:center;
+  bottom:0;
+  left:0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding:2%;
+  font-size: 2.5rem;
+  line-height:3rem;
+  color:#980c4a
+}
+#homeBox3Page #homeBox3 .text{
+  column-count: 2;
+}
+#homeBox3Page #homeBox3 .text *{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+#homeBox3Page #homeBox3 .text p{
+  font-size: 1rem;
+}
+#homeBox3Page #homeBox3 .text strong{
+  font-weight: bold;
+}
+#homeBox3Page #homeBox3 .text ul{
+  color: #980c4a;
+}
+#homeBox3Page #homeBox3 .text ul p{
+  color: black;
+}
+#homeBox3Page #homeBox3 .text h4{
+  color: #980c4a;
+  font-size:1rem;
+  font-weight: normal;
+}
+#homeBox3Page #homeBox3 .text .caps{
+  text-transform: uppercase;
+}
+#homeBox3Page #homeBox3 .text .pink{
+  color: #980c4a;
+}
+#homeBox3Page #homeBox3 .btn{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  border-color: #7c616c;
+  color: #7c616c;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+#homeBox3Page #homeBox3 .btn:hover{
+  color: white;
+  background-color: #7c616c;
+}
+/* orderPage */
+#orderPage {
+  margin-top:10%;
+}
+#orderPage form *{
+  font-family: 'Roboto Slab', serif;
+}
+#orderPage form h2{
+  font-size:2.5rem;
+}
+
+#orderPage form .btn{
+  background-color: #7c616c;
+  color:white;
+}
+#orderPage form .btn {
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: #7c616c;
+  border: 1px solid #7c616c;
+  transition: background-color 0.8s;
+}
+#orderPage form .btn:hover {
+  color: #7c616c;
+  background-color: white;
+}
+#orderPage form .form-control{
+  outline: none;
+  border-color:#7c616c;
+}
+#orderPage form .form-control:focus{
+  box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
+}
