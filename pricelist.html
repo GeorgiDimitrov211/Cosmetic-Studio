@@ -10,9 +10,10 @@
   <link href="styles/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
   <meta name="format-detection" content="telephone=no">
 </head>
 
@@ -20,51 +21,422 @@
   <main>
     <header id="header" class="col-12">
       <nav id="header1" class="col-12">
-        <ul class="nav col-11 justify-content-end" >
-          <li class="nav-item align-middle"><a class="nav-link" href="index.html">Начало</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="about.html">За мен</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="therapies.html">Терапии</a></li>
-          <li class="nav-item disabled align-middle"><a class="nav-link" href="">Ценоразпис</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="contact.html">Контакти</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href=""><img src="./assets/images/Icons/Header/facebook.svg" alt="facebook icon" width="30" height="30"></a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href=""><img src="./assets/images/Icons/Header/instagram.svg" alt="instagram icon" width="30" height="30"></a></li>
+        <ul class="nav col-11 justify-content-end">
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="index.html">Начало</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="about.html">За мен</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="therapies.html">Терапии</a>
+          </li>
+          <li class="nav-item disabled align-middle">
+            <a class="nav-link" href="">Ценоразпис</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="contact.html">Контакти</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="https://www.facebook.com/kozmetikvarna.varna/">
+              <img target="_blank" src="./assets/images/Icons/Header/facebook.svg" alt="facebook icon" width="30" height="30">
+            </a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="https://www.instagram.com/kozmetikvarna/">
+              <img target="_blank" src="./assets/images/Icons/Header/instagram.svg" alt="instagram icon" width="30" height="30">
+            </a>
+          </li>
         </ul>
-      </nav> <!-- end of header1 -->
-      <nav id="header2" class="col-12">         
+      </nav>
+      <!-- end of header1 -->
+      <nav id="header2" class="col-12">
         <ul class="nav col-10 justify-content-end">
-          <li class="nav-item align-middle"><a class="nav-link" href="brands.html">Марки с които работя</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="products.html">Продукти за домашна употреба</a></li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="brands.html">Марки с които работя</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="products.html">Продукти за домашна употреба</a>
+          </li>
         </ul>
-      </nav> <!-- end of header2 -->
-    </header>  <!-- end of headers -->
+      </nav>
+      <!-- end of header2 -->
+    </header>
+    <!-- end of headers -->
     <div id="pricelist" class="container mb-5 text-center">
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Почистващи терапии - лице</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Медико-козметичен масаж на лице, шия и деколте</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Естетични процедури</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Професионални козметични терапии  ,, GATINEАU”</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Професионални козметични терапии с ,, MEDIK8”</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Епилация жени / мъже</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Мигли / Вежди</a></div>
-      <div class="priceitem rounded col border border-secondary py-3 my-3"><a class="text-dark" href="">Масажи</a></div>
-    </div> <!-- end of pricelist -->
-    <a href="pricelist.html" class="btn btn-primary mt-auto w-25 align-self-center">Повече за терапиите</a>
-  </main> <!-- end of main -->
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingOne">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseOne"
+                aria-controls="collapseOne">
+                Почистващи терапии - лице
+              </a>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване на лице</p>
+                <p class="m-0 p-0">45 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване на лице с пластична маска</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване на лице с лек плодов пилинг</p>
+                <p class="m-0 p-0">55 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване на деколте</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване на гръб</p>
+                <p class="m-0 p-0">55 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Ензимен пилинг - дълбоко почистващ пилинг с папая и боровинки</p>
+                <p class="m-0 p-0">20 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Втриване на ампула с ултразвук</p>
+                <p class="m-0 p-0">15 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Впръскване на ампула с кислород </p>
+                <p class="m-0 p-0">20 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingTwo">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseTwo"
+                aria-controls="collapseTwo">
+                Медико-козметичен масаж на лице, шия и деколте
+              </a>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Козметичен масаж на лице, шия и деколте </p>
+                <p class="m-0 p-0">30 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Луксозен козметичен масаж на лице, шия и деколте с дрениращи багети</p>
+                <p class="m-0 p-0">40 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingThree">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseThree"
+                aria-controls="collapseThree">
+                Естетични процедури
+              </a>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Кислородна мезотерапия</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Диамантено микродермабразио на лице</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Диамантено микродермабразио на деколте</p>
+                <p class="m-0 p-0">55 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Диамантено микродермабразио на гръб</p>
+                <p class="m-0 p-0">70 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Диамантено микродермабразио &amp; Кислородна мезотерапия</p>
+                <p class="m-0 p-0">60 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Химичен пилинг лице</p>
+                <p class="m-0 p-0">55 - 70лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Химичен пилинг деколте</p>
+                <p class="m-0 p-0">70 - 100лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Химичен пилинг гръб</p>
+                <p class="m-0 p-0">100 - 120 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">PQ Age - пилинг от ново поколение - целогодишен</p>
+                <p class="m-0 p-0">80 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingFour">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseFour"
+                aria-controls="collapseFour">
+                Професионални козметични терапии с "GATINEАU"
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Терапия за дехитратирана кожа с хиалуронова киселина AQUAMEMORY </p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване и детокс </p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Универсален антиейдж</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Колагенова терапия (Сolagen Facial) + кислород</p>
+                <p class="m-0 p-0">80 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Модерен антиейдж (Advanced Smoothing)</p>
+                <p class="m-0 p-0">65 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Моментален лифтинг (Instant Lifting)</p>
+                <p class="m-0 p-0">65 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingFive">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseFive"
+                aria-controls="collapseFive">
+                Професионални козметични терапии с "MEDIK8"
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Екскузивна подмладяваща терапия за околоочен контур </p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Дълбокопочистваща терапия с антибактериално и противовъзпалително деиствие</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Терапия за чувствителна и сконна към зачервяване кожа</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Дълбоко хидратираща и възстановяваща терапия с хиалуронова киселина</p>
+                <p class="m-0 p-0">50 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0 text-left">Терапия за стимулиране синтеза на колаген, за блестяща кожа и равномерен тен – Vitamin C Pro-collagen Intense
+                  Facial </p>
+                <p class="m-0 p-0 w-25 text-right">50 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Подмладяващя терапия – Ageing Defying Facial</p>
+                <p class="m-0 p-0">60 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingSix">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseSix"
+                aria-controls="collapseSix">
+                Епилация жени / мъже
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse hide" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body text-left">
+              <h5 class="mb-4 light">Епилацията се извършва с кола маска KOKEN Испания</h5>
+              <h6 class="pb-0">
+                <strong>Жени</strong>
+              </h6>
+              <hr class="mt-0 bg-dark">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Горна устна</p>
+                <p class="m-0 p-0">4 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Брадичка</p>
+                <p class="m-0 p-0">4 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Мишници</p>
+                <p class="m-0 p-0">6 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Корем </p>
+                <p class="m-0 p-0">8 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Ръце</p>
+                <p class="m-0 p-0">12 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Крака ½</p>
+                <p class="m-0 p-0">14 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Крака</p>
+                <p class="m-0 p-0">22 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Бикини ½</p>
+                <p class="m-0 p-0">12 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Бикини</p>
+                <p class="m-0 p-0">15 лв</p>
+              </div>
+              <h6 class="pb-0 mt-4">
+                <strong>Мъже</strong>
+              </h6>
+              <hr class="mt-0 bg-dark">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Мишници</p>
+                <p class="m-0 p-0">8 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Гръб</p>
+                <p class="m-0 p-0">20 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Гърди и корем</p>
+                <p class="m-0 p-0">10 - 20 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Ръце </p>
+                <p class="m-0 p-0">17 лв</p>
+              </div>
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Крака</p>
+                <p class="m-0 p-0">28 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header m-0 p-0" id="headingSeven">
+            <h5 class="p-0 m-0">
+              <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseSeven"
+                aria-controls="collapseSeven">
+                Мигли / Вежди
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse hide" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              <h6 class="pb-0">
+                <strong>Мигли</strong>
+              </h6>
+              <hr class="mt-0 bg-dark">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Мигли косъм по косъм</p>
+                <p class="m-0 p-0">70 лв при първо поставяне &amp; 40 лв при поддръжка</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Мигли 3D</p>
+                <p class="m-0 p-0">100 лв при първо поставяне &amp; 50 лв при поддръжка</p>
+              </div>
+              <h6 class="pb-0 mt-4">
+                <strong>Вежди</strong>
+              </h6>
+              <hr class="mt-0 bg-dark">
+              <div class="d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Почистване и оформяне на вежди</p>
+                <p class="m-0 p-0">7 лв</p>
+              </div>
+              <div class="odd d-flex p-2 justify-content-between">
+                <p class="m-0 p-0">Боядисване на вежди или мигли</p>
+                <p class="m-0 p-0">7 лв</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-header m-0 p-0" id="headingEight">
+          <h5 class="p-0 m-0">
+            <a class="btn btn-link w-100 priceitem rounded col border border-secondary py-3 text-left" data-toggle="collapse" data-target="#collapseEight"
+              aria-controls="collapseEight">
+              Масажи
+            </a>
+          </h5>
+        </div>
+        <div id="collapseEight" class="collapse hide" aria-labelledby="headingEight" data-parent="#accordion">
+          <div class="card-body">
+            <div class="d-flex p-2 justify-content-between">
+              <p class="m-0 p-0">Масаж на цяло тяло</p>
+              <p class="m-0 p-0">60 мин – 37 лв</p>
+            </div>
+            <div class="d-flex p-2 justify-content-between">
+              <p class="m-0 p-0">Масаж частичен</p>
+              <p class="m-0 p-0">30 мин – 20 лв</p>
+            </div>
+            <div class="d-flex p-2 justify-content-between">
+              <p class="m-0 p-0"><strong>Пакет 10 процедури</strong></p>
+              <p class="m-0 p-0"><strong>10% отстъпка</strong></p>
+            </div>
+            <div class="odd d-flex p-2 justify-content-between">
+              <p class="m-0 p-0">Антицелулитен масаж</p>
+              <p class="m-0 p-0">30 мин - 20 лв</p>
+            </div>
+            <div class="odd d-flex p-2 justify-content-between">
+              <p class="m-0 p-0">Антицелулитна терапия </p>
+              <p class="m-0 p-0">60 мин - 32 лв</p>
+            </div>
+            <div class="odd d-flex p-2 justify-content-between">
+              <p class="m-0 p-0"><strong>Пакет 12 процедури</strong></p>
+              <p class="m-0 p-0"><strong>10% отстъпка</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- end of pricelist -->
+    <a href="therapies.html" class="btn mt-auto align-self-center">Повече за терапиите</a>
+  </main>
+  <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
     <div id="contact" class="row justify-content-center pb-4">
       <div class="w-25">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="">
-        <a class="pb-1 align-baseline" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285" target="_top">гр. Варна, бул. Сливница 38А</a>
+        <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="Location icon">
+        <a class="pb-1 align-baseline" target="_blank" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285" target="_blank">гр. Варна, бул. Сливница 38А</a>
       </div>
       <div class="w-25">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Telephone.svg" alt="">
+        <img class="mr-3" src="./assets/images/Icons/Foote/Telephone.svg" alt="telephone icon">
         <a class="pb-1 align-baseline" href="tel:+359899123855">089 912 3855</a>
       </div>
       <div class="w-25 align-baseline">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Email.svg" alt="">
-        <a class="pb-1 align-baseline"href="mailto:kozmetikvarna@gmail.com" target="_top">kozmetikvarna@gmail.com</a>
+        <img class="mr-3" src="./assets/images/Icons/Foote/Email.svg" alt="Email icon">
+        <a class="pb-1 align-baseline" href="mailto:kozmetikavarna@gmail.com" target="_top">kozmetikavarna@gmail.com</a>
       </div>
-    </div>  <!-- end of contact -->
+    </div>
+    <!-- end of contact -->
     <hr size="30">
     <div id="workingHours" class="row justify-content-center pt-4">
       <div class="w-25">
@@ -72,26 +444,31 @@
         <p>10:00 - 19:00</p>
       </div>
       <div class="w-25">
-          <p>Събота</p>
-          <p>10:00 - 14:00</p>
+        <p>Събота</p>
+        <p>10:00 - 14:00</p>
       </div>
       <div class="w-25">
-          <p>Неделя</p>
-          <p>Почивен ден</p>
+        <p>Неделя</p>
+        <p>Почивен ден</p>
       </div>
-    </div> <!-- end of workingHours -->
+    </div>
+    <!-- end of workingHours -->
     <div id="socialMedia" class="row justify-content-center mt-5 ">
-      <a class="text-right mr-2" href="">
-        <img class="" src="./assets/images/Icons/Foote/facebook.svg" alt="">
+      <a class="text-right mr-2" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
+        <img class="" src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon">
       </a>
-      <a class="text-left ml-2" href="">
-        <img class="" src="./assets/images/Icons/Foote/instagram.svg" alt="">
+      <a class="text-left ml-2" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
+        <img class="" src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon">
       </a>
-    </div>  <!-- end of socialMedia -->
-  </footer>  <!-- end of footer -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+    <!-- end of socialMedia -->
+  </footer>
+  <!-- end of footer -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>

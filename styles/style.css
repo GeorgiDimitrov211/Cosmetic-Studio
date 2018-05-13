@@ -9,9 +9,11 @@
     background-size: 100% 100%;
   }
 }
-.strong{
+
+strong {
   font-weight: 700;
 }
+
 body * {
   font-family: 'Comfortaa', cursive;
 }
@@ -20,6 +22,21 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
+}
+
+.btn {
+  width: 220px;
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  color: #7c616c;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+  cursor: pointer;
+  display: none;
 }
 
 /* Header
@@ -34,12 +51,14 @@ body {
   position: fixed;
   top: 0;
   z-index: 1;
-  transition: opacity 0.5s ease-in-out;
 }
 
 #header #header1 {
   background-color: white;
   padding: 0;
+}
+#header #header1 > img{
+  
 }
 
 #header #header1 ul {
@@ -127,7 +146,6 @@ body {
 }
 
 #homePage #intro #introName .btn {
-  font-family: 'Roboto Slab', serif;
   font-weight: bold;
   color: white;
   background-color: #7c616c;
@@ -216,10 +234,7 @@ body {
 }
 
 #homePage #cards .card .card-body .btn {
-  font-family: 'Roboto Slab', serif;
   font-weight: bold;
-  color: #7c616c;
-  background-color: white;
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
 }
@@ -332,111 +347,126 @@ footer #socialMedia a:hover {
   transform: scale(1.3);
   filter: drop-shadow(0px 0px 2px grey);
 }
+
 /* about me */
 
-#aboutPage #name{
-  padding:9% 0 1% 0;
-  font-size:2rem;
+#aboutPage #name {
+  padding: 9% 0 1% 0;
+  font-size: 2rem;
 }
-#aboutPage #text p{
+
+#aboutPage #text p {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#aboutPage #text p strong{
+
+#aboutPage #text p strong {
   font-weight: 700;
 }
+
 #aboutPage .btn {
-  font-family: 'Roboto Slab', serif;
   font-weight: bold;
-  color: #7c616c;
-  background-color: white;
   transition: background-color 0.8s;
-  border:1px solid #7c616c;
+  border: 1px solid #7c616c;
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 #aboutPage .btn:hover {
-  color:white;
+  color: white;
   background-color: #7c616c;
 }
-#aboutPage #testimonials{
+
+#aboutPage #testimonials {
   background-color: #f6eff5;
   font-family: 'Roboto Slab', serif;
 }
-#aboutPage #testimonials .testimonial h2{
+
+#aboutPage #testimonials h2 {
   font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
-  color:black;
+  color: black;
 }
-#aboutPage #testimonials .testimonial .tmText .tmName{
+
+#aboutPage #testimonials .testimonial .tmText .tmName {
   color: #5c283d;
   font-weight: 700;
 }
-#aboutPage #testimonials .testimonial .tmText .tmProf{
+
+#aboutPage #testimonials .testimonial .tmText .tmProf {
   color: #7c616c;
   font-weight: 700;
   font-size: 1.2rem;
 }
+
 /* Therapies */
-#therapiesPage{
-  margin-top:9%;
+
+#therapiesPage {
+  margin-top: 9%;
 }
-#therapiesPage #therapies .row .therapy{
+
+#therapiesPage #therapies .row .therapy {
   padding: 15% 0;
   font-family: 'Bad Script', cursive;
   position: relative;
   text-decoration: none;
-  color:black;
+  color: black;
 }
-#therapiesPage #therapies .row .therapy:hover{
+
+#therapiesPage #therapies .row .therapy:hover {
   opacity: 0.65;
   font-weight: bold;
 }
 
-#therapiesPage #therapies .row .therapy p{
+#therapiesPage #therapies .row .therapy p {
   font-family: 'Bad Script', cursive;
-  font-size:2rem;
+  font-size: 2rem;
 }
-#therapiesPage #therapies .row:first-child .therapy:first-child{
+
+#therapiesPage #therapies .row:first-child .therapy:first-child {
   background-image: url('../assets/images/Services/PochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
 }
-#therapiesPage #therapies .row:first-child .therapy:nth-child(2){
+
+#therapiesPage #therapies .row:first-child .therapy:nth-child(2) {
   background-image: url('../assets/images/Services/diamantenomikrodermabrazio.jpg');
   background-position: center;
   background-size: cover;
 }
-#therapiesPage #therapies .row:first-child .therapy:last-child{
+
+#therapiesPage #therapies .row:first-child .therapy:last-child {
   background-image: url('../assets/images/Services/Oxygen.png');
   background-position: center;
   background-size: cover;
 }
-#therapiesPage #therapies .row:nth-child(2) .therapy:first-child{
+
+#therapiesPage #therapies .row:nth-child(2) .therapy:first-child {
   background-image: url('../assets/images/Services/химичен.jpg');
   background-position: center;
   background-size: cover;
 }
-#therapiesPage #therapies .row:nth-child(2) .therapy:nth-child(2){
+
+#therapiesPage #therapies .row:nth-child(2) .therapy:nth-child(2) {
   background-image: url('../assets/images/Services/PQAge1.jpg');
   background-position: center;
   background-size: cover;
 }
-#therapiesPage #therapies .row:nth-child(2) .therapy:last-child{
+
+#therapiesPage #therapies .row:nth-child(2) .therapy:last-child {
   background-image: url('../assets/images/Services/migli.jpg');
   background-position: center;
   background-size: cover;
 }
-#therapiesPage #therapies .row:last-child .therapy:last-child{
+
+#therapiesPage #therapies .row:last-child .therapy:last-child {
   background-image: url('../assets/images/Services/masage.jpg');
   background-position: center;
   background-size: cover;
 }
+
 #therapiesPage .btn {
-  font-family: 'Roboto Slab', serif;
   font-weight: bold;
-  color: #7c616c;
-  background-color: white;
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
   text-transform: uppercase;
@@ -446,75 +476,98 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* pricelist */
-#pricelistPage .btn {
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+
+#pricelistPage {
+  margin-top: 9%;
+}
+
+#pricelistPage #pricelist a {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  text-transform: none;
   color: #7c616c;
   background-color: white;
+  transition: background-color 0.8s;
+  border: 1px solid #7c616c;
+}
+
+#pricelistPage #pricelist a:hover {
+  color: white;
+  background-color: #7c616c;
+}
+
+#pricelistPage #pricelist .card-body>* {
+  font-family: 'Roboto Slab', serif;
+}
+
+#pricelistPage #pricelist .card-body .light {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+}
+
+#pricelistPage #pricelist .card-body .odd {
+  background-color: #e8e8e8;
+}
+
+#pricelistPage #pricelist .card-body div strong {
+  font-weight: 700;
+}
+
+#pricelistPage main>.btn {
+  font-weight: bold;
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
   text-transform: uppercase;
 }
-#pricelistPage .btn:hover {
+
+#pricelistPage main>.btn:hover {
   color: white;
   background-color: #7c616c;
 }
-#pricelistPage{
-  margin-top:9%;
-}
-#pricelistPage #pricelist .priceitem a {
-  position: relative;
-  text-decoration: none;
-}
-#pricelistPage #pricelist .priceitem a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1.2px;
-  bottom: 0;
-  left: 0;
-  background-color: #7c616c;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-#pricelistPage #pricelist .priceitem a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
+
 /* contact */
-#contactPage #contact{
-  padding-top:9%;
-  margin:0;
-  padding:0;
+
+#contactPage #contact {
+  padding-top: 9%;
+  margin: 0;
+  padding: 0;
   position: relative;
 }
 
-#contactPage #contact iframe{
-  width:100vw;
+#contactPage #contact iframe {
+  width: 100vw;
   height: 80vh;
-  margin:0;
-  padding:0;
-  display:block;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
-#contactPage #contact #info *{
+
+#contactPage #contact #info * {
   font-family: 'Roboto Slab', serif;
 }
-#contactPage #contact #info{
+
+#contactPage #contact #info {
   position: absolute;
-  bottom:0;
-  background-color:#c6c6c6;
-  margin:0;
-  right:0;
-  padding:0;
-  font-size:0.9rem;
+  bottom: 0;
+  background-color: #c6c6c6;
+  margin: 0;
+  right: 0;
+  padding: 0;
+  font-size: 0.9rem;
 }
+
 #contactPage #contact #info div a {
-  color:#5d5d5d;
+  color: #5d5d5d;
+  text-decoration: none;
+  position: relative;
+}
+
+#contactPage #contact #info div #tel {
+  color: black;
   text-decoration: none;
   position: relative;
 }
@@ -533,26 +586,26 @@ footer #socialMedia a:hover {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+
 #contactPage #contact #info div a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-#contactPage #contact #info > div > p {
+
+#contactPage #contact #info>div>p {
   color: #7c616c;
 }
-#contactPage form *{
+
+#contactPage form * {
   font-family: 'Roboto Slab', serif;
 }
 
-#contactPage form textarea{
-  width:100%;
+#contactPage form textarea {
+  width: 100%;
   height: 20vh;
 }
-#contactPage form .btn{
-  background-color: #7c616c;
-  color:white;
-}
+
 #contactPage form .btn {
   outline: none;
   font-weight: bold;
@@ -561,41 +614,48 @@ footer #socialMedia a:hover {
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
 }
+
 #contactPage form .btn:hover {
   color: #7c616c;
   background-color: white;
 }
-#contactPage form .form-control{
+
+#contactPage form .form-control {
   outline: none;
-  border-color:#7c616c;
+  border-color: #7c616c;
 }
-#contactPage form .form-control:focus{
+
+#contactPage form .form-control:focus {
   box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
 }
-#contactPage form textarea{
+
+#contactPage form textarea {
   outline: none;
-  border: 1px solid #7c616c;  
-  border-radius:3px
+  border: 1px solid #7c616c;
+  border-radius: 3px
 }
+
 #contactPage form textarea:focus {
   outline: none;
-  border: 1px solid #7c616c; 
+  border: 1px solid #7c616c;
   box-shadow: inset 0 0px 5px #7c616c, 0 0 10px #7c616c;
 }
+
 /* brands */
-#brandsPage #brands{
+
+#brandsPage #brands {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  margin-top:11%;
-  margin-bottom:4%;
-
+  margin-top: 11%;
+  margin-bottom: 4%;
 }
-#brandsPage #brands a{
+
+#brandsPage #brands a {
   color: #7c616c;
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
   border-radius: 3px;
-  font-size:1.5em;
+  font-size: 1.5em;
 }
 
 #brandsPage #brands a:hover {
@@ -603,22 +663,22 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* products */
 
-#productsPage #products{
+#productsPage #products {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  margin-top:11%;
-  margin-bottom:4%;
-
+  margin-top: 11%;
+  margin-bottom: 4%;
 }
-#productsPage #products a{
+
+#productsPage #products a {
   border-radius: 3px;
-  font-size:1.5em;
+  font-size: 1.5em;
   color: #7c616c;
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
-  
 }
 
 #productsPage #products a:hover {
@@ -626,937 +686,1045 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* medik8 */
-#medik8Page #medik8{
-  margin-top:11%;
+#medik8Page #medik8 .slick-prev{
+  left: -50px;
 }
-#medik8Page #medik8 > h3{
+#medik8Page #medik8 .slick-next{
+  right: -20px;
+}
+#medik8Page #medik8 {
+  margin-top: 11%;
+}
+
+#medik8Page #medik8>h3 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 100;
+  font-weight: bold;
   font-size: 1.2em;
 }
-#medik8Page #medik8 .medik8-row{
-  margin-bottom:4%;
+
+#medik8Page #medik8 .medik8-row {
+  margin-bottom: 4%;
 }
-#medik8Page #medik8 .medik8-row:last-of-type{
-  margin-bottom:1%;
+
+#medik8Page #medik8 .medik8-row:last-of-type {
+  margin-bottom: 1%;
 }
-#medik8Page #medik8 .medik8-row .medik8-item img{
+
+#medik8Page #medik8 .medik8-row .medik8-item img {
   /* width:100%; */
   height: 40vh;
 }
-#medik8Page #medik8 .medik8-row .medik8-item div h4{
+
+#medik8Page #medik8 .medik8-row .medik8-item div h4 {
   font-size: 1rem;
   color: #792841;
 }
-#medik8Page #medik8 .medik8-row .medik8-item div p{
+
+#medik8Page #medik8 .medik8-row .medik8-item div p {
   font-family: 'Roboto Slab', serif;
   font-size: 0.9rem;
   font-weight: 300;
 }
-#medik8Page #medik8 .medik8-row .medik8-item .lighter p{
+
+#medik8Page #medik8 .medik8-row .medik8-item .lighter p {
   font-family: 'Roboto Slab', serif;
 }
-#medik8Page #medik8 .medik8-row .medik8-item .lighter thin{
+
+#medik8Page #medik8 .medik8-row .medik8-item .lighter thin {
   font-weight: 100;
   font-family: 'Roboto Slab', serif;
 }
-#medik8Page #medik8 .medik8-row .medik8-item .lighter strong{
+
+#medik8Page #medik8 .medik8-row .medik8-item .lighter strong {
   font-weight: 400;
   font-family: 'Roboto Slab', serif;
 }
+
 /* gatineau */
-#gatineauPage #gatineau{
-  margin-top:11%;
+#gatineauPage #gatineau .slick-prev{
+  left: -150px;
 }
-#gatineauPage #gatineau > h3{
+#gatineauPage #gatineau .slick-next{
+  right: -50px;
+}
+#gatineauPage #gatineau {
+  margin-top: 11%;
+}
+
+#gatineauPage #gatineau>h3 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 100;
+  font-weight: bold;
   font-size: 1.2em;
 }
-#gatineauPage #gatineau .gatineau-row{
-  margin-bottom:4%;
+
+#gatineauPage #gatineau .gatineau-row {
+  margin-bottom: 4%;
 }
-#gatineauPage #gatineau .gatineau-row:last-of-type{
-  margin-bottom:1%;
+
+#gatineauPage #gatineau .gatineau-row:last-of-type {
+  margin-bottom: 1%;
 }
-#gatineauPage #gatineau .gatineau-row .gatineau-item img{
+
+#gatineauPage #gatineau .gatineau-row .gatineau-item img {
   /* width:100%; */
   height: 40vh;
 }
-#gatineauPage #gatineau .gatineau-row .gatineau-item div h4{
+
+#gatineauPage #gatineau .gatineau-row .gatineau-item div h4 {
   font-size: 1rem;
   color: #792841;
 }
-#gatineauPage #gatineau .gatineau-row .gatineau-item div p{
+
+#gatineauPage #gatineau .gatineau-row .gatineau-item div p {
   font-family: 'Roboto Slab', serif;
   font-size: 0.9rem;
   font-weight: 300;
 }
-#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter p{
+
+#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter p {
   font-family: 'Roboto Slab', serif;
 }
-#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter thin{
+
+#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter thin {
   font-weight: 100;
   font-family: 'Roboto Slab', serif;
 }
-#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter strong{
+
+#gatineauPage #gatineau .gatineau-row .gatineau-item .lighter strong {
   font-weight: 400;
   font-family: 'Roboto Slab', serif;
 }
+
 /* TherapiesPQ */
-#therapiesPQPage #therapiesPQ .therapiesPQbg{
+
+#therapiesPQPage #therapiesPQ .therapiesPQbg {
   background-image: url('../assets/images/Services/terapiesSub/PQAge1.jpg');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#therapiesPQPage #therapiesPQ .therapiesPQbg p{
+
+#therapiesPQPage #therapiesPQ .therapiesPQbg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#therapiesPQPage #therapiesPQ .text{
-  column-count: 2;
-}
-#therapiesPQPage #therapiesPQ .text *{
+
+#therapiesPQPage #therapiesPQ .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#therapiesPQPage #therapiesPQ .text p{
+
+#therapiesPQPage #therapiesPQ .text p {
   font-size: 1rem;
 }
-#therapiesPQPage #therapiesPQ .text h4{
+
+#therapiesPQPage #therapiesPQ .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#therapiesPQPage #therapiesPQ .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#therapiesPQPage #therapiesPQ .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#therapiesPQPage #therapiesPQ .btn:hover{
+
+#therapiesPQPage #therapiesPQ .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* oxygen */
-#oxygenPage #oxygen .oxygenbg{
+
+#oxygenPage #oxygen .oxygenbg {
   background-image: url('../assets/images/Services/terapiesSub/Oxygen.png');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#oxygenPage #oxygen .oxygenbg p{
+
+#oxygenPage #oxygen .oxygenbg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#oxygenPage #oxygen .text{
-  column-count: 2;
-}
-#oxygenPage #oxygen .text *{
+
+#oxygenPage #oxygen .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#oxygenPage #oxygen .text p{
+
+#oxygenPage #oxygen .text p {
   font-size: 1rem;
 }
-#oxygenPage #oxygen .text ul{
+
+#oxygenPage #oxygen .text ul {
   color: #980c4a;
 }
-#oxygenPage #oxygen .text ul p{
+
+#oxygenPage #oxygen .text ul p {
   color: black;
 }
-#oxygenPage #oxygen .text h4{
+
+#oxygenPage #oxygen .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#oxygenPage #oxygen .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#oxygenPage #oxygen .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#oxygenPage #oxygen .btn:hover{
+
+#oxygenPage #oxygen .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* massages */
-#massagesPage #massages .massagesbg{
+
+#massagesPage #massages .massagesbg {
   background-image: url('../assets/images/Services/terapiesSub/masage.jpg');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#massagesPage #massages .massagesbg p{
+
+#massagesPage #massages .massagesbg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#massagesPage #massages .text{
-  column-count: 2;
-}
-#massagesPage #massages .text *{
+
+#massagesPage #massages .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#massagesPage #massages .text p{
+
+#massagesPage #massages .text p {
   font-size: 1rem;
 }
-#massagesPage #massages .text ul{
+
+#massagesPage #massages .text ul {
   color: #980c4a;
 }
-#massagesPage #massages .text ul p{
+
+#massagesPage #massages .text ul p {
   color: black;
 }
-#massagesPage #massages .text h4{
+
+#massagesPage #massages .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#massagesPage #massages .text .caps{
+
+#massagesPage #massages .text .caps {
   text-transform: uppercase;
 }
-#massagesPage #massages .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#massagesPage #massages .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#massagesPage #massages .btn:hover{
+
+#massagesPage #massages .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* eyelashes */
-#eyelashesPage #eyelashes .eyelashesbg{
+
+#eyelashesPage #eyelashes .eyelashesbg {
   background-image: url('../assets/images/Services/terapiesSub/migli.jpg');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#eyelashesPage #eyelashes .eyelashesbg p{
+
+#eyelashesPage #eyelashes .eyelashesbg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#eyelashesPage #eyelashes .text{
-  column-count: 2;
-}
-#eyelashesPage #eyelashes .text *{
+
+#eyelashesPage #eyelashes .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#eyelashesPage #eyelashes .text p{
+
+#eyelashesPage #eyelashes .text p {
   font-size: 1rem;
 }
-#eyelashesPage #eyelashes .text ul{
+
+#eyelashesPage #eyelashes .text ul {
   color: #980c4a;
 }
-#eyelashesPage #eyelashes .text ul p{
+
+#eyelashesPage #eyelashes .text ul p {
   color: black;
 }
-#eyelashesPage #eyelashes .text h4{
+
+#eyelashesPage #eyelashes .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#eyelashesPage #eyelashes .text .caps{
+
+#eyelashesPage #eyelashes .text .caps {
   text-transform: uppercase;
 }
-#eyelashesPage #eyelashes .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#eyelashesPage #eyelashes .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#eyelashesPage #eyelashes .btn:hover{
+
+#eyelashesPage #eyelashes .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* mikrodermaobrazio */
-#mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
   background-image: url('../assets/images/Services/terapiesSub/diamantenomikrodermabrazio.jpg');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg p{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .text{
-  column-count: 2;
-}
-#mikrodermaobrazioPage #mikrodermaobrazio .text *{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .text p{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .text p {
   font-size: 1rem;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .text ul{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .text ul {
   color: #980c4a;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .text ul p{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .text ul p {
   color: black;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .text h4{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .text .caps{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .text .caps {
   text-transform: uppercase;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#mikrodermaobrazioPage #mikrodermaobrazio .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#mikrodermaobrazioPage #mikrodermaobrazio .btn:hover{
+
+#mikrodermaobrazioPage #mikrodermaobrazio .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* pochistvane */
-#pochistvanePage #pochistvane .pochistvanebg{
+
+#pochistvanePage #pochistvane .pochistvanebg {
   background-image: url('../assets/images/Services/terapiesSub/PochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#pochistvanePage #pochistvane .pochistvanebg p{
+
+#pochistvanePage #pochistvane .pochistvanebg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#pochistvanePage #pochistvane .text{
-  column-count: 2;
-}
-#pochistvanePage #pochistvane .text *{
+
+#pochistvanePage #pochistvane .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#pochistvanePage #pochistvane .text p{
+
+#pochistvanePage #pochistvane .text p {
   font-size: 1rem;
 }
-#pochistvanePage #pochistvane .text ul{
+
+#pochistvanePage #pochistvane .text ul {
   color: #980c4a;
 }
-#pochistvanePage #pochistvane .text ul p{
+
+#pochistvanePage #pochistvane .text ul p {
   color: black;
 }
-#pochistvanePage #pochistvane .text h4{
+
+#pochistvanePage #pochistvane .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#pochistvanePage #pochistvane .text .caps{
+
+#pochistvanePage #pochistvane .text .caps {
   text-transform: uppercase;
 }
-#pochistvanePage #pochistvane .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#pochistvanePage #pochistvane .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#pochistvanePage #pochistvane .btn:hover{
+
+#pochistvanePage #pochistvane .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* himichen */
-#himichenPage #himichen .himichenbg{
+
+#himichenPage #himichen .himichenbg {
   background-image: url('../assets/images/Services/terapiesSub/himichenpiling.jpg');
   background-position: center;
   background-size: cover;
-  height:80vh;
+  height: 80vh;
   position: relative;
 }
-#himichenPage #himichen .himichenbg p{
+
+#himichenPage #himichen .himichenbg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 1.8rem;
-  line-height:3rem;
+  line-height: 3rem;
   font-family: 'Bad Script', cursive;
-  color:#661c3a;
+  color: #661c3a;
 }
-#himichenPage #himichen .text{
-  column-count: 2;
-}
-#himichenPage #himichen .text *{
+
+#himichenPage #himichen .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#himichenPage #himichen .text p{
+
+#himichenPage #himichen .text p {
   font-size: 1rem;
 }
-#himichenPage #himichen .text ul{
+
+#himichenPage #himichen .text ul {
   color: #980c4a;
 }
-#himichenPage #himichen .text ul p{
+
+#himichenPage #himichen .text ul p {
   color: black;
 }
-#himichenPage #himichen .text p.bold{
+
+#himichenPage #himichen .text p.bold {
   font-weight: bold;
 }
-#himichenPage #himichen .text h4{
+
+#himichenPage #himichen .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#himichenPage #himichen .text .caps{
+
+#himichenPage #himichen .text .caps {
   text-transform: uppercase;
 }
-#himichenPage #himichen .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#himichenPage #himichen .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#himichenPage #himichen .btn:hover{
+
+#himichenPage #himichen .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* enerpeelBrand */
-#enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg{
-  background-image: url('../assets/images/Marki/Enerpeel/bg.jpg');
-  background-position: center;
-  background-size: cover;
-  padding:15% 0% 10% 0%;
+
+#enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg {
+  padding: 5% 0% 0% 0%;
 }
-#enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg p{
-  text-align:center;
-  padding:2%;
+
+#enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg p {
+  text-align: center;
+  padding: 2%;
   font-size: 6rem;
   font-family: 'Roboto Slab', serif;
-  color:white;
+  color: white;
   font-weight: 200;
 }
-#enerpeelBrandPage #enerpeelBrand .text{
-  column-count: 2;
-}
-#enerpeelBrandPage #enerpeelBrand .text *{
+
+#enerpeelBrandPage #enerpeelBrand .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#enerpeelBrandPage #enerpeelBrand .text p{
+
+#enerpeelBrandPage #enerpeelBrand .text p {
   font-size: 1rem;
 }
-#enerpeelBrandPage #enerpeelBrand .text p.pink{
+
+#enerpeelBrandPage #enerpeelBrand .text h4 {
+  font-size: 1rem;
+}
+
+#enerpeelBrandPage #enerpeelBrand .text p.pink {
   color: #980c4a;
 }
-#enerpeelBrandPage #enerpeelBrand .text p.bold{
+
+#enerpeelBrandPage #enerpeelBrand .text p.bold {
   font-weight: bold;
 }
-#enerpeelBrandPage #enerpeelBrand .text .caps{
+
+#enerpeelBrandPage #enerpeelBrand .text .caps {
   text-transform: uppercase;
 }
-#enerpeelBrandPage #enerpeelBrand .text ul p{
+
+#enerpeelBrandPage #enerpeelBrand .text ul p {
   text-transform: none;
 }
-#enerpeelBrandPage #enerpeelBrand .text ul{
+
+#enerpeelBrandPage #enerpeelBrand .text ul {
   list-style-position: unset;
 }
-#enerpeelBrandPage #enerpeelBrand .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#enerpeelBrandPage #enerpeelBrand .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#enerpeelBrandPage #enerpeelBrand .btn:hover{
+
+#enerpeelBrandPage #enerpeelBrand .btn:hover {
   color: white;
   background-color: #7c616c;
 }
-#enerpeelBrandPage #enerpeelBrand .pink.bold.caps{
+
+#enerpeelBrandPage #enerpeelBrand .pink.bold.caps {
   font-family: 'Roboto Slab', serif;
   text-align: left;
   text-transform: uppercase;
   color: #980c4a;
   font-weight: bold;
-  font-size:1.5em;
 }
+
 /* gatineauBrand */
-#gatineauBrandPage #gatineauBrand{
+
+#gatineauBrandPage #gatineauBrand {
   margin-top: 8%;
 }
-#gatineauBrandPage #gatineauBrand .gatineauBrandbg p{
-  text-align:center;
-  padding:2%;
+
+#gatineauBrandPage #gatineauBrand .gatineauBrandbg p {
+  text-align: center;
+  padding: 2%;
   font-size: 6rem;
   font-family: 'Roboto Slab', serif;
-  color:white;
+  color: white;
   font-weight: 200;
 }
-#gatineauBrandPage #gatineauBrand .text{
-  column-count: 2;
-}
-#gatineauBrandPage #gatineauBrand .text *{
+
+#gatineauBrandPage #gatineauBrand .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#gatineauBrandPage #gatineauBrand .text p{
+
+#gatineauBrandPage #gatineauBrand .text p {
   font-size: 1rem;
 }
-#gatineauBrandPage #gatineauBrand .text .pink{
+
+#gatineauBrandPage #gatineauBrand .text .pink {
   color: #980c4a;
 }
-#gatineauBrandPage #gatineauBrand .text .bold{
+
+#gatineauBrandPage #gatineauBrand .text .bold {
   font-weight: bold;
 }
-#gatineauBrandPage #gatineauBrand .text .caps{
+
+#gatineauBrandPage #gatineauBrand .text .caps {
   text-transform: uppercase;
 }
-#gatineauBrandPage #gatineauBrand .text ul p{
+
+#gatineauBrandPage #gatineauBrand .text ul p {
   text-transform: none;
 }
-#gatineauBrandPage #gatineauBrand .text ul{
+
+#gatineauBrandPage #gatineauBrand .text ul {
   list-style-position: unset;
 }
-#gatineauBrandPage #gatineauBrand .text h4{
+
+#gatineauBrandPage #gatineauBrand .text h4 {
   color: #980c4a;
-  
-}
-#gatineauBrandPage .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
-  border-color: #7c616c;
-  color: #7c616c;
   font-size: 1rem;
+}
+
+#gatineauBrandPage .btn {
+  border-color: #7c616c;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#gatineauBrandPage .btn:hover{
+
+#gatineauBrandPage .btn:hover {
   color: white;
   background-color: #7c616c;
 }
-#gatineauBrandPage #gatineauBrand .pink.bold.caps{
+
+#gatineauBrandPage #gatineauBrand .pink.bold.caps {
   font-family: 'Roboto Slab', serif;
   text-align: left;
   text-transform: uppercase;
   color: #980c4a;
   font-weight: bold;
-  font-size:1.5em;
 }
+
 /* medik8Brand */
-#medik8BrandPage #medik8Brand{
+
+#medik8BrandPage #medik8Brand {
   margin-top: 8%;
 }
-#medik8BrandPage #medik8Brand div img{
-width: 100%;
+
+#medik8BrandPage #medik8Brand div img {
+  width: 100%;
 }
 
-#medik8BrandPage #medik8Brand .medik8Brandbg p{
-  text-align:center;
-  padding:2%;
+#medik8BrandPage #medik8Brand .medik8Brandbg p {
+  text-align: center;
+  padding: 2%;
   font-size: 6rem;
   font-family: 'Roboto Slab', serif;
-  color:white;
+  color: white;
   font-weight: 200;
 }
 
-#medik8BrandPage #medik8Brand .text *{
+#medik8BrandPage #medik8Brand .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#medik8BrandPage #medik8Brand .text p{
+
+#medik8BrandPage #medik8Brand .text p {
   font-size: 1rem;
 }
-#medik8BrandPage #medik8Brand .text .pink{
+
+#medik8BrandPage #medik8Brand .text .pink {
   color: #980c4a;
 }
-#medik8BrandPage #medik8Brand .text .bold{
+
+#medik8BrandPage #medik8Brand .text .bold {
   font-weight: bold;
 }
-#medik8BrandPage #medik8Brand .text .caps{
+
+#medik8BrandPage #medik8Brand .text .caps {
   text-transform: uppercase;
 }
-#medik8BrandPage #medik8Brand .text ul p{
+
+#medik8BrandPage #medik8Brand .text ul p {
   text-transform: none;
 }
-#medik8BrandPage #medik8Brand .text ul{
+
+#medik8BrandPage #medik8Brand .text ul {
   list-style-position: unset;
 }
-#medik8BrandPage #medik8Brand .text h4{
+
+#medik8BrandPage #medik8Brand .text h4 {
   color: #980c4a;
-  
-}
-#medik8BrandPage .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
-  border-color: #7c616c;
-  color: #7c616c;
   font-size: 1rem;
+}
+
+#medik8BrandPage .btn {
+  border-color: #7c616c;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#medik8BrandPage .btn:hover{
+
+#medik8BrandPage .btn:hover {
   color: white;
   background-color: #7c616c;
 }
-#medik8BrandPage #medik8Brand .pink.bold.caps{
+
+#medik8BrandPage #medik8Brand .pink.bold.caps {
   font-family: 'Roboto Slab', serif;
   text-align: left;
   text-transform: uppercase;
   color: #980c4a;
   font-weight: bold;
-  font-size:1.5em;
 }
+
 /* promoitaliaBrand */
-#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg{
-  background-color: #646464;
+
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg {
+  padding: 5% 0% 0% 0%;
 }
-#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p{
-  text-align:center;
+
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p {
+  text-align: center;
   font-family: 'Roboto Slab', serif;
-  color:white;
+  color: white;
   font-weight: 200;
 }
-#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:first-child{
+
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:first-child {
   font-size: 6rem;
-  padding-top:15%;
-  margin-bottom:0;
+  padding-top: 15%;
+  margin-bottom: 0;
 }
-#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:nth-of-type(2){
+
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:nth-of-type(2) {
   font-size: 3rem;
 }
-#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:last-child{
+
+#promoitaliaBrandPage #promoitaliaBrand .promoitaliaBrandbg p:last-child {
   font-size: 2rem;
-  padding-top:2%;
-  padding-bottom:5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text *{
+
+#promoitaliaBrandPage #promoitaliaBrand .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text p{
+
+#promoitaliaBrandPage #promoitaliaBrand .text p {
   font-size: 1rem;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text .pink{
+
+#promoitaliaBrandPage #promoitaliaBrand .text .pink {
   color: #980c4a;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text .bold{
+
+#promoitaliaBrandPage #promoitaliaBrand .text .bold {
   font-weight: bold;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text .caps{
+
+#promoitaliaBrandPage #promoitaliaBrand .text .caps {
   text-transform: uppercase;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text ul p{
+
+#promoitaliaBrandPage #promoitaliaBrand .text ul p {
   text-transform: none;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text ul{
+
+#promoitaliaBrandPage #promoitaliaBrand .text ul {
   list-style-position: unset;
 }
-#promoitaliaBrandPage #promoitaliaBrand .text h4{
+
+#promoitaliaBrandPage #promoitaliaBrand .text h4 {
   color: #980c4a;
-  
-}
-#promoitaliaBrandPage .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
-  border-color: #7c616c;
-  color: #7c616c;
   font-size: 1rem;
+}
+
+#promoitaliaBrandPage .btn {
+  border-color: #7c616c;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#promoitaliaBrandPage .btn:hover{
+
+#promoitaliaBrandPage .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* homeBox1 */
-#homeBox1Page #homeBox1 .homeBox1bg{
+
+#homeBox1Page #homeBox1 .homeBox1bg {
   background-image: url('../assets/images/Home/model-face-beautiful-black-and-white-407035-2.jpeg');
   background-position: center;
   background-size: cover;
-  height:90vh;
+  height: 90vh;
   position: relative;
-  margin-top:5%;
+  margin-top: 5%;
 }
-#homeBox1Page #homeBox1 .homeBox1bg p{
+
+#homeBox1Page #homeBox1 .homeBox1bg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 2.5rem;
-  line-height:3rem;
-  color:#980c4a
+  line-height: 3rem;
+  color: #980c4a
 }
-#homeBox1Page #homeBox1 .text{
-  column-count: 2;
-}
-#homeBox1Page #homeBox1 .text *{
+
+#homeBox1Page #homeBox1 .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#homeBox1Page #homeBox1 .text p{
+
+#homeBox1Page #homeBox1 .text p {
   font-size: 1rem;
 }
-#homeBox1Page #homeBox1 .text ul{
+
+#homeBox1Page #homeBox1 .text ul {
   color: #980c4a;
 }
-#homeBox1Page #homeBox1 .text ul p{
+
+#homeBox1Page #homeBox1 .text ul p {
   color: black;
 }
-#homeBox1Page #homeBox1 .text h4{
+
+#homeBox1Page #homeBox1 .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#homeBox1Page #homeBox1 .text .caps{
+
+#homeBox1Page #homeBox1 .text .caps {
   text-transform: uppercase;
 }
-#homeBox1Page #homeBox1 .text .pink{
+
+#homeBox1Page #homeBox1 .text .pink {
   color: #980c4a;
 }
-#homeBox1Page #homeBox1 .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#homeBox1Page #homeBox1 .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#homeBox1Page #homeBox1 .btn:hover{
+
+#homeBox1Page #homeBox1 .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* homeBox2 */
-#homeBox2Page #homeBox2{
-  margin-top:7%;
+
+#homeBox2Page #homeBox2 {
+  margin-top: 7%;
 }
-#homeBox2Page #homeBox2 .homeBox2bg img{
-  width:100%;
+
+#homeBox2Page #homeBox2 .homeBox2bg img {
+  width: 100%;
 }
-#homeBox2Page #homeBox2 .homeBox2bg p{
+
+#homeBox2Page #homeBox2 .homeBox2bg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 2.5rem;
-  line-height:3rem;
-  color:#980c4a
+  line-height: 3rem;
+  color: #980c4a
 }
-#homeBox2Page #homeBox2 .text *{
+
+#homeBox2Page #homeBox2 .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#homeBox2Page #homeBox2 .text p{
+#homeBox2Page #homeBox2 .text p {
   font-size: 1rem;
 }
-#homeBox2Page #homeBox2 .text ul{
+
+#homeBox2Page #homeBox2 .text ul {
   color: #980c4a;
 }
-#homeBox2Page #homeBox2 .text ul p{
+
+#homeBox2Page #homeBox2 .text ul p {
   color: black;
 }
-#homeBox2Page #homeBox2 .text h4{
+
+#homeBox2Page #homeBox2 .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#homeBox2Page #homeBox2 .text .caps{
+
+#homeBox2Page #homeBox2 .text .caps {
   text-transform: uppercase;
 }
-#homeBox2Page #homeBox2 .text .pink{
+
+#homeBox2Page #homeBox2 .text .pink {
   color: #980c4a;
 }
-#homeBox2Page #homeBox2 .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#homeBox2Page #homeBox2 .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#homeBox2Page #homeBox2 .btn:hover{
+
+#homeBox2Page #homeBox2 .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* homeBox3 */
-#homeBox3Page #homeBox3 .homeBox3bg{
+
+#homeBox3Page #homeBox3 .homeBox3bg {
   background-image: url('../assets/images/Home/model-face-beautiful-black-and-white-407035-2.jpeg');
   background-position: center;
   background-size: cover;
-  height:90vh;
+  height: 90vh;
   position: relative;
-  margin-top:5%;
+  margin-top: 5%;
 }
-#homeBox3Page #homeBox3 .homeBox3bg p{
+
+#homeBox3Page #homeBox3 .homeBox3bg p {
   position: absolute;
-  text-align:center;
-  bottom:0;
-  left:0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
-  padding:2%;
+  padding: 2%;
   font-size: 2.5rem;
-  line-height:3rem;
-  color:#980c4a
+  line-height: 3rem;
+  color: #980c4a
 }
-#homeBox3Page #homeBox3 .text{
-  column-count: 2;
-}
-#homeBox3Page #homeBox3 .text *{
+
+#homeBox3Page #homeBox3 .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
-#homeBox3Page #homeBox3 .text p{
+
+#homeBox3Page #homeBox3 .text p {
   font-size: 1rem;
 }
-#homeBox3Page #homeBox3 .text strong{
+
+#homeBox3Page #homeBox3 .text strong {
   font-weight: bold;
 }
-#homeBox3Page #homeBox3 .text ul{
+
+#homeBox3Page #homeBox3 .text ul {
   color: #980c4a;
 }
-#homeBox3Page #homeBox3 .text ul p{
+
+#homeBox3Page #homeBox3 .text ul p {
   color: black;
 }
-#homeBox3Page #homeBox3 .text h4{
+
+#homeBox3Page #homeBox3 .text h4 {
   color: #980c4a;
-  font-size:1rem;
+  font-size: 1rem;
   font-weight: normal;
 }
-#homeBox3Page #homeBox3 .text .caps{
+
+#homeBox3Page #homeBox3 .text .caps {
   text-transform: uppercase;
 }
-#homeBox3Page #homeBox3 .text .pink{
+
+#homeBox3Page #homeBox3 .text .pink {
   color: #980c4a;
 }
-#homeBox3Page #homeBox3 .btn{
-  font-family: 'Roboto Slab', serif;
-  background-color: white;
+
+#homeBox3Page #homeBox3 .btn {
   border-color: #7c616c;
-  color: #7c616c;
-  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.8s;
 }
-#homeBox3Page #homeBox3 .btn:hover{
+
+#homeBox3Page #homeBox3 .btn:hover {
   color: white;
   background-color: #7c616c;
 }
+
 /* orderPage */
+
 #orderPage {
-  margin-top:10%;
-}
-#orderPage form *{
-  font-family: 'Roboto Slab', serif;
-}
-#orderPage form h2{
-  font-size:2.5rem;
+  margin-top: 10%;
 }
 
-#orderPage form .btn{
-  background-color: #7c616c;
-  color:white;
+#orderPage form * {
+  font-family: 'Roboto Slab', serif;
 }
+
+#orderPage form h2 {
+  font-size: 2.5rem;
+}
+
 #orderPage form .btn {
   outline: none;
   font-weight: bold;
@@ -1565,14 +1733,17 @@ width: 100%;
   border: 1px solid #7c616c;
   transition: background-color 0.8s;
 }
+
 #orderPage form .btn:hover {
   color: #7c616c;
   background-color: white;
 }
-#orderPage form .form-control{
+
+#orderPage form .form-control {
   outline: none;
-  border-color:#7c616c;
+  border-color: #7c616c;
 }
-#orderPage form .form-control:focus{
+
+#orderPage form .form-control:focus {
   box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
 }
