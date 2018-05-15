@@ -60,12 +60,15 @@
         </div>
       </div> <!-- end of info -->
     </div> <!-- end of contact -->
-    <form class="container col-6 justify-content-center">
+    <form method="POST" class="container col-6 justify-content-center" action="https://formspree.io/georgip.d.d97@gmail.com">
       <h2>Изпратете запитване</h2>
-      <input class="form-control my-4 pl-3" type="text" placeholder="E-mail">
-      <input class="form-control mb-4 pl-3" type="text" placeholder="Вашите имена">
-      <textarea class="d-block mb-4 pl-3" type="text" placeholder="Запитване"></textarea>
-      <a href="" class="btn mt-auto align-self-center">Изпрати</a>
+      <input type="hidden" name="_subject" value="Запитване от контактната форма" />
+      <input type="hidden" name="_next" value="http://gdimitrovd.com/cosmetic/filledForm.html" />
+      <input type="hidden" name="_language" value="bg" />
+      <input class="form-control my-4 pl-3" type="email" name="Имейл" required placeholder="E-mail">
+      <input class="form-control mb-4 pl-3" type="text" name="Име" required placeholder="Вашите имена">
+      <textarea class="d-block mb-4 pl-3" type="text" name="Запитване" required placeholder="Запитване"></textarea>
+      <button type="submit" class="btn mt-auto align-self-center">Изпрати</button>
     </form> <!-- end of form -->
   </main> <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">

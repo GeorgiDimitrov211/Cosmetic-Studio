@@ -1229,7 +1229,7 @@ footer #socialMedia a:hover {
 /* enerpeelBrand */
 
 #enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg {
-  padding: 5% 0% 0% 0%;
+  padding: 8% 0% 0% 0%;
 }
 
 #enerpeelBrandPage #enerpeelBrand .enerpeelBrandbg p {
@@ -1746,4 +1746,31 @@ footer #socialMedia a:hover {
 
 #orderPage form .form-control:focus {
   box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
+}
+
+/* filledFormPage */
+
+#filledFormPage {
+  border: 2px solid #7c616c;
+  padding:0;
+  padding-bottom:1%;
+}
+#filledFormPage h2{
+  background: #7c616c;
+  color: white;
+  padding:2%;
+}
+
+#filledFormPage .btn {
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: #7c616c;
+  border: 1px solid #7c616c;
+  transition: background-color 0.8s;
+}
+
+#filledFormPage .btn:hover {
+  color: #7c616c;
+  background-color: white;
 }

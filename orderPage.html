@@ -37,17 +37,19 @@
         </ul>
       </nav> <!-- end of header2 -->
     </header>  <!-- end of headers -->
-    <form class="container col-7 justify-content-center">
+    <form method="POST" class="container col-7 justify-content-center" action="https://formspree.io/georgip.d.d97@gmail.com">
       <h2>Поръчай своя ваучер</h2>
-      <input class="form-control my-4 pl-3" type="text" required placeholder="E-mail">
-      <input class="form-control mb-4 pl-3" type="text" required placeholder="Собствено име">
-      <input class="form-control my-4 pl-3" type="text" required placeholder="Фамилно име">
-      <input class="form-control mb-4 pl-3" type="text" required placeholder="Вашите имена">
-      <input class="form-control my-4 pl-3" type="text" required placeholder="Телефон">
-      <input class="form-control mb-4 pl-3" type="text" required placeholder="Град">
-      <input class="form-control my-4 pl-3" type="text" required placeholder="Адрес">
-      <input class="form-control mb-4 pl-3" type="text" required placeholder="Офис на еконт">
-      <a href="" class="btn mt-auto align-self-center">Поръчай</a>
+      <input type="hidden" name="_subject" value="Поръчка на ваучер" />
+      <input type="hidden" name="_next" value="http://gdimitrovd.com/cosmetic/filledForm.html" />
+      <input type="hidden" name="_language" value="bg" />
+      <input class="form-control my-4 pl-3" type="email" name="Имейл" required placeholder="E-mail">
+      <input class="form-control mb-4 pl-3" type="text" name="Собствено име" required placeholder="Собствено име">
+      <input class="form-control my-4 pl-3" type="text" name="Фамилно име" required placeholder="Фамилно име">
+      <input class="form-control my-4 pl-3" type="tel" name="Телефон" required placeholder="Телефон">
+      <input class="form-control mb-4 pl-3" type="text" name="Град" required placeholder="Град">
+      <input class="form-control my-4 pl-3" type="text" name="Адрес" placeholder="Адрес">
+      <input class="form-control mb-4 pl-3" type="text" name="Офис на еконт" placeholder="Офис на еконт">
+      <button type="submit" class="btn mt-auto align-self-center">Поръчай</button>
     </form> <!-- end of form -->
   </main> <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">
