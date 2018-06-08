@@ -19,9 +19,14 @@
 
 <body id="gatineauPage" class="text-center">
   <main>
-    <header id="header" class="col-12">
-      <nav id="header1" class="col-12">
-        <ul class="nav col-11 justify-content-end">
+    <header id="header" class="col-12 w-100">
+      <nav id="header1" class="d-flex col-12">
+        <div class="offset-1 col-2 justify-content-start align-self-center ">
+          <a href="#">
+            <img class="logo" src="./assets/images/Icons/logo.png" alt="logo">
+          </a>
+        </div>
+        <ul class="col-8 nav justify-content-end">
           <li class="nav-item align-middle">
             <a class="nav-link" href="index.html">Начало</a>
           </li>
@@ -39,12 +44,12 @@
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
-              <img src="./assets/images/Icons/Header/facebook.svg" alt="facebook icon" width="30" height="30">
+              <img src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon" width="30" height="30">
             </a>
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
-              <img src="./assets/images/Icons/Header/instagram.svg" alt="instagram icon" width="30" height="30">
+              <img src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon" width="30" height="30">
             </a>
           </li>
         </ul>
@@ -62,14 +67,56 @@
       </nav>
       <!-- end of header2 -->
     </header>
+    <header id="mobileHeader" class="col-12 w-100">
+      <nav id="mobHead" class="col-12">
+        <div class="headerIcons d-flex justify-content-between align-baseline align-items-center px-4">
+          <a href="#" class="logo">
+            <img src="./assets/images/Icons/logo.png" alt="Georgi Dimitrov's logo">
+          </a>
+          <a class="cross">
+            <img src="./assets/images/Icons/Header/cross.png" alt="Cross for closing hamburger menu">
+          </a>
+          <a class="hamburgerBtn">
+            <img src="./assets/images/Icons/Header/hamburger.png" alt="Hamburger menu">
+          </a>
+        </div>
+        <div class="hamburgerMenu">
+          <div id="hamburgerDropdown" class="dropdown-content d-flex flex-column justify-content-between aligncol-sm-6 col-12s-center">
+            <a class="nav-link p-0" href="index.html">Начало</a>
+            <hr>
+            <a class="nav-link p-0" href="about.html">За мен</a>
+            <hr>
+            <a class="nav-link p-0" href="therapies.html">Терапии</a>
+            <hr>
+            <a class="nav-link p-0" href="pricelist.html">Ценоразпис</a>
+            <hr>
+            <a class="nav-link p-0" href="contact.html">Контакти</a>
+            <hr>
+            <a class="nav-link p-0" href="brands.html">Марки с които работя</a>
+            <hr>
+            <a class="nav-link p-0" href="products.html">Продукти за домашна употреба</a>
+            <hr>
+            <div class="d-flex">
+              <a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
+                <img src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon" width="30" height="30">
+              </a>
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
+                <img src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon" width="30" height="30">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- end of headers -->
-    <div id="gatineau" class="container col-8">
-      <div class="gatineau-row row">
+    <div id="gatineau" class="container col-sm-10 col-12">
+      <h3 class="col-12 border-bottom mb-5 pb-2 text-center">Всеки от продуктите на Gatineau може да закупите на място в салона.</h3>
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Почистваща грижа</h3>
-        <div class="products-slick col-12">
-          <div class="gatineau-item col-6 d-flex">
+        <div class="products-slick col-12 justify-content-center align-items-center text-center">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/CleansingEmulsion.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Cleansing emulsion</h4>
               <p class="mb">Нежно тоалетно мляко</p>
               <div>
@@ -78,33 +125,31 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Gentle Micellar Water.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Gentle Micellar Water</h4>
-              <p class="mb">Мигновено почиства, премахва всички видове грим и замърсяванията в дълбочина на епидермиса. Предпазва порите
-                от запушване. Кожата е тонизира с един жест. Свежа, мека и елестична кожа. Офталмологично тестван</p>
+              <p class="mb">Мигновено почиства, премахва всички видове грим и замърсяванията в дълбочина на епидермиса.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">390 ml</div>
                 <div class="border rounded p-1 mx-3">42,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Gentle Silk Toner.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Gentle Silk Toner</h4>
-              <p class="mb">Почиства, тонизира и успокоява. Без алкохол. Затваря порите. Създава усещане за копринена кожа. Кожата е мека
-                и нежна.</p>
+              <p class="mb">Почиства, тонизира и успокоява. Без алкохол.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">400 ml</div>
                 <div class="border rounded p-1 mx-3">39,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Melatogenine, Refereshing cleansing.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Melatogenine, Refereshing cleansing</h4>
               <p class="mb">За всеки тип кожа. Формула с тройно действие – почиства, анти ейдж и микро ексфолиант</p>
               <div>
@@ -115,12 +160,12 @@
           </div>
         </div>
       </div>
-      <div class="gatineau-row row">
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Ексфолианти</h3>
-        <div class="products-slick col-12">
-          <div class="gatineau-item col-6 d-flex">
+        <div class="products-slick col-12 justify-content-center align-items-center text-center">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/PilingEkspertAnti.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Anti agin Exfoliant (Peeling Expert Pr-Radiance Anti-ageing Gomage)</h4>
               <p class="mb">Ексфолира, тонизира, подхранва и съживява кожата</p>
               <div>
@@ -129,9 +174,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/PilingEkspertMikro.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Peeling Expert Microdermabrasion</h4>
               <p class="mb">Премахва мъртвите клетки</p>
               <div>
@@ -140,9 +185,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Radiance Enhancing Gommage.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Radiance Enhancing Gommage</h4>
               <p class="mb">Дълбока и нежна ексфолиация. Отстранява мъртвите клетки. Изравнява тена, кожата е гладка и блестяща.</p>
               <div>
@@ -153,26 +198,26 @@
           </div>
         </div>
       </div>
-      <div class="gatineau-row row justify-content-center">
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Маски</h3>
-        <div class="gatineau-item col-6 d-flex">
+        <div class="gatineau-item justify-content-center col-xl-6 col-10 offset-xl-0 offset-1 d-sm-flex">
           <img class="" src="./assets/images/gatineau/MaskaMelatojenin.jpg" alt="gatineau product">
-          <div class="d-flex flex-column justify-content-between py-3">
-            <h4 class="">Melatogenine Futur Plus Anti-Wrinkle Radiance Mask/h4>
-              <p class="mb">Анти ейдж защита</p>
-              <div>
-                <div class="border rounded p-1 mx-3 mb-3">75 ml</div>
-                <div class="border rounded p-1 mx-3">70,00 лв</div>
-              </div>
+          <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
+            <h4 class="">Melatogenine Futur Plus Anti-Wrinkle Radiance Mask</h4>
+            <p class="mb">Анти ейдж защита</p>
+            <div>
+              <div class="border rounded p-1 mx-3 mb-3">75 ml</div>
+              <div class="border rounded p-1 mx-3">70,00 лв</div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="gatineau-row row">
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Седемдневна грижа</h3>
-        <div class="products-slick col-12">
-          <div class="gatineau-item col-6 d-flex">
+        <div class="products-slick col-12 justify-content-center align-items-center text-center">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/renue7Lazer.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Renew 7 Laser</h4>
               <p class="mb">Възстановяващ серум с високо концентрирана формула</p>
               <div>
@@ -181,12 +226,11 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/renue7Detoks.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Renew 7 Detox</h4>
-              <p class="mb">Само 7 дни за детоксикация! Кадифено нежен, лилав серум за всички типове кожа, за уморени и безжизнени или
-                сиви кожи (след зимата, болест, стрес, липса на сън, след бременност).)</p>
+              <p class="mb">Кадифено нежен, лилав серум за всички типове кожа, за уморени и безжизнени или сиви кожи</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">15 ml</div>
                 <div class="border rounded p-1 mx-3">96,00 лв</div>
@@ -195,12 +239,12 @@
           </div>
         </div>
       </div>
-      <div class="gatineau-row row">
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Превенция, защита - първи белези на стареене</h3>
-        <div class="products-slick col-12">
-          <div class="gatineau-item col-6 d-flex">
+        <div class="products-slick col-12 justify-content-center align-items-center text-center">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/serumKolagen.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Ultimate smoothing serum</h4>
               <p class="mb">Силно концентриран, универсален изглаждащ серум с 3 вида колаген</p>
               <div>
@@ -209,9 +253,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/korektorZaBruchki.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Wrinkle targeted corrector</h4>
               <p class="mb">“Must-have” за тоалетната ви чантичка</p>
               <div>
@@ -220,33 +264,31 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Eye Pads.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Eye pads</h4>
-              <p class="mb">Хидратира и възстановява околоочния контур. Изтрива фините линии, бръчки и признаците на умора. Имат успокояващо
-                действие върху кожата.</p>
+              <p class="mb">Хидратира и възстановява околоочния контур.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">2 бр в едно саше</div>
                 <div class="border rounded p-1 mx-3">7,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Moisture Replenish Cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Moisture Replenish Cream</h4>
-              <p class="mb">Подобрява естествените защитни сили на кожата, защитава от признаците на стареене. Антиоксидант за свободните
-                радикали, богат на морски екстракти за силна хидратация в дълбочина и на повърхността.</p>
+              <p class="mb">Подобрява естествените защитни сили на кожата, защитава от признаците на стареене.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">69,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Purifying Powder Emulsion.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Purifying Powder Emulsion</h4>
               <p class="mb">Почиства, балансира и матира кожатаа</p>
               <div>
@@ -255,9 +297,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Sebo-regulating Serum.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Sebo-regulating Serum</h4>
               <p class="mb">Зелен, прозрачен серум за мазна кожа, интензивна почистваща грижа. Свеж и цветен аромат.</p>
               <div>
@@ -266,22 +308,20 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/S.O.S Stick.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">S.O.S Stick</h4>
-              <p class="mb">Дезинфектира, подсушава, лекува (пъпчици, бели и черни точки). Предотвратява появата на нови. Антибактериално
-                действие.а
-              </p>
+              <p class="mb">Дезинфектира, подсушава, лекува (пъпчици, бели и черни точки). Предотвратява появата на нови.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">10 ml</div>
                 <div class="border rounded p-1 mx-3">41,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Nutriactive Mediation Rich Cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Nutriactive Mediation Rich Cream</h4>
               <p class="mb">Зелен, прозрачен серум за мазна кожа, интензивна почистваща грижа. Свеж и цветен аромат.</p>
               <div>
@@ -290,11 +330,11 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/renue7Lazer.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Multi Protective Cream</h4>
-              <p class="mb">Лек овлажняващ крем, който успокоява и предпазва чувствителната кожа. Намалява зачервяванията</p>
+              <p class="mb">Успокоява и предпазва чувствителната кожа. Намалява зачервяванията</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">79,00 лв</div>
@@ -303,12 +343,12 @@
           </div>
         </div>
       </div>
-      <div class="gatineau-row row">
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Анти - Ейдж</h3>
-        <div class="products-slick col-12">
-          <div class="gatineau-item col-6 d-flex">
+        <div class="products-slick col-12 justify-content-center align-items-center text-center">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/KremMelatojeninSProbioticiAntioksidanti30.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Esential Skin Corrector</h4>
               <p class="mb">Антиейдж за първи бръчки, попълва и възстановява. Кожата е еластична и сияйна.</p>
               <div>
@@ -317,9 +357,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/okologichenKrem.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Youth Activating Beauty Serum</h4>
               <p class="mb">За първи признаци на стареене. Изглажда фините линии и бръчки и подобрява тена</p>
               <div>
@@ -328,9 +368,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Youth Activating Beauty Serum.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Youth Activating Beauty Serum</h4>
               <p class="mb">Бори се с признаците на стареене, като изглажда фините линии и бръчки</p>
               <div>
@@ -339,9 +379,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Advanced Rejuvenating Cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Advanced Rejuvenating Cream</h4>
               <p class="mb">Глобален антиейдж за вашата кожа</p>
               <div>
@@ -350,9 +390,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
-            <img class="" src="./assets/images/gatineau/ Advanced Rejuvenating Eye Concentrate.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
+            <img class="" src="./assets/images/gatineau/AdvancedRejuvenatingEyeConcentrate.jpg" alt="gatineau product">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Advanced Rejuvenating Eye Concentrate 40+</h4>
               <p class="mb">Продукт супер герой, специално разработен за околоочния контур</p>
               <div>
@@ -361,9 +401,9 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Integral Regenerating Concentrate.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Integral Regenerating Concentrate</h4>
               <p class="mb">Копринен серум, връща младостта на кожата с дълготраен ефект.</p>
               <div>
@@ -372,44 +412,44 @@
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Age Benefit Dry Skin Cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Age Benefit Dry Skin Cream</h4>
-              <p class="mb">Ейдж бенефит технологията действа върху всички белези на стареене – бръчки, отпусната кожа, дехидратация и неравномерна пигментация.</p>
+              <p class="mb">Видимо възстановява кожата.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">172,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Integral Regenerating Cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Integral Regenerating Cream</h4>
-              <p class="mb">Ейдж бенефит технологията действа върху всички белези на стареене – бръчки, отпусната кожа, дехидратация и неравномерна пигментация.  </p>
+              <p class="mb">Бори се с всички признаци на стареене. Хидратира, изглажда, възстановява</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">172,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Ultra-regenerating Night Elixir.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Ultra-regenerating Night Elixir</h4>
-              <p class="mb">Спете и се подмладявайте! Ултра възстановяващ концентрат, нощен чудотворец</p>
+              <p class="mb">Ултра възстановяващ концентрат, нощен чудотворец</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">15 ml</div>
                 <div class="border rounded p-1 mx-3">98,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Retexturizing beauty cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Retexturizing beauty cream</h4>
-              <p class="mb">За безупречна кожа! За един миг подобрява текстурата на кожата, придава младежки вид, прави я блестяща и безупречна. Кожата е дълбоко хидратирана, признаци на стареене са изтрити.</p>
+              <p class="mb">За един миг подобрява текстурата на кожата, придава младежки вид, прави я блестяща и безупречна.</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">207,00 лв</div>
@@ -418,36 +458,36 @@
           </div>
         </div>
       </div>
-      <div class="gatineau-row row">
+      <div class="gatineau-row m-0 mt-5 row col-12 col-sm-12 justify-content-center">
         <h3 class="col-12 text-left border-bottom pb-2 mb-4">Стягане, лифтинг и обем</h3>
-        <div class="products-slick col-12">
-          <div class="gatineau-item col-6 d-flex">
+        <div class="products-slick col-12 justify-content-center align-items-center text-center">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/RedefiningPerformanceCream40.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Redefining Performance Cream 40+</h4>
-              <p class="mb">ЛИФТ ЕФЕКТ + СТЯГАНЕ + ОБЕМ. Обогатен с допълнителни ключови комплекси „Перфектен Дизайн”</p>
+              <p class="mb">Хидратиращ ефект за дълбока и трайна хидратация</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">142,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/7lips.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Revolumising Lip Care</h4>
-              <p class="mb">ЛИФТ ЕФЕКТ + СТЯГАНЕ + ОБЕМ. Обогатен с допълнителни ключови комплекси „Перфектен Дизайн”</p>
+              <p class="mb">Моментално хидратира и подхранва устните</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">10 ml</div>
                 <div class="border rounded p-1 mx-3">43,00 лв</div>
               </div>
             </div>
           </div>
-          <div class="gatineau-item col-6 d-flex">
+          <div class="gatineau-item justify-content-center col-6 d-flex flex-sm-row flex-column align-items-center">
             <img class="" src="./assets/images/gatineau/Defi Lift Throat Decollete Cream.jpg" alt="gatineau product">
-            <div class="d-flex flex-column justify-content-between py-3">
+            <div class="d-flex flex-column justify-content-between py-3 col-sm-6 col-12">
               <h4 class="">Defi Lift Throat Decollete Cream</h4>
-              <p class="mb">Действие на 3 нива в кожата, незабавен 3D лифт ефект, преоформя контура на лицето, релаксира мускулите на лицето, с ботокс ефект</p>
+              <p class="mb">Действие на 3 нива в кожата, незабавен 3D лифт ефект</p>
               <div>
                 <div class="border rounded p-1 mx-3 mb-3">50 ml</div>
                 <div class="border rounded p-1 mx-3">85,00 лв</div>
@@ -456,40 +496,39 @@
           </div>
         </div>
       </div>
-      <h3 class="col-12 text-left border-top pt-3 text-center">Може да закупите продукт на място в салона.</h3>
     </div>
     <!-- end of gatineau -->
   </main>
   <!-- end of main -->
-  <footer class="text-center pt-4 pb-5 mt-3">
+  <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
-    <div id="contact" class="row justify-content-center pb-4">
-      <div class="w-25">
+    <div id="contact" class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
+      <div class="mb-lg-0 mb-3">
         <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="Location icon">
         <a class="pb-1 align-baseline" target="_blank" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285"
           target="_blank">гр. Варна, бул. Сливница 38А</a>
       </div>
-      <div class="w-25">
+      <div class="">
         <img class="mr-3" src="./assets/images/Icons/Foote/Telephone.svg" alt="telephone icon">
         <a class="pb-1 align-baseline" href="tel:+359899123855">089 912 3855</a>
       </div>
-      <div class="w-25 align-baseline">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Email.svg" alt="Email icon">
+      <div class="mt-lg-0 mt-3">
+        <img class="mr-3 " src="./assets/images/Icons/Foote/Email.svg" alt="email icon">
         <a class="pb-1 align-baseline" href="mailto:kozmetikavarna@gmail.com" target="_top">kozmetikavarna@gmail.com</a>
       </div>
     </div>
     <!-- end of contact -->
     <hr size="30">
-    <div id="workingHours" class="row justify-content-center pt-4">
-      <div class="w-25">
+    <div id="workingHours" class="row col-xl-8 col-10 justify-content-between flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
+      <div class="mb-sm-0 mb-4">
         <p>Понеделник-Петък</p>
         <p>10:00 - 19:00</p>
       </div>
-      <div class="w-25">
+      <div class="">
         <p>Събота</p>
         <p>10:00 - 14:00</p>
       </div>
-      <div class="w-25">
+      <div class="mt-sm-0 mt-4">
         <p>Неделя</p>
         <p>Почивен ден</p>
       </div>
@@ -513,6 +552,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

@@ -19,10 +19,14 @@
 
 <body id="aboutPage" class="text-center">
   <main>
-    <header id="header" class="col-12">
-      <nav id="header1" class="d-flex justify-content-between col-11" >
-        <img class="" src="./assets/images/Icons/logo.png" alt="">
-        <ul class="nav justify-content-end">
+    <header id="header" class="col-12 w-100">
+      <nav id="header1" class="d-flex col-12">
+        <div class="offset-1 col-2 justify-content-start align-self-center ">
+          <a href="#">
+            <img class="logo" src="./assets/images/Icons/logo.png" alt="logo">
+          </a>
+        </div>
+        <ul class="col-8 nav justify-content-end">
           <li class="nav-item align-middle">
             <a class="nav-link" href="index.html">Начало</a>
           </li>
@@ -40,12 +44,12 @@
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
-              <img src="./assets/images/Icons/Header/facebook.svg" alt="facebook icon" width="30" height="30">
+              <img src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon" width="30" height="30">
             </a>
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
-              <img src="./assets/images/Icons/Header/instagram.svg" alt="instagram icon" width="30" height="30">
+              <img src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon" width="30" height="30">
             </a>
           </li>
         </ul>
@@ -63,12 +67,55 @@
       </nav>
       <!-- end of header2 -->
     </header>
+    <header id="mobileHeader" class="col-12 w-100">
+      <nav id="mobHead" class="col-12">
+        <div class="headerIcons d-flex justify-content-between align-baseline align-items-center px-4">
+          <a href="#" class="logo">
+            <img src="./assets/images/Icons/logo.png" alt="Georgi Dimitrov's logo">
+          </a>
+          <a class="cross">
+            <img src="./assets/images/Icons/Header/cross.png" alt="Cross for closing hamburger menu">
+          </a>
+          <a class="hamburgerBtn">
+            <img src="./assets/images/Icons/Header/hamburger.png" alt="Hamburger menu">
+          </a>
+        </div>
+        <div class="hamburgerMenu">
+          <div id="hamburgerDropdown" class="dropdown-content d-flex flex-column justify-content-between align-items-center">
+            <a class="nav-link p-0" href="index.html">Начало</a>
+            <hr>
+            <a class="nav-link p-0" href="">За мен</a>
+            <hr>
+            <a class="nav-link p-0" href="therapies.html">Терапии</a>
+            <hr>
+            <a class="nav-link p-0" href="pricelist.html">Ценоразпис</a>
+            <hr>
+            <a class="nav-link p-0" href="contact.html">Контакти</a>
+            <hr>
+            <a class="nav-link p-0" href="brands.html">Марки с които работя</a>
+            <hr>
+            <a class="nav-link p-0" href="products.html">Продукти за домашна употреба</a>
+            <hr>
+            <div class="d-flex">
+              <a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
+                <img src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon" width="30" height="30">
+              </a>
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
+                <img src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon" width="30" height="30">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- end of headers -->
     <div id="name" class="col-12 text-center">
       <h2>Василена Янчева</h2>
     </div>
-    <img class="text-center" src="./assets/images/About/ВАСИЛЕНА.jpg" alt="Vasilena photo">
-    <div id="text" class="col-8 offset-2 justify-content-center py-3 text-left">
+    <div class="text-center">
+      <img src="./assets/images/About/ВАСИЛЕНА.jpg" alt="Vasilena photo">
+    </div>
+    <div id="text" class="col-xl-8 col-md-10 offset-xl-2 offset-md-1 justify-content-center py-3 text-left">
       <p>Завършила съм
         <strong>магистратура по кинезитерапия</strong> с тясна специализация по
         <strong>мускулно-скелетни дисфункции</strong> през 2007 година в НСА “В. Левски” – гр. София. По време на обучението ми започнах
@@ -102,23 +149,44 @@
       </p>
     </div>
     <!-- end of text -->
-    <a href="contact.html" class="btn mt-auto align-self-center">Свържете се с мен</a>
-    <div id="testimonials" class="py-4 mt-5">
+    <div class="text-center">
+      <a href="contact.html" class="btn mt-auto align-self-center">Свържете се с мен</a>
+    </div>
+    <div id="testimonials" class="py-4 mt-5 text-center">
       <h2>Мнения от моите клиенти</h2>
-      <div class="slick-wrapper col-8 d-flex flex-column container">
+      <div class="slick-wrapper col-xl-8 col-lg-10 col-12 d-flex flex-column container">
         <div class="testimonials-slick">
           <div class="testimonial col-12 d-flex flex-column">
-            <img class="my-3 col-3 align-self-center" src="./assets/images/About/dianakuyudjuklieva.jpg" alt="client photo">
-            <div class="tmText col-10 align-self-center d-flex flex-column">
-              <div class="tmName">Диана Куюджуклиева - 51г.</div>
-              <div class="tmProf col-7 align-self-center">Учител в „Първа езикова гимназия - Варна“</div>
-              <div class="tm mt-3 col-11 align-self-center">„ Изключително съм доволна от предлаганите професионални услуги на много високо ниво. Знам, че мога да разчитам на подробно обяснение за всяка от терапиите. Получавам помощ при избора на козметика за домашна употреба. Посещенията в салона са изключително приятни и релаксиращи. “</div>
+            <img class="my-3 col-md-3 col-sm-4 col-6 align-self-center" src="./assets/images/About/lili mihaleva.png" alt="client photo">
+            <div class="tmText col-xl-10 col-lg-11 col-12 align-self-center d-flex flex-column">
+              <div class="tmName">Лили Михалева - 29г.</div>
+              <div class="tmProf col-md-7 col-11 align-self-center">﻿SG Експресбанк АД - Старши специалист ФП</div>
+              <div class="tm mt-3 col-11 align-self-center">"Смятам, че грижата за лицето е много важна за една жена, а непрофесионалисти има навсякъде . Василена Янчева е
+                уникален човек и професионалист. Най-важното за мен е, че постоянно се развива и работи с много класна козметика,
+                цените й са достъпни и  от услигите винаги получаваш 100% от това което си желал . Посещавала съм и други
+                скъпи и известни салони , но никъде не съм оставала толкова доволна, Васи предлага качество и релакс в едно
+                , като те предразполага и позволява да се отпуснеш максимално . След една случайно спечелена игра във Фейсбук
+                намерих моят козметик и с увереност бих препоръчала услугите й на всеки , който иска да да изглежда и да
+                поддържа кожата си в перфектен вид. Васи дарява усмивки и релакс на хората , а ние  можем да  останем благодарни
+                за този професионализъм и отзивчивост! "</div>
             </div>
             <!-- end of tmtextc -->
           </div>
           <!-- end of testimonial -->
           <div class="testimonial col-12 d-flex flex-column">
-            <img class="my-3 col-3 align-self-center" src="./assets/images/About/nikiilieva.jpg" alt="client photo">
+            <img class="my-3 col-md-3 col-sm-4 col-6 align-self-center" src="./assets/images/About/dianakuyudjuklieva.png" alt="client photo">
+            <div class="tmText col-10 align-self-center d-flex flex-column">
+              <div class="tmName">Диана Куюджуклиева - 51г.</div>
+              <div class="tmProf col-md-7 col-11 align-self-center">Учител в „Първа езикова гимназия - Варна“</div>
+              <div class="tm mt-3 col-11 align-self-center">„ Изключително съм доволна от предлаганите професионални услуги на много високо ниво. Знам, че мога да разчитам
+                на подробно обяснение за всяка от терапиите. Получавам помощ при избора на козметика за домашна употреба.
+                Посещенията в салона са изключително приятни и релаксиращи. “</div>
+            </div>
+            <!-- end of tmtextc -->
+          </div>
+          <!-- end of testimonial -->
+          <div class="testimonial col-12 d-flex flex-column">
+            <img class="my-3 col-md-3 col-sm-4 col-6 align-self-center" src="./assets/images/About/nikiilieva.png" alt="client photo">
             <div class="tmText col-10 align-self-center d-flex flex-column">
               <div class="tmName">Ники Илиева - 57г.</div>
               <div class="tm mt-3 col-11 align-self-center">"Страхотен, невероятен козметик! Доверявам и се напълно!"</div>
@@ -127,21 +195,10 @@
           </div>
           <!-- end of testimonial -->
           <div class="testimonial col-12 d-flex flex-column">
-            <img class="my-3 col-3 align-self-center" src="./assets/images/About/lili mihaleva.jpg" alt="client photo">
+            <img class="my-3 col-md-3 col-sm-4 col-6 align-self-center" src="./assets/images/About/kseniya.png" alt="client photo">
             <div class="tmText col-10 align-self-center d-flex flex-column">
-              <div class="tmName">Лили Михалева - 29г.</div>
-              <div class="tmProf col-7 align-self-center">﻿SG Експресбанк АД - Старши специалист ФП</div>
-              <div class="tm mt-3 col-11 align-self-center">"Смятам, че грижата за лицето е много важна за една жена, а непрофесионалисти има навсякъде . Василена Янчева е уникален човек и професионалист. Най-важното за мен е, че постоянно се развива и работи с много класна козметика, цените й са достъпни и  от услигите винаги получаваш 100% от това което си желал . Посещавала съм и други скъпи и известни салони , но никъде не съм оставала толкова доволна, Васи предлага качество и релакс в едно , като те предразполага и позволява да се отпуснеш максимално . След една случайно спечелена игра във Фейсбук намерих моят козметик и с увереност бих препоръчала услугите й на всеки , който иска да да изглежда и да поддържа кожата си в перфектен вид.
-                Васи дарява усмивки и релакс на хората , а ние  можем да  останем благодарни за този професионализъм и отзивчивост! "</div>
-            </div>
-            <!-- end of tmtextc -->
-          </div>
-          <!-- end of testimonial -->
-          <div class="testimonial col-12 d-flex flex-column">
-            <img class="my-3 col-3 align-self-center" src="./assets/images/About/kseniya.png" alt="client photo">
-            <div class="tmText col-10 align-self-center d-flex flex-column">
-              <div class="tmName">Ксения - 54г.</div>
-              <div class="tmProf col-7 align-self-center">Учител в четвърта езикова гимназия "Фредерик Жолио - Кюри"</div>
+              <div class="tmName">Ксения Царева- 54г.</div>
+              <div class="tmProf col-md-7 col-11 align-self-center">Учител в четвърта езикова гимназия "Фредерик Жолио - Кюри"</div>
               <div class="tm mt-3 col-11 align-self-center">"Не вярвам на такива мнения, уж на доволни клиенти. Винаги съм мислила, че тези писаници са дело на собствениците
                 на дадения сайт. Обаче, аз съм истински клиент и то доволен! Вижте ме. На 54 години ставам след един месец.
                 Как ми е кожата? Много ли съм сбръчкана? НЕ! Василена има пръст в тази работа! Да е жива и здрава, да продължава
@@ -151,13 +208,16 @@
           </div>
           <!-- end of testimonial -->
           <div class="testimonial col-12 d-flex flex-column">
-            <img class="my-3 col-3 align-self-center" src="./assets/images/About/irina.jpg" alt="client photo">
+            <img class="my-3 col-md-3 col-sm-4 col-6 align-self-center" src="./assets/images/About/irina.png" alt="client photo">
             <div class="tmText col-10 align-self-center d-flex flex-column">
               <div class="tmName">Ирина Добрева, - 38г.,</div>
-              <div class="tmProf col-7 align-self-center">Директор на Дирекция в Община Аксаково</div>
-              <div class="tm mt-3 col-11 align-self-center">"Спечели ме за редовен клиент още след първото ми посещение, най-вече с милото и приятелското си отношение. Обстановката в центъра е прекрасна, а използваната козметика - професионална и с изключително високо качество. Процедурите, които се предлагат, съчетават новите модерни методи в козметиката с атрактивни цени. Доверявам се напълно на експертното мнение на Василена, защото знам, че след посещението си при нея ще си тръгна по-свежа, по-красива и разбира се, различна.
-
-                Всяка дама заслужава да бъде глезена. Къде другаде, eдинствено при Василена може да си подарите едно уникално  преживяване, в комбинация от уютна атмосфера и доказан професионализъм."</div>
+              <div class="tmProf col-md-7 col-11 align-self-center">Директор на Дирекция в Община Аксаково</div>
+              <div class="tm mt-3 col-11 align-self-center">"Спечели ме за редовен клиент още след първото ми посещение, най-вече с милото и приятелското си отношение.
+                Обстановката в центъра е прекрасна, а използваната козметика - професионална и с изключително високо качество.
+                Процедурите, които се предлагат, съчетават новите модерни методи в козметиката с атрактивни цени. Доверявам
+                се напълно на експертното мнение на Василена, защото знам, че след посещението си при нея ще си тръгна по-свежа,
+                по-красива и разбира се, различна. Всяка дама заслужава да бъде глезена. Къде другаде, eдинствено при Василена
+                може да си подарите едно уникално преживяване, в комбинация от уютна атмосфера и доказан професионализъм."</div>
             </div>
             <!-- end of tmtextc -->
           </div>
@@ -169,35 +229,35 @@
   </main>
   <!-- end of main -->
 
-  <footer class="text-center pt-4 pb-5">
+  <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
-    <div id="contact" class="row justify-content-center pb-4">
-      <div class="w-25">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="location icon">
-        <a class="pb-1 align-baseline" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285"
+    <div id="contact" class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
+      <div class="mb-lg-0 mb-3">
+        <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="Location icon">
+        <a class="pb-1 align-baseline" target="_blank" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285"
           target="_blank">гр. Варна, бул. Сливница 38А</a>
       </div>
-      <div class="w-25">
+      <div class="">
         <img class="mr-3" src="./assets/images/Icons/Foote/Telephone.svg" alt="telephone icon">
         <a class="pb-1 align-baseline" href="tel:+359899123855">089 912 3855</a>
       </div>
-      <div class="w-25 align-baseline">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Email.svg" alt="email icon">
+      <div class="mt-lg-0 mt-3">
+        <img class="mr-3 " src="./assets/images/Icons/Foote/Email.svg" alt="email icon">
         <a class="pb-1 align-baseline" href="mailto:kozmetikavarna@gmail.com" target="_top">kozmetikavarna@gmail.com</a>
       </div>
     </div>
     <!-- end of contact -->
     <hr size="30">
-    <div id="workingHours" class="row justify-content-center pt-4">
-      <div class="w-25">
+    <div id="workingHours" class="row col-xl-8 col-10 justify-content-between flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
+      <div class="mb-sm-0 mb-4">
         <p>Понеделник-Петък</p>
         <p>10:00 - 19:00</p>
       </div>
-      <div class="w-25">
+      <div class="">
         <p>Събота</p>
         <p>10:00 - 14:00</p>
       </div>
-      <div class="w-25">
+      <div class="mt-sm-0 mt-4">
         <p>Неделя</p>
         <p>Почивен ден</p>
       </div>
@@ -205,10 +265,10 @@
     <!-- end of workingHours -->
     <div id="socialMedia" class="row justify-content-center mt-5 ">
       <a class="text-right mr-2" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
-        <img class="" src="./assets/images/Icons/Foote/facebook.svg" target="_blank" alt="facebook icon">
+        <img class="" src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon">
       </a>
       <a class="text-left ml-2" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
-        <img class="" src="./assets/images/Icons/Foote/instagram.svg" target="_blank" alt="instagram icon">
+        <img class="" src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon">
       </a>
     </div>
     <!-- end of socialMedia -->
@@ -221,6 +281,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

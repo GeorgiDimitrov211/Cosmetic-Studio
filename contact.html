@@ -10,57 +10,143 @@
   <link href="styles/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
   <meta name="format-detection" content="telephone=no">
 </head>
 
 <body id="contactPage" class="text-center">
   <main>
-    <header id="header" class="col-12">
-      <nav id="header1" class="col-12">
-        <ul class="nav col-11 justify-content-end" >
-          <li class="nav-item align-middle"><a class="nav-link" href="index.html">Начало</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="about.html">За мен</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="therapies.html">Терапии</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="pricelist.html">Ценоразпис</a></li>
-          <li class="nav-item disabled align-middle"><a class="nav-link" href="">Контакти</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/"><img src="./assets/images/Icons/Header/facebook.svg" alt="facebook icon" width="30" height="30"></a></li>
-          <li class="nav-item align-middle"><a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/"><img src="./assets/images/Icons/Header/instagram.svg" alt="instagram icon" width="30" height="30"></a></li>
+    <header id="header" class="col-12 w-100">
+      <nav id="header1" class="d-flex col-12">
+        <div class="offset-1 col-2 justify-content-start align-self-center ">
+          <a href="#">
+            <img class="logo" src="./assets/images/Icons/logo.png" alt="logo">
+          </a>
+        </div>
+        <ul class="col-8 nav justify-content-end">
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="index.html">Начало</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="about.html">За мен</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="therapies.html">Терапии</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="pricelist.html">Ценоразпис</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="">Контакти</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
+              <img src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon" width="30" height="30">
+            </a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
+              <img src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon" width="30" height="30">
+            </a>
+          </li>
         </ul>
-      </nav> <!-- end of header1 -->
-      <nav id="header2" class="col-12">         
+      </nav>
+      <!-- end of header1 -->
+      <nav id="header2" class="col-12">
         <ul class="nav col-10 justify-content-end">
-          <li class="nav-item align-middle"><a class="nav-link" href="brands.html">Марки с които работя</a></li>
-          <li class="nav-item align-middle"><a class="nav-link" href="products.html">Продукти за домашна употреба</a></li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="brands.html">Марки с които работя</a>
+          </li>
+          <li class="nav-item align-middle">
+            <a class="nav-link" href="products.html">Продукти за домашна употреба</a>
+          </li>
         </ul>
-      </nav> <!-- end of header2 -->
-    </header>  <!-- end of headers -->
-    <div id="contact" class="container mb-5 d-flex row col-8">
+      </nav>
+      <!-- end of header2 -->
+    </header>
+    <header id="mobileHeader" class="col-12 w-100">
+      <nav id="mobHead" class="col-12">
+        <div class="headerIcons d-flex justify-content-between align-baseline align-items-center px-4">
+          <a href="#" class="logo">
+            <img src="./assets/images/Icons/logo.png" alt="Georgi Dimitrov's logo">
+          </a>
+          <a class="cross">
+            <img src="./assets/images/Icons/Header/cross.png" alt="Cross for closing hamburger menu">
+          </a>
+          <a class="hamburgerBtn">
+            <img src="./assets/images/Icons/Header/hamburger.png" alt="Hamburger menu">
+          </a>
+        </div>
+        <div class="hamburgerMenu">
+          <div id="hamburgerDropdown" class="dropdown-content d-flex flex-column justify-content-between align-items-center">
+            <a class="nav-link p-0" href="index.html">Начало</a>
+            <hr>
+            <a class="nav-link p-0" href="about.html">За мен</a>
+            <hr>
+            <a class="nav-link p-0" href="therapies.html">Терапии</a>
+            <hr>
+            <a class="nav-link p-0" href="pricelist.html">Ценоразпис</a>
+            <hr>
+            <a class="nav-link p-0" href="">Контакти</a>
+            <hr>
+            <a class="nav-link p-0" href="brands.html">Марки с които работя</a>
+            <hr>
+            <a class="nav-link p-0" href="products.html">Продукти за домашна употреба</a>
+            <hr>
+            <div class="d-flex">
+              <a class="nav-link" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
+                <img src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon" width="30" height="30">
+              </a>
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
+                <img src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon" width="30" height="30">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end of headers -->
+    <div id="contact" class="container mb-5 d-flex row col-md-8 col-12">
       <div id="map" class="">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026.824556620972!2d27.914750634068145!3d43.20833692269002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540ae4885121%3A0xd9940c57439f1903!2sbul.+%22Slivnitsa%22+38%2C+9002+Varna+Center%2C+Varna%2C+Bulgaria!5e0!3m2!1sen!2sdk!4v1523282595788" frameborder="0" style="border:0" allowfullscreen>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026.824556620972!2d27.914750634068145!3d43.20833692269002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540ae4885121%3A0xd9940c57439f1903!2sbul.+%22Slivnitsa%22+38%2C+9002+Varna+Center%2C+Varna%2C+Bulgaria!5e0!3m2!1sen!2sdk!4v1523282595788"
+          frameborder="0" style="border:0" allowfullscreen>
         </iframe>
-      </div> <!-- end of map -->
-      <div id="info" class="px-5 pt-3 align-self-end">
+      </div>
+      <!-- end of map -->
+      <div id="info" class="px-sm-5 px-2 pt-3 align-self-end">
         <div>
           <a class="" href="mailto:kozmetikavarna@gmail.com" target="_top">kozmetikavarna@gmail.com</a>
           <div class="container d-flex justify-content-center mt-4 mb-3">
-            <div class="mr-5">
-              <p class="">гр. Варна,<br>бул. Сливница 38А</p>
+            <div class="mr-sm-5 mr-2">
+              <p class="">гр. Варна,
+                <br>бул. Сливница 38А</p>
               <a id="tel" class="pb-1 align-baseline" href="tel:+359899123855">089 912 3855</a>
             </div>
-            <div class="pl-5 border-left border-dark">
-              <p>Понеделник-Петък<br><strong>10:00 - 19:00</strong></p>
-              <p>Събота<br><strong>10:00 - 14:00</strong></p>
-              <p>Неделя<br>Почивен ден</p>
+            <div class="pl-sm-5 pl-2 border-left border-dark">
+              <p>Понеделник-Петък
+                <br>
+                <strong>10:00 - 19:00</strong>
+              </p>
+              <p>Събота
+                <br>
+                <strong>10:00 - 14:00</strong>
+              </p>
+              <p>Неделя
+                <br>Почивен ден</p>
             </div>
           </div>
-          <p class=""><strong>*Ако не ви вдигна, очаквайте връщане на обаждането!</strong></p>
+          <p class="">
+            <strong>*Ако не ви вдигна, очаквайте връщане на обаждането!</strong>
+          </p>
         </div>
-      </div> <!-- end of info -->
-    </div> <!-- end of contact -->
-    <form method="POST" class="container col-6 justify-content-center" action="https://formspree.io/georgip.d.d97@gmail.com">
+      </div>
+      <!-- end of info -->
+    </div>
+    <!-- end of contact -->
+    <form method="POST" class="container col-lg-6 justify-content-center" action="https://formspree.io/georgip.d.d97@gmail.com">
       <h2>Изпратете запитване</h2>
       <input type="hidden" name="_subject" value="Запитване от контактната форма" />
       <input type="hidden" name="_next" value="http://gdimitrovd.com/cosmetic/filledForm.html" />
@@ -69,39 +155,44 @@
       <input class="form-control mb-4 pl-3" type="text" name="Име" required placeholder="Вашите имена">
       <textarea class="d-block mb-4 pl-3" type="text" name="Запитване" required placeholder="Запитване"></textarea>
       <button type="submit" class="btn mt-auto align-self-center">Изпрати</button>
-    </form> <!-- end of form -->
-  </main> <!-- end of main -->
+    </form>
+    <!-- end of form -->
+  </main>
+  <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
-    <div id="contact" class="row justify-content-center pb-4">
-      <div class="w-25">
+    <div id="contact" class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
+      <div class="mb-lg-0 mb-3">
         <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="Location icon">
-        <a class="pb-1 align-baseline" target="_blank" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285" target="_blank">гр. Варна, бул. Сливница 38А</a>
+        <a class="pb-1 align-baseline" target="_blank" href="https://www.google.com/maps/place/bul.+%22Slivnitsa%22+38,+9002+Varna+Center,+Varna,+Bulgaria/@43.2080105,27.9139398,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4540ae4885121:0xd9940c57439f1903!8m2!3d43.2080066!4d27.9161285"
+          target="_blank">гр. Варна, бул. Сливница 38А</a>
       </div>
-      <div class="w-25">
+      <div class="">
         <img class="mr-3" src="./assets/images/Icons/Foote/Telephone.svg" alt="telephone icon">
         <a class="pb-1 align-baseline" href="tel:+359899123855">089 912 3855</a>
       </div>
-      <div class="w-25 align-baseline">
-        <img class="mr-3" src="./assets/images/Icons/Foote/Email.svg" alt="Email icon">
-        <a class="pb-1 align-baseline"href="mailto:kozmetikavarna@gmail.com" target="_top">kozmetikavarna@gmail.com</a>
+      <div class="mt-lg-0 mt-3">
+        <img class="mr-3 " src="./assets/images/Icons/Foote/Email.svg" alt="email icon">
+        <a class="pb-1 align-baseline" href="mailto:kozmetikavarna@gmail.com" target="_top">kozmetikavarna@gmail.com</a>
       </div>
-    </div>  <!-- end of contact -->
+    </div>
+    <!-- end of contact -->
     <hr size="30">
-    <div id="workingHours" class="row justify-content-center pt-4">
-      <div class="w-25">
+    <div id="workingHours" class="row col-xl-8 col-10 justify-content-between flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
+      <div class="mb-sm-0 mb-4">
         <p>Понеделник-Петък</p>
         <p>10:00 - 19:00</p>
       </div>
-      <div class="w-25">
-          <p>Събота</p>
-          <p>10:00 - 14:00</p>
+      <div class="">
+        <p>Събота</p>
+        <p>10:00 - 14:00</p>
       </div>
-      <div class="w-25">
-          <p>Неделя</p>
-          <p>Почивен ден</p>
+      <div class="mt-sm-0 mt-4">
+        <p>Неделя</p>
+        <p>Почивен ден</p>
       </div>
-    </div> <!-- end of workingHours -->
+    </div>
+    <!-- end of workingHours -->
     <div id="socialMedia" class="row justify-content-center mt-5 ">
       <a class="text-right mr-2" target="_blank" href="https://www.facebook.com/kozmetikvarna.varna/">
         <img class="" src="./assets/images/Icons/Foote/facebook.svg" alt="facebook icon">
@@ -109,12 +200,18 @@
       <a class="text-left ml-2" target="_blank" href="https://www.instagram.com/kozmetikvarna/">
         <img class="" src="./assets/images/Icons/Foote/instagram.svg" alt="instagram icon">
       </a>
-    </div>  <!-- end of socialMedia -->
-  </footer>  <!-- end of footer -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+    <!-- end of socialMedia -->
+  </footer>
+  <!-- end of footer -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 
