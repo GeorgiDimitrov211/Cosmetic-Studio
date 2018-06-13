@@ -105,7 +105,7 @@ $('.products-slick').slick({
   });
 
   let mobileLinks = $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown > .nav-link');
-  console.log(mobileLinks)
+  // console.log(mobileLinks)
   mobileLinks.each(function(){
     let linkName = $(this).attr('href');
     if(linkName == ''){
