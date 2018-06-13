@@ -1,3 +1,15 @@
+@-webkit-keyframes zoom {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
 @keyframes zoom {
   0% {
     background-size: 100% 100%;
@@ -187,7 +199,10 @@ footer hr {
 }
 
 footer #socialMedia a {
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
   transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
 }
 
 footer #socialMedia img {
@@ -195,8 +210,10 @@ footer #socialMedia img {
 }
 
 footer #socialMedia a:hover {
-  transform: scale(1.3);
-  filter: drop-shadow(0px 0px 2px grey);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-filter: drop-shadow(0px 0px 2px grey);
+          filter: drop-shadow(0px 0px 2px grey);
 }
 
 /* Home */
@@ -207,7 +224,8 @@ footer #socialMedia a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  animation: zoom 20s infinite;
+  -webkit-animation: zoom 20s infinite;
+          animation: zoom 20s infinite;
 }
 
 #homePage #intro #introName {
@@ -231,7 +249,9 @@ footer #socialMedia a:hover {
   font-weight: bold;
   color: white;
   background-color: #7c616c;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -265,7 +285,8 @@ footer #socialMedia a:hover {
   padding: 0;
   border-radius: 0;
   border: 0;
-  box-shadow: 0 0 80px #aaa;
+  -webkit-box-shadow: 0 0 80px #aaa;
+          box-shadow: 0 0 80px #aaa;
 }
 
 #homePage #cards .col-5 {
@@ -323,6 +344,7 @@ footer #socialMedia a:hover {
 #homePage #cards .card .card-body .btn {
   font-weight: bold;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -358,6 +380,7 @@ footer #socialMedia a:hover {
   font-weight: bold;
   color: white;
   background-color: #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -385,9 +408,11 @@ footer #socialMedia a:hover {
 
 #aboutPage .btn {
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
   border: 1px solid #7c616c;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 1rem;
 }
 
@@ -506,6 +531,7 @@ footer #socialMedia a:hover {
 #therapiesPage .btn {
   font-weight: bold;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -528,6 +554,7 @@ footer #socialMedia a:hover {
   text-transform: none;
   color: #7c616c;
   background-color: white;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
   border: 1px solid #7c616c;
   white-space: normal;
@@ -558,6 +585,7 @@ footer #socialMedia a:hover {
 #pricelistPage main>.btn {
   font-weight: bold;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -651,6 +679,7 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -665,7 +694,8 @@ footer #socialMedia a:hover {
 }
 
 #contactPage form .form-control:focus {
-  box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
+  -webkit-box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
+          box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
 }
 
 #contactPage form textarea {
@@ -677,7 +707,8 @@ footer #socialMedia a:hover {
 #contactPage form textarea:focus {
   outline: none;
   border: 1px solid #7c616c;
-  box-shadow: inset 0 0px 5px #7c616c, 0 0 10px #7c616c;
+  -webkit-box-shadow: inset 0 0px 5px #7c616c, 0 0 10px #7c616c;
+          box-shadow: inset 0 0px 5px #7c616c, 0 0 10px #7c616c;
 }
 
 /* brands */
@@ -692,6 +723,7 @@ footer #socialMedia a:hover {
 #brandsPage #brands a {
   color: #7c616c;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
   border-radius: 3px;
   font-size: 1.5rem;
@@ -717,6 +749,7 @@ footer #socialMedia a:hover {
   font-size: 1.5rem;
   color: #7c616c;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -905,6 +938,7 @@ footer #socialMedia a:hover {
 #therapiesPQPage #therapiesPQ .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -964,6 +998,7 @@ footer #socialMedia a:hover {
 #oxygenPage #oxygen .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1027,6 +1062,7 @@ footer #socialMedia a:hover {
 #massagesPage #massages .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1090,6 +1126,7 @@ footer #socialMedia a:hover {
 #eyelashesPage #eyelashes .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1153,6 +1190,7 @@ footer #socialMedia a:hover {
 #mikrodermaobrazioPage #mikrodermaobrazio .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1216,6 +1254,7 @@ footer #socialMedia a:hover {
 #pochistvanePage #pochistvane .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1284,6 +1323,7 @@ footer #socialMedia a:hover {
 #profacialPage #profacial .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1352,6 +1392,7 @@ footer #socialMedia a:hover {
 #meso-celulitPage #meso-celulit .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1420,6 +1461,7 @@ footer #socialMedia a:hover {
 #meso-facePage #meso-face .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1487,6 +1529,7 @@ footer #socialMedia a:hover {
 #himichenPage #himichen .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1546,6 +1589,7 @@ footer #socialMedia a:hover {
 #enerpeelBrandPage #enerpeelBrand .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1617,6 +1661,7 @@ footer #socialMedia a:hover {
 #gatineauBrandPage .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1693,6 +1738,7 @@ footer #socialMedia a:hover {
 #medik8BrandPage .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1775,6 +1821,7 @@ footer #socialMedia a:hover {
 #promoitaliaBrandPage .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1846,6 +1893,7 @@ footer #socialMedia a:hover {
 #homeBox1Page #homeBox1 .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1920,6 +1968,7 @@ footer #socialMedia a:hover {
 #homeBox2Page #homeBox2 .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -1991,6 +2040,7 @@ footer #socialMedia a:hover {
 #homeBox3Page #homeBox3 .btn {
   border-color: #7c616c;
   font-weight: bold;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -2019,6 +2069,7 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -2033,7 +2084,8 @@ footer #socialMedia a:hover {
 }
 
 #orderPage form .form-control:focus {
-  box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
+  -webkit-box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
+          box-shadow: inset 0 0px 8px #7c616c, 0 0 10px #7c616c;
 }
 
 /* filledFormPage */
@@ -2057,6 +2109,7 @@ footer #socialMedia a:hover {
   color: white;
   background-color: #7c616c;
   border: 1px solid #7c616c;
+  -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
@@ -2291,6 +2344,7 @@ footer #socialMedia a:hover {
     font-size: 0.9rem;
   }
   #header #header1 ul a {
+    -webkit-transition: background-color .8s;
     transition: background-color .8s;
   }
   #header #header1 ul li:nth-child(n):nth-last-child(n+3) a:hover {
@@ -2298,14 +2352,19 @@ footer #socialMedia a:hover {
     color: black;
   }
   #header #header1 ul li:nth-last-child(-n+2) a {
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
     transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
   }
   #header #header1 ul li:nth-last-child(-n+2) a:hover {
-    transform: scale(1.3);
-    filter: drop-shadow(0px 0px 2px grey);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-filter: drop-shadow(0px 0px 2px grey);
+            filter: drop-shadow(0px 0px 2px grey);
   }
   #header #header2 {
-    background-color: rgba(198, 198, 198);
+    background-color: rgb(198, 198, 198);
     padding: 0;
   }
   #header #header2 ul {
@@ -2314,6 +2373,7 @@ footer #socialMedia a:hover {
   #header #header2 ul li a {
     color: black;
     line-height: 2.5rem;
+    -webkit-transition: background-color .8s;
     transition: background-color .8s;
     font-size:0.9rem;
   }
