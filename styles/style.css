@@ -49,7 +49,7 @@ body {
 }
 
 .logo {
-  width: 180px;
+  width: 140px;
 }
 
 /* Header
@@ -76,17 +76,17 @@ body {
 }
 
 #mobileHeader #mobHead .headerIcons .hamburgerBtn {
-  width: 40px;
+  width: 30px;
   cursor: pointer;
 }
 
 #mobileHeader #mobHead .headerIcons .logo {
-  width: 140px;
+  width: 120px;
 }
 
 #mobileHeader #mobHead .headerIcons .cross {
   display: none;
-  width: 25px;
+  width: 20px;
   cursor: pointer;
 }
 
@@ -127,6 +127,7 @@ body {
 
 #mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown a {
   color: white;
+  font-size: 0.9rem;
 }
 
 /* Footer
@@ -425,7 +426,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row .therapy {
-  padding: 15% 0;
+  height:50vh;
   font-family: 'Bad Script', cursive;
   position: relative;
   text-decoration: none;
@@ -439,6 +440,7 @@ footer #socialMedia a:hover {
 #therapiesPage #therapies .row .therapy p {
   font-family: 'Bad Script', cursive;
   font-size: 2rem;
+  vertical-align: middle;
 }
 
 #therapiesPage #therapies .row:first-child .therapy:first-child {
@@ -528,6 +530,7 @@ footer #socialMedia a:hover {
   background-color: white;
   transition: background-color 0.8s;
   border: 1px solid #7c616c;
+  white-space: normal;
 }
 
 #pricelistPage #pricelist a:hover {
@@ -705,7 +708,7 @@ footer #socialMedia a:hover {
 #productsPage #products {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  margin-top: 11%;
+  margin-top: 25%;
   margin-bottom: 4%;
 }
 
@@ -865,7 +868,7 @@ footer #socialMedia a:hover {
   background-image: url('../assets/images/Services/terapiesSub/PQAge1.jpg');
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   position: relative;
 }
 
@@ -1038,7 +1041,7 @@ footer #socialMedia a:hover {
   background-image: url('../assets/images/Services/terapiesSub/migli.jpg');
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   position: relative;
 }
 
@@ -1101,7 +1104,7 @@ footer #socialMedia a:hover {
   background-image: url('../assets/images/Services/terapiesSub/diamantenomikrodermabrazio.jpg');
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   position: relative;
 }
 
@@ -1164,7 +1167,7 @@ footer #socialMedia a:hover {
   background-image: url('../assets/images/Services/terapiesSub/PochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   position: relative;
 }
 
@@ -1227,7 +1230,7 @@ footer #socialMedia a:hover {
   background-image: url('../assets/images/Services/terapiesSub/profacial.jpg');
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   position: relative;
   margin-top: 10vh;
 }
@@ -2134,6 +2137,12 @@ footer #socialMedia a:hover {
   #massagesPage #massages .massagesbg {
     height: 60vh;
   }
+  #eyelashesPage #eyelashes .eyelashesbg {
+    height: 60vh;
+  }
+  #mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
+    height: 60vh;
+  }
   #homeBox1Page #homeBox1 .homeBox1bg p{
     font-size:2rem;
     line-height: 3rem
@@ -2148,11 +2157,19 @@ footer #socialMedia a:hover {
   #homeBox3Page #homeBox3 .homeBox3bg{
     height: 60vh;
   }
+  #therapiesPQPage #therapiesPQ .therapiesPQbg{
+    height: 60vh;
+  }
+  #profacialPage #profacial .profacialbg{
+    height: 60vh;
+  }
   #homeBox3Page #homeBox3 .homeBox3bg p{
     font-size:2rem;
     line-height: 3rem
   }
-
+    #productsPage #products {
+      margin-top: 15%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -2207,6 +2224,9 @@ footer #socialMedia a:hover {
   #oxygenPage #oxygen .oxygenbg {
     height: 70vh;
   }
+  #eyelashesPage #eyelashes .eyelashesbg {
+    height: 70vh;
+  }
   #meso-facePage #meso-face .meso-facebg {
     height: 70vh;
   }
@@ -2216,6 +2236,9 @@ footer #socialMedia a:hover {
   #massagesPage #massages .massagesbg {
     height: 70vh;
   }
+  #mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
+    height: 70vh;
+  }
   #homeBox1Page #homeBox1 .homeBox1bg{
     height: 70vh;
   }
@@ -2223,6 +2246,12 @@ footer #socialMedia a:hover {
           height: 70vh;
         }
   #homeBox3Page #homeBox3 .homeBox3bg{
+    height: 70vh;
+  }
+  #therapiesPQPage #therapiesPQ .therapiesPQbg{
+    height: 70vh;
+  }
+  #profacialPage #profacial .profacialbg{
     height: 70vh;
   }
 }
@@ -2259,6 +2288,7 @@ footer #socialMedia a:hover {
   #header #header1 ul li a {
     color: white;
     line-height: 2.5rem;
+    font-size:0.9rem;
   }
   #header #header1 ul a {
     transition: background-color .8s;
@@ -2285,6 +2315,7 @@ footer #socialMedia a:hover {
     color: black;
     line-height: 2.5rem;
     transition: background-color .8s;
+    font-size:0.9rem;
   }
   #header #header2 ul li.disabled a {
     color: #7c616c;
@@ -2314,7 +2345,15 @@ footer #socialMedia a:hover {
     margin:0 10%;
     height: 80vh;
   }
+  #eyelashesPage #eyelashes .eyelashesbg {
+    margin:0 10%;
+    height: 80vh;
+  }
   #meso-facePage #meso-face .meso-facebg {
+    margin:0 10%;
+    height: 80vh;
+  }
+  #mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
     margin:0 10%;
     height: 80vh;
   }
@@ -2338,6 +2377,18 @@ footer #socialMedia a:hover {
     height: 80vh;
     margin:0 10%;
   }
+  #pochistvanePage #pochistvane .pochistvanebg{
+    height: 80vh;
+    margin:0 10%;
+  }
+  #therapiesPQPage #therapiesPQ .therapiesPQbg{
+    height: 80vh;
+    margin:0 10%;
+  }
+  #profacialPage #profacial .profacialbg{
+    height: 80vh;
+    margin:0 10%;
+  }
 
 }
 
@@ -2351,5 +2402,7 @@ footer #socialMedia a:hover {
   #homeBox2Page #homeBox2 .homeBox2bg {
     height: 100vh;
   }
-  
+  #productsPage #products {
+    margin-top: 12%;
+  }
 }
