@@ -124,7 +124,7 @@ body {
 
 #mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown hr {
   background-color: white;
-  width: 300px;
+  width: 75%;
 }
 
 #mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown>a.disabled {
