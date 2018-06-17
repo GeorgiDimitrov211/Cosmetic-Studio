@@ -121,6 +121,7 @@ body {
   background-color: #191919;
   height: 90vh;
   overflow: scroll;
+  padding-bottom:1vh;
 }
 
 #mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown hr {
