@@ -1,23 +1,25 @@
-$(document).ready(function(){
+$(document).ready(function () {
   $('#enerpeelBrandPage, #gatineauPage, #himichenPage, #homeBox1Page, #massagesPage, #medik8Page, #eyelashesPage, #mikrodermaobrazioPage, #pochistvanePage, #therapiesPQPage').append('<img id="toTop" src="./assets/images/Icons/upArrow.png"</img>');
-  if($('#toTop').length > 0) {
+  if ($('#toTop').length > 0) {
     $(window).scroll(function () {
       let toTop = $('#toTop');
       let toTopBottom = toTop.offset().top + toTop.height();
       let footerStart = $('footer').offset();
       // console.log(footerStart.top, toTopBottom)
-      if ($(this).scrollTop() != 0 ) {
+      if ($(this).scrollTop() != 0) {
         toTop.fadeIn();
       } else {
         toTop.fadeOut();
       }
-    }); 
-    $(toTop).click(function(){
-      $("html, body").animate({ scrollTop: 0 }, 600);
+    });
+    $(toTop).click(function () {
+      $("html, body").animate({
+        scrollTop: 0
+      }, 600);
       return false;
     });
   }
-  
+
   $('.testimonials-slick').slick({
     infinite: true,
     speed: 500,
@@ -25,49 +27,47 @@ $(document).ready(function(){
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000
-});
+  });
 
-$('.products-slick').slick({
-  infinite: true,
-  speed: 500,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  autoplay: false,
-  autoplaySpeed: 2000,
-  responsive: [
-    {
+  $('.products-slick').slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    responsive: [{
       breakpoint: 1200,
       settings: {
         slidesToShow: 1,
       }
-    }
-  ]
-});
-  
+    }]
+  });
+
   // animation for the two headers
   let lastScrollTop = 0;
   let header = $('#header');
-  $(window).scroll(function(event){
+  $(window).scroll(function (event) {
     let scrollTop = $(this).scrollTop();
-    if (scrollTop > lastScrollTop){
-      if(Modernizr.mq('(min-width: 992px)')){
+    if (scrollTop > lastScrollTop) {
+      if (Modernizr.mq('(min-width: 992px)')) {
         header.fadeOut();
-      } 
+      }
     } else {
-      if(Modernizr.mq('(min-width: 992px)')){
+      if (Modernizr.mq('(min-width: 992px)')) {
         header.fadeIn();
       }
     }
     lastScrollTop = scrollTop;
   });
-  
+
   //-------------------- Dropdown menu --------------------
 
   // Define the needed variables
   let cross = $('#mobileHeader #mobHead .cross');
   let hamburgerBtn = $('#mobileHeader .hamburgerBtn');
   let hamburgerMenu = $('#mobileHeader .hamburgerMenu');
-  let html =  $('html');
+  let html = $('html');
 
   // when click on hamburger menu, show links and cross, hide hamburger image
   hamburgerBtn.on('click', showLinks);
@@ -97,19 +97,30 @@ $('.products-slick').slick({
 
   // making the navigation link which you are now disabled
   let links = $('#header .nav .nav-item a');
-  links.each(function(){
+  links.each(function () {
     let linkName = $(this).attr('href');
-    if(linkName == ''){
+    if (linkName == '') {
       $(this).parent().addClass('disabled')
     }
   });
 
   let mobileLinks = $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown > .nav-link');
   // console.log(mobileLinks)
-  mobileLinks.each(function(){
+  mobileLinks.each(function () {
     let linkName = $(this).attr('href');
-    if(linkName == ''){
+    if (linkName == '') {
       $(this).addClass('disabled');
     }
   });
+  window.onresize = function () {
+    if (window.innerHeight < window.innerWidth) {
+      $('#mobileHeader #mobHead').css('height', '20vh');
+      $('#mobileHeader #mobHead .headerIcons').css('height', '20vh');
+      $('#mobileHeader #mobHead .hamburgerMenu').css('height', '80vh');
+    } else {
+      $('#mobileHeader #mobHead').css('height', '10vh');
+      $('#mobileHeader #mobHead .headerIcons').css('height', '10vh');
+      $('#mobileHeader #mobHead .hamburgerMenu').css('height', '90vh');
+    }
+  }
 });
