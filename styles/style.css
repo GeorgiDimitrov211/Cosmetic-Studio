@@ -136,7 +136,7 @@ body {
 }
 
 #mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown {
-  height: 90%;
+  padding-bottom:1vh;
 }
 
 #mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown a {
@@ -449,11 +449,11 @@ footer #socialMedia a:hover {
 /* Therapies */
 
 #therapiesPage {
-  margin-top: 9%;
+  margin-top: 20%;
 }
 
 #therapiesPage #therapies .row .therapy {
-  height:50vh;
+  height:60vh;
   font-family: 'Bad Script', cursive;
   position: relative;
   text-decoration: none;
@@ -2158,7 +2158,9 @@ footer #socialMedia a:hover {
     width: 250px;
     height: 250px;
   }
-  
+  #therapiesPage {
+    margin-top: 15%;
+  }
   #medik8Page #medik8 {
     margin-top: 15%;
   }
@@ -2257,7 +2259,9 @@ footer #socialMedia a:hover {
   #gatineauPage #gatineau {
     margin-top: 12%;
   }
-  
+  #therapiesPage {
+    margin-top: 10%;
+  }
 
   #medik8Page #medik8 .slick-prev {
     left: -50px;
@@ -2466,5 +2470,8 @@ footer #socialMedia a:hover {
   }
   #productsPage #products {
     margin-top: 12%;
+  }
+  #therapiesPage {
+    margin-top: 9%;
   }
 }
