@@ -77,7 +77,6 @@ body {
   position: fixed;
   top: 0;
   z-index: 1;
-  -webkit-transform: translate3d(0,0,0);
 }
 
 #mobileHeader * {
@@ -2338,7 +2337,6 @@ footer #socialMedia a:hover {
     position: fixed;
     top: 0;
     z-index: 1;
-    -webkit-transform: translate3d(0,0,0);
   }
   #header #header1 {
     background-color: #191919;

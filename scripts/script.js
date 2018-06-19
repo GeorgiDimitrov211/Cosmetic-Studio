@@ -3,8 +3,6 @@ $(document).ready(function () {
   if ($('#toTop').length > 0) {
     $(window).scroll(function () {
       let toTop = $('#toTop');
-      let toTopBottom = toTop.offset().top + toTop.height();
-      let footerStart = $('footer').offset();
       // console.log(footerStart.top, toTopBottom)
       if ($(this).scrollTop() != 0) {
         toTop.fadeIn();
