@@ -110,11 +110,12 @@ $(document).ready(function () {
       $(this).addClass('disabled');
     }
   });
+  // landscape navigation
   window.onresize = function () {
     if (window.innerHeight < window.innerWidth) {
-      $('#mobileHeader #mobHead').css('height', '20vh');
-      $('#mobileHeader #mobHead .headerIcons').css('height', '20vh');
-      $('#mobileHeader #mobHead .hamburgerMenu').css('height', '80vh');
+      $('#mobileHeader #mobHead').css('height', '10vw');
+      $('#mobileHeader #mobHead .headerIcons').css('height', '10vw');
+      $('#mobileHeader #mobHead .hamburgerMenu').css('height', '90vw');
     } else {
       $('#mobileHeader #mobHead').css('height', '10vh');
       $('#mobileHeader #mobHead .headerIcons').css('height', '10vh');
