@@ -2,7 +2,7 @@ $(document).ready(function () {
   $('#enerpeelBrandPage, #gatineauPage, #himichenPage, #homeBox1Page, #massagesPage, #medik8Page, #eyelashesPage, #mikrodermaobrazioPage, #pochistvanePage, #therapiesPQPage').append('<img id="toTop" src="./assets/images/Icons/upArrow.png"</img>');
   if ($('#toTop').length > 0) {
     $(window).scroll(function () {
-      let toTop = $('#toTop');
+      var toTop = $('#toTop');
       // console.log(footerStart.top, toTopBottom)
       if ($(this).scrollTop() != 0) {
         toTop.fadeIn();
@@ -43,10 +43,10 @@ $(document).ready(function () {
   });
 
   // animation for the two headers
-  let lastScrollTop = 0;
-  let header = $('#header');
+  var lastScrollTop = 0;
+  var header = $('#header');
   $(window).scroll(function (event) {
-    let scrollTop = $(this).scrollTop();
+    var scrollTop = $(this).scrollTop();
     if (scrollTop > lastScrollTop) {
       if (Modernizr.mq('(min-width: 992px)')) {
         header.fadeOut();
@@ -59,13 +59,19 @@ $(document).ready(function () {
     lastScrollTop = scrollTop;
   });
 
+
+
+
+
+
+
   //-------------------- Dropdown menu --------------------
 
   // Define the needed variables
-  let cross = $('#mobileHeader #mobHead .cross');
-  let hamburgerBtn = $('#mobileHeader .hamburgerBtn');
-  let hamburgerMenu = $('#mobileHeader .hamburgerMenu');
-  let html = $('html');
+  var cross = $('#mobileHeader #mobHead .cross');
+  var hamburgerBtn = $('#mobileHeader .hamburgerBtn');
+  var hamburgerMenu = $('#mobileHeader .hamburgerMenu');
+  var html = $('html');
 
   // when click on hamburger menu, show links and cross, hide hamburger image
   hamburgerBtn.on('click', showLinks);
@@ -94,18 +100,18 @@ $(document).ready(function () {
   }
 
   // making the navigation link which you are now disabled
-  let links = $('#header .nav .nav-item a');
+  var links = $('#header .nav .nav-item a');
   links.each(function () {
-    let linkName = $(this).attr('href');
+    var linkName = $(this).attr('href');
     if (linkName == '') {
       $(this).parent().addClass('disabled')
     }
   });
 
-  let mobileLinks = $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown > .nav-link');
+  var mobileLinks = $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown > .nav-link');
   // console.log(mobileLinks)
   mobileLinks.each(function () {
-    let linkName = $(this).attr('href');
+    var linkName = $(this).attr('href');
     if (linkName == '') {
       $(this).addClass('disabled');
     }
