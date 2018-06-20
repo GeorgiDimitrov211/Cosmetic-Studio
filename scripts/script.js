@@ -59,12 +59,6 @@ $(document).ready(function () {
     lastScrollTop = scrollTop;
   });
 
-
-
-
-
-
-
   //-------------------- Dropdown menu --------------------
 
   // Define the needed variables
@@ -72,33 +66,58 @@ $(document).ready(function () {
   var hamburgerBtn = $('#mobileHeader .hamburgerBtn');
   var hamburgerMenu = $('#mobileHeader .hamburgerMenu');
   var html = $('html');
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
-  // when click on hamburger menu, show links and cross, hide hamburger image
-  hamburgerBtn.on('click', showLinks);
+  if (iOS) {
+    $('.hamburgerBtn').click(function () {
+      $('.hamburgerMenu').css({
+        display: 'block'
+      });
+      $('.cross').css({
+        display: 'block'
+      });
+      $('.hamburgerBtn').css({
+        display: 'none'
+      });
+    })
+    $('.cross').click(function () {
+      $('.hamburgerMenu').css({
+        display: 'none'
+      });
+      $('.cross').css({
+        display: 'none'
+      });
+      $('.hamburgerBtn').css({
+        display: 'block'
+      });
+    })
+  } else {
+    // when click on hamburger menu, show links and cross, hide hamburger image
+    hamburgerBtn.on('click', showLinks);
 
-  // when click on cross, hide links and cross, show hamburger image
-  cross.on('click', hideLinks);
-  $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown a').on('click', hideLinks);
-  $('#mobileHeader #mobHead .headerIcons .logo').on('click', hideLinks)
-  // showLink function
-  function showLinks() {
-    hamburgerMenu.slideDown(500);
-    hamburgerBtn.hide(500);
-    cross.delay(350).show(500);
-    html.addClass('stop-scrolling');
-    $('body, html').bind('touchmove touchstart', function (e) {
-      e.preventDefault()
-    });
+    // when click on cross, hide links and cross, show hamburger image
+    cross.on('click', hideLinks);
+    $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown a').on('click', hideLinks);
+    $('#mobileHeader #mobHead .headerIcons .logo').on('click', hideLinks)
+    // showLink function
+    function showLinks() {
+      hamburgerMenu.slideDown(500);
+      hamburgerBtn.hide(500);
+      cross.delay(350).show(500);
+      html.addClass('stop-scrolling');
+      $('body, html').bind('touchmove touchstart', function (e) {
+        e.preventDefault()
+      });
+    }
+    // hideLinks function
+    function hideLinks() {
+      hamburgerMenu.slideUp(500);
+      hamburgerBtn.delay(350).show(500);
+      cross.hide(500);
+      html.removeClass('stop-scrolling');
+      $('body, html').unbind('touchmove touchstart');
+    }
   }
-  // hideLinks function
-  function hideLinks() {
-    hamburgerMenu.slideUp(500);
-    hamburgerBtn.delay(350).show(500);
-    cross.hide(500);
-    html.removeClass('stop-scrolling');
-    $('body, html').unbind('touchmove touchstart');
-  }
-
   // making the navigation link which you are now disabled
   var links = $('#header .nav .nav-item a');
   links.each(function () {
