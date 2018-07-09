@@ -500,7 +500,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row:nth-child(2) .therapy:last-child {
-  background-image: url('../assets/images/Services/profacial.jpg');
+  background-image: url('../assets/images/Services/aquafacial.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -1276,10 +1276,10 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* profacial */
+/* aquafacial */
 
-#profacialPage #profacial .profacialbg {
-  background-image: url('../assets/images/Services/terapiesSub/profacial.jpg');
+#aquafacialPage #aquafacial .aquafacialbg {
+  background-image: url('../assets/images/Services/terapiesSub/aquafacial.jpg');
   background-position: center;
   background-size: cover;
   height: 50vh;
@@ -1287,7 +1287,7 @@ footer #socialMedia a:hover {
   margin-top: 10vh;
 }
 
-#profacialPage #profacial .profacialbg p {
+#aquafacialPage #aquafacial .aquafacialbg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1302,45 +1302,45 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#profacialPage #profacial .text * {
+#aquafacialPage #aquafacial .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#profacialPage #profacial .text p {
+#aquafacialPage #aquafacial .text p {
   font-size: 1rem;
 }
 
-#profacialPage #profacial .text ul {
+#aquafacialPage #aquafacial .text ul {
   color: #980c4a;
 }
 
-#profacialPage #profacial .text ul p {
+#aquafacialPage #aquafacial .text ul p {
   color: black;
 }
 
-#profacialPage #profacial .text h4 {
+#aquafacialPage #aquafacial .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#profacialPage #profacial .text .bold {
+#aquafacialPage #aquafacial .text .bold {
   font-weight: bold;
 }
 
-#profacialPage #profacial .text .caps {
+#aquafacialPage #aquafacial .text .caps {
   text-transform: uppercase;
 }
 
-#profacialPage #profacial .btn {
+#aquafacialPage #aquafacial .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#profacialPage #profacial .btn:hover {
+#aquafacialPage #aquafacial .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -2225,7 +2225,7 @@ footer #socialMedia a:hover {
   #therapiesPQPage #therapiesPQ .therapiesPQbg {
     height: 60vh;
   }
-  #profacialPage #profacial .profacialbg {
+  #aquafacialPage #aquafacial .aquafacialbg {
     height: 60vh;
   }
   #homeBox3Page #homeBox3 .homeBox3bg p {
@@ -2315,7 +2315,7 @@ footer #socialMedia a:hover {
   #therapiesPQPage #therapiesPQ .therapiesPQbg {
     height: 70vh;
   }
-  #profacialPage #profacial .profacialbg {
+  #aquafacialPage #aquafacial .aquafacialbg {
     height: 70vh;
   }
 }
@@ -2454,7 +2454,7 @@ footer #socialMedia a:hover {
     height: 80vh;
     margin: 0 10%;
   }
-  #profacialPage #profacial .profacialbg {
+  #aquafacialPage #aquafacial .aquafacialbg {
     height: 80vh;
     margin: 0 10%;
   }
