@@ -500,7 +500,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row:nth-child(2) .therapy:last-child {
-  background-image: url('../assets/images/Services/aquafacial.jpg');
+  background-image: url('../assets/images/Services/profacial.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -1279,7 +1279,7 @@ footer #socialMedia a:hover {
 /* aquafacial */
 
 #aquafacialPage #aquafacial .aquafacialbg {
-  background-image: url('../assets/images/Services/terapiesSub/aquafacial.jpg');
+  background-image: url('../assets/images/Services/terapiesSub/profacial.jpg');
   background-position: center;
   background-size: cover;
   height: 50vh;
