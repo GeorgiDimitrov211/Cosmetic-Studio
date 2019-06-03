@@ -2,9 +2,11 @@
   0% {
     background-size: 100% 100%;
   }
+
   50% {
     background-size: 120% 120%;
   }
+
   100% {
     background-size: 100% 100%;
   }
@@ -14,9 +16,11 @@
   0% {
     background-size: 100% 100%;
   }
+
   50% {
     background-size: 120% 120%;
   }
+
   100% {
     background-size: 100% 100%;
   }
@@ -354,6 +358,19 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
+#homePage #brands {
+  background-color: #525252;
+  margin: 5rem 0;
+  padding: 1rem 0;
+}
+
+#homePage #brands h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: white;
+}
+
 #homePage #gift {
   margin: 0;
 }
@@ -524,7 +541,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row:last-child .therapy:first-child {
-  background-image: url('../assets/images/Services/masage.jpg');
+  background-image: url('../assets/images/Services/vacuum-shape-blur.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -1020,17 +1037,17 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* massages */
+/* vacuum */
 
-#massagesPage #massages .massagesbg {
-  background-image: url('../assets/images/Services/terapiesSub/masage.jpg');
+#vacuumPage #vacuum .vacuumbg {
+  background-image: url('../assets/images/Services/terapiesSub/vacuum-shape.jpg');
   background-position: center;
   background-size: cover;
   height: 50vh;
   position: relative;
 }
 
-#massagesPage #massages .massagesbg p {
+#vacuumPage #vacuum .vacuumbg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1045,41 +1062,41 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#massagesPage #massages .text * {
+#vacuumPage #vacuum .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#massagesPage #massages .text p {
+#vacuumPage #vacuum .text p {
   font-size: 1rem;
 }
 
-#massagesPage #massages .text ul {
+#vacuumPage #vacuum .text ul {
   color: #980c4a;
 }
 
-#massagesPage #massages .text ul p {
+#vacuumPage #vacuum .text ul p {
   color: black;
 }
 
-#massagesPage #massages .text h4 {
+#vacuumPage #vacuum .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#massagesPage #massages .text .caps {
+#vacuumPage #vacuum .text .caps {
   text-transform: uppercase;
 }
 
-#massagesPage #massages .btn {
+#vacuumPage #vacuum .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#massagesPage #massages .btn:hover {
+#vacuumPage #vacuum .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -2134,104 +2151,154 @@ footer #socialMedia a:hover {
 /* ---------------------- Different screens ---------------------- */
 
 @media only screen and (min-width: 576px) {
+  #homePage #brands {
+    background-color: #525252;
+    margin: 7em 0;
+    padding: 2rem 0;
+  }
+
+  #homePage #brands .brand-container {
+    width: 600px;
+    margin: auto;
+  }
+
   #homePage #intro #introName h1 {
     font-size: 4rem;
   }
+
   #homePage #intro #introName h3 {
     font-size: 2rem
   }
+
   #homePage #gift h2 {
     font-size: 2rem;
   }
+
+  #homePage #brands h2 {
+    font-size: 2rem;
+  }
+
   #aboutPage #name {
     padding: 15% 0 1% 0;
   }
+
   #aboutPage #testimonials h2 {
     font-size: 2rem;
   }
+
   #brandsPage #brands {
     margin-top: 15%;
   }
+
   #contactPage form h2 {
     font-size: 2rem;
   }
+
   #gatineauPage #gatineau {
     margin-top: 15%;
   }
+
   #gatineauPage #gatineau>h3 {
     font-size: 1.2rem;
   }
+
   #gatineauPage #gatineau .gatineau-row h3 {
     font-size: 2rem;
   }
+
   #gatineauPage #gatineau .gatineau-row .gatineau-item img {
     width: 250px;
     height: 250px;
   }
+
   #therapiesPage {
     margin-top: 15%;
   }
+
   #medik8Page #medik8 {
     margin-top: 15%;
   }
+
   #medik8Page #medik8>h3 {
     font-size: 1.2rem;
   }
+
   #medik8Page #medik8 .medik8-row h3 {
     font-size: 2rem;
   }
+
   #medik8Page #medik8 .medik8-row .medik8-item img {
     width: 250px;
     height: 250px;
   }
+
   #himichenPage #himichen .himichenbg {
     height: 60vh;
   }
+
   #medik8BrandPage #medik8Brand .medik8Brandbg {
     height: 70vh;
   }
+
   #oxygenPage #oxygen .oxygenbg {
     height: 60vh;
   }
+
   #meso-facePage #meso-face .meso-facebg {
     height: 60vh;
   }
+
   #meso-celulitPage #meso-celulit .meso-celulitbg {
     height: 60vh;
   }
-  #massagesPage #massages .massagesbg {
+
+  #vacuumPage #vacuum .vacuumbg {
     height: 60vh;
   }
+
+  #vacuumPage #vacuum .text .bold {
+    font-weight: bold;
+  }
+
   #eyelashesPage #eyelashes .eyelashesbg {
     height: 60vh;
   }
+
   #mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
     height: 60vh;
   }
+
   #homeBox1Page #homeBox1 .homeBox1bg p {
     font-size: 2rem;
     line-height: 3rem
   }
+
   #homeBox1Page #homeBox1 .homeBox1bg {
     height: 60vh;
   }
+
   #homeBox2Page #homeBox2 .homeBox2bg {
     height: 60vh;
     background-position: center;
   }
+
   #homeBox3Page #homeBox3 .homeBox3bg {
     height: 60vh;
   }
+
   #therapiesPQPage #therapiesPQ .therapiesPQbg {
     height: 60vh;
   }
+
   #aquafacialPage #aquafacial .aquafacialbg {
     height: 60vh;
   }
+
   #homeBox3Page #homeBox3 .homeBox3bg p {
     font-size: 2rem;
     line-height: 3rem
   }
+
   #productsPage #products {
     margin-top: 15%;
   }
@@ -2241,9 +2308,11 @@ footer #socialMedia a:hover {
   #aboutPage #name {
     padding: 13% 0 1% 0;
   }
+
   #brandsPage #brands {
     margin-top: 13%;
   }
+
   #contactPage #contact #info {
     position: absolute;
     bottom: 0;
@@ -2254,82 +2323,107 @@ footer #socialMedia a:hover {
     font-size: 1rem;
     width: auto;
   }
+
   #filledFormPage h2 {
     font-size: 2rem;
   }
+
   #gatineauPage #gatineau .slick-prev {
     left: -50px;
   }
+
   #gatineauPage #gatineau .slick-next {
     right: -50px;
   }
+
   #gatineauPage #gatineau {
     margin-top: 12%;
   }
+
   #therapiesPage {
     margin-top: 10%;
   }
+
   #medik8Page #medik8 .slick-prev {
     left: -50px;
   }
+
   #medik8Page #medik8 .slick-next {
     right: -50px;
   }
+
   #medik8Page #medik8 {
     margin-top: 12%;
   }
+
   #himichenPage #himichen .himichenbg {
     height: 70vh;
   }
+
   #medik8BrandPage #medik8Brand .medik8Brandbg {
     height: auto;
     background-position: center;
   }
+
   #oxygenPage #oxygen .oxygenbg {
     height: 70vh;
   }
+
   #eyelashesPage #eyelashes .eyelashesbg {
     height: 70vh;
   }
+
   #meso-facePage #meso-face .meso-facebg {
     height: 70vh;
   }
+
   #meso-celulitPage #meso-celulit .meso-celulitbg {
     height: 70vh;
   }
-  #massagesPage #massages .massagesbg {
+
+  #vacuumPage #vacuum .vacuumbg {
     height: 70vh;
   }
+
   #mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
     height: 70vh;
   }
+
   #homeBox1Page #homeBox1 .homeBox1bg {
     height: 70vh;
   }
+
   #homeBox2Page #homeBox2 .homeBox2bg {
     height: 70vh;
   }
+
   #homeBox3Page #homeBox3 .homeBox3bg {
     height: 70vh;
   }
+
   #therapiesPQPage #therapiesPQ .therapiesPQbg {
     height: 70vh;
   }
+
   #aquafacialPage #aquafacial .aquafacialbg {
     height: 70vh;
   }
 }
 
 @media only screen and (min-width: 992px) {
+
   #aboutPage #name {
     padding: 11% 0 1% 0;
   }
+
   #mobileHeader {
     display: none;
   }
+
   #header * {
     font-family: 'Roboto Slab', serif;
   }
+
   #header {
     display: block;
     padding: 0;
@@ -2337,50 +2431,61 @@ footer #socialMedia a:hover {
     top: 0;
     z-index: 1;
   }
+
   #header #header1 {
     background-color: #191919;
     padding: 0;
   }
+
   #header #header1 ul {
     padding: 0;
   }
+
   #header #header1 ul li.disabled a {
     color: #7c616c;
     cursor: default;
     pointer-events: none;
   }
+
   #header #header1 ul li a {
     color: white;
     line-height: 2.5rem;
     font-size: 0.9rem;
   }
+
   #header #header1 ul a {
     -webkit-transition: background-color .8s;
     transition: background-color .8s;
   }
+
   #header #header1 ul li:nth-child(n):nth-last-child(n+3) a:hover {
     background-color: rgba(198, 198, 198);
     color: black;
   }
+
   #header #header1 ul li:nth-last-child(-n+2) a {
     -webkit-transition: -webkit-transform .5s;
     transition: -webkit-transform .5s;
     transition: transform .5s;
     transition: transform .5s, -webkit-transform .5s;
   }
+
   #header #header1 ul li:nth-last-child(-n+2) a:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
     -webkit-filter: drop-shadow(0px 0px 2px grey);
     filter: drop-shadow(0px 0px 2px grey);
   }
+
   #header #header2 {
     background-color: rgb(198, 198, 198);
     padding: 0;
   }
+
   #header #header2 ul {
     padding: 0;
   }
+
   #header #header2 ul li a {
     color: black;
     line-height: 2.5rem;
@@ -2388,72 +2493,90 @@ footer #socialMedia a:hover {
     transition: background-color .8s;
     font-size: 0.9rem;
   }
+
   #header #header2 ul li.disabled a {
     color: #7c616c;
     cursor: default;
     pointer-events: none;
   }
+
   #header #header2 ul li a:hover {
     background-color: #191919;
     color: white;
   }
+
   #brandsPage #brands {
     margin-top: 13%;
   }
+
   #gatineauPage #gatineau {
     margin-top: 11%;
   }
+
   #medik8Page #medik8 {
     margin-top: 11%;
   }
+
   #himichenPage #himichen .himichenbg {
     margin: 0 10%;
     height: 80vh;
   }
+
   #oxygenPage #oxygen .oxygenbg {
     margin: 0 10%;
     height: 80vh;
   }
+
   #eyelashesPage #eyelashes .eyelashesbg {
     margin: 0 10%;
     height: 80vh;
   }
+
   #meso-facePage #meso-face .meso-facebg {
     margin: 0 10%;
     height: 80vh;
   }
+
   #mikrodermaobrazioPage #mikrodermaobrazio .mikrodermaobraziobg {
     margin: 0 10%;
     height: 80vh;
   }
+
   #meso-celulitPage #meso-celulit .meso-celulitbg {
     margin: 0 10%;
     height: 80vh;
   }
-  #massagesPage #massages .massagesbg {
+
+  #vacuumPage #vacuum .vacuumbg {
     margin: 0 10%;
     height: 80vh;
   }
+
   #homeBox1Page #homeBox1 .homeBox1bg {
     height: 80vh;
     margin: 0 10%;
   }
+
   #homeBox2Page #homeBox2 .homeBox2bg {
     height: 80vh;
     margin: 0 10%;
   }
+
   #homeBox3Page #homeBox3 .homeBox3bg {
     height: 80vh;
     margin: 0 10%;
   }
+
   #pochistvanePage #pochistvane .pochistvanebg {
     height: 80vh;
     margin: 0 10%;
   }
+
   #therapiesPQPage #therapiesPQ .therapiesPQbg {
     height: 80vh;
     margin: 0 10%;
   }
+
   #aquafacialPage #aquafacial .aquafacialbg {
     height: 80vh;
     margin: 0 10%;
@@ -2461,18 +2584,26 @@ footer #socialMedia a:hover {
 }
 
 @media only screen and (min-width: 1200px) {
+  #homePage #brands .brand-container {
+    width: 100%;
+  }
+
   #aboutPage #name {
     padding: 9% 0 1% 0;
   }
+
   #brandsPage #brands {
     margin-top: 10%;
   }
+
   #homeBox2Page #homeBox2 .homeBox2bg {
     height: 100vh;
   }
+
   #productsPage #products {
     margin-top: 12%;
   }
+
   #therapiesPage {
     margin-top: 9%;
   }
