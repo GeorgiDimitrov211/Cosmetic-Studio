@@ -599,6 +599,9 @@ footer #socialMedia a:hover {
 #pricelistPage #pricelist .card-body div strong {
   font-weight: 700;
 }
+#pricelistPage #pricelist .card-body div .no-white-space {
+  white-space: nowrap;
+}
 
 #pricelistPage main>.btn {
   font-weight: bold;
