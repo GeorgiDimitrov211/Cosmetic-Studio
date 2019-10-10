@@ -408,11 +408,43 @@ footer #socialMedia a:hover {
   border: 1px solid #7c616c;
 }
 
+#homePage #testimonials {
+  background-color: #f6eff5;
+  font-family: 'Roboto Slab', serif;
+}
+
+#homePage #testimonials h2 {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#homePage #testimonials .testimonial .tmText .tmName {
+  color: #5c283d;
+  font-weight: 700;
+}
+
+#homePage #testimonials .testimonial .tm-image {
+  width: 120px;
+  padding: 0;
+}
+
+#homePage #testimonials .testimonial .tmText .tmProf {
+  color: #7c616c;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
 /* about me */
 
 #aboutPage #name {
   padding: 20% 0 1% 0;
   font-size: 2rem;
+}
+
+#aboutPage .vasilena {
+  width: 250px;
 }
 
 #aboutPage #text p {
@@ -437,29 +469,6 @@ footer #socialMedia a:hover {
 #aboutPage .btn:hover {
   color: white;
   background-color: #7c616c;
-}
-
-#aboutPage #testimonials {
-  background-color: #f6eff5;
-  font-family: 'Roboto Slab', serif;
-}
-
-#aboutPage #testimonials h2 {
-  font-family: 'Comfortaa', cursive;
-  text-transform: uppercase;
-  color: black;
-  font-size: 1.5rem;
-}
-
-#aboutPage #testimonials .testimonial .tmText .tmName {
-  color: #5c283d;
-  font-weight: 700;
-}
-
-#aboutPage #testimonials .testimonial .tmText .tmProf {
-  color: #7c616c;
-  font-weight: 700;
-  font-size: 1.2rem;
 }
 
 /* Therapies */
@@ -599,6 +608,7 @@ footer #socialMedia a:hover {
 #pricelistPage #pricelist .card-body div strong {
   font-weight: 700;
 }
+
 #pricelistPage #pricelist .card-body div .no-white-space {
   white-space: nowrap;
 }
@@ -1863,9 +1873,9 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* homeBox1 */
+/* proceduri-za-lice */
 
-#homeBox1Page #homeBox1 .homeBox1bg {
+#proceduri-za-licePage #proceduri-za-lice .proceduri-za-licebg {
   background-image: url('../assets/images/Home/model-face-beautiful-black-and-white-407035-2.jpg');
   background-position: center;
   background-size: cover;
@@ -1874,7 +1884,7 @@ footer #socialMedia a:hover {
   margin-top: 5%;
 }
 
-#homeBox1Page #homeBox1 .homeBox1bg p {
+#proceduri-za-licePage #proceduri-za-lice .proceduri-za-licebg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1888,68 +1898,68 @@ footer #socialMedia a:hover {
   color: #980c4a
 }
 
-#homeBox1Page #homeBox1 .text * {
+#proceduri-za-licePage #proceduri-za-lice .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#homeBox1Page #homeBox1 .text p {
+#proceduri-za-licePage #proceduri-za-lice .text p {
   font-size: 1rem;
 }
 
-#homeBox1Page #homeBox1 .text ul {
+#proceduri-za-licePage #proceduri-za-lice .text ul {
   color: #980c4a;
 }
 
-#homeBox1Page #homeBox1 .text ul p {
+#proceduri-za-licePage #proceduri-za-lice .text ul p {
   color: black;
 }
 
-#homeBox1Page #homeBox1 .text h4 {
+#proceduri-za-licePage #proceduri-za-lice .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#homeBox1Page #homeBox1 .text .bold {
+#proceduri-za-licePage #proceduri-za-lice .text .bold {
   font-weight: bold;
 }
 
-#homeBox1Page #homeBox1 .text .caps {
+#proceduri-za-licePage #proceduri-za-lice .text .caps {
   text-transform: uppercase;
 }
 
-#homeBox1Page #homeBox1 .text .pink {
+#proceduri-za-licePage #proceduri-za-lice .text .pink {
   color: #980c4a;
 }
 
-#homeBox1Page #homeBox1 .btn {
+#proceduri-za-licePage #proceduri-za-lice .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#homeBox1Page #homeBox1 .btn:hover {
+#proceduri-za-licePage #proceduri-za-lice .btn:hover {
   color: white;
   background-color: #7c616c;
 }
 
-/* homeBox2 */
+/* kozmetichni-proceduri-griji */
 
-#homeBox2Page #homeBox2 {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji {
   margin-top: 7%;
   padding: 0 !important;
 }
 
-#homeBox2Page #homeBox2 .homeBox2bg {
-  background-image: url('../assets/images/Home/homebox2.jpg');
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg {
+  background-image: url('../assets/images/Home/kozmetichni-proceduri-griji.jpg');
   background-size: cover;
   position: relative;
   height: 60vh;
 }
 
-#homeBox2Page #homeBox2 .homeBox2bg p {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1963,56 +1973,56 @@ footer #socialMedia a:hover {
   color: #980c4a
 }
 
-#homeBox2Page #homeBox2 .text * {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#homeBox2Page #homeBox2 .text p {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text p {
   font-size: 1rem;
 }
 
-#homeBox2Page #homeBox2 .text ul {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text ul {
   color: #980c4a;
 }
 
-#homeBox2Page #homeBox2 .text ul p {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text ul p {
   color: black;
 }
 
-#homeBox2Page #homeBox2 .text h4 {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#homeBox2Page #homeBox2 .text .bold {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .bold {
   font-weight: bold;
 }
 
-#homeBox2Page #homeBox2 .text .caps {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .caps {
   text-transform: uppercase;
 }
 
-#homeBox2Page #homeBox2 .text .pink {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .pink {
   color: #980c4a;
 }
 
-#homeBox2Page #homeBox2 .btn {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#homeBox2Page #homeBox2 .btn:hover {
+#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .btn:hover {
   color: white;
   background-color: #7c616c;
 }
 
-/* homeBox3 */
+/* medicinska-kozmetika */
 
-#homeBox3Page #homeBox3 .homeBox3bg {
+#medicinska-kozmetikaPage #medicinska-kozmetika .medicinska-kozmetikabg {
   background-image: url('../assets/images/Home/news3.jpg');
   background-position: center;
   background-size: cover;
@@ -2021,7 +2031,7 @@ footer #socialMedia a:hover {
   margin-top: 5%;
 }
 
-#homeBox3Page #homeBox3 .homeBox3bg p {
+#medicinska-kozmetikaPage #medicinska-kozmetika .medicinska-kozmetikabg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -2035,49 +2045,49 @@ footer #socialMedia a:hover {
   color: #980c4a
 }
 
-#homeBox3Page #homeBox3 .text * {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#homeBox3Page #homeBox3 .text p {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text p {
   font-size: 1rem;
 }
 
-#homeBox3Page #homeBox3 .text strong {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text strong {
   font-weight: bold;
 }
 
-#homeBox3Page #homeBox3 .text ul {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text ul {
   color: #980c4a;
 }
 
-#homeBox3Page #homeBox3 .text ul p {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text ul p {
   color: black;
 }
 
-#homeBox3Page #homeBox3 .text h4 {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#homeBox3Page #homeBox3 .text .caps {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text .caps {
   text-transform: uppercase;
 }
 
-#homeBox3Page #homeBox3 .text .pink {
+#medicinska-kozmetikaPage #medicinska-kozmetika .text .pink {
   color: #980c4a;
 }
 
-#homeBox3Page #homeBox3 .btn {
+#medicinska-kozmetikaPage #medicinska-kozmetika .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#homeBox3Page #homeBox3 .btn:hover {
+#medicinska-kozmetikaPage #medicinska-kozmetika .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -2181,12 +2191,12 @@ footer #socialMedia a:hover {
     font-size: 2rem;
   }
 
-  #aboutPage #name {
-    padding: 15% 0 1% 0;
+  #homePage #testimonials h2 {
+    font-size: 2rem;
   }
 
-  #aboutPage #testimonials h2 {
-    font-size: 2rem;
+  #aboutPage #name {
+    padding: 15% 0 1% 0;
   }
 
   #brandsPage #brands {
@@ -2271,21 +2281,21 @@ footer #socialMedia a:hover {
     height: 60vh;
   }
 
-  #homeBox1Page #homeBox1 .homeBox1bg p {
+  #proceduri-za-licePage #proceduri-za-lice .proceduri-za-licebg p {
     font-size: 2rem;
     line-height: 3rem
   }
 
-  #homeBox1Page #homeBox1 .homeBox1bg {
+  #proceduri-za-licePage #proceduri-za-lice .proceduri-za-licebg {
     height: 60vh;
   }
 
-  #homeBox2Page #homeBox2 .homeBox2bg {
+  #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg {
     height: 60vh;
     background-position: center;
   }
 
-  #homeBox3Page #homeBox3 .homeBox3bg {
+  #medicinska-kozmetikaPage #medicinska-kozmetika .medicinska-kozmetikabg {
     height: 60vh;
   }
 
@@ -2297,7 +2307,7 @@ footer #socialMedia a:hover {
     height: 60vh;
   }
 
-  #homeBox3Page #homeBox3 .homeBox3bg p {
+  #medicinska-kozmetikaPage #medicinska-kozmetika .medicinska-kozmetikabg p {
     font-size: 2rem;
     line-height: 3rem
   }
@@ -2392,15 +2402,15 @@ footer #socialMedia a:hover {
     height: 70vh;
   }
 
-  #homeBox1Page #homeBox1 .homeBox1bg {
+  #proceduri-za-licePage #proceduri-za-lice .proceduri-za-licebg {
     height: 70vh;
   }
 
-  #homeBox2Page #homeBox2 .homeBox2bg {
+  #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg {
     height: 70vh;
   }
 
-  #homeBox3Page #homeBox3 .homeBox3bg {
+  #medicinska-kozmetikaPage #medicinska-kozmetika .medicinska-kozmetikabg {
     height: 70vh;
   }
 
@@ -2555,17 +2565,17 @@ footer #socialMedia a:hover {
     height: 80vh;
   }
 
-  #homeBox1Page #homeBox1 .homeBox1bg {
+  #proceduri-za-licePage #proceduri-za-lice .proceduri-za-licebg {
     height: 80vh;
     margin: 0 10%;
   }
 
-  #homeBox2Page #homeBox2 .homeBox2bg {
+  #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg {
     height: 80vh;
     margin: 0 10%;
   }
 
-  #homeBox3Page #homeBox3 .homeBox3bg {
+  #medicinska-kozmetikaPage #medicinska-kozmetika .medicinska-kozmetikabg {
     height: 80vh;
     margin: 0 10%;
   }
@@ -2599,7 +2609,7 @@ footer #socialMedia a:hover {
     margin-top: 10%;
   }
 
-  #homeBox2Page #homeBox2 .homeBox2bg {
+  #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg {
     height: 100vh;
   }
 

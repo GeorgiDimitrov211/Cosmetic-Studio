@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('#enerpeelBrandPage, #gatineauPage, #himichenPage, #homeBox1Page, #massagesPage, #medik8Page, #eyelashesPage, #mikrodermaobrazioPage, #pochistvanePage, #therapiesPQPage').append('<img id="toTop" src="./assets/images/Icons/upArrow.png"</img>');
+  $('body').append('<img id="toTop" src="./assets/images/Icons/upArrow.png"</img>');
   if ($('#toTop').length > 0) {
     $(window).scroll(function () {
       var toTop = $('#toTop');
@@ -43,21 +43,21 @@ $(document).ready(function () {
   });
 
   // animation for the two headers
-  var lastScrollTop = 0;
-  var header = $('#header');
-  $(window).scroll(function (event) {
-    var scrollTop = $(this).scrollTop();
-    if (scrollTop > lastScrollTop) {
-      if (Modernizr.mq('(min-width: 992px)')) {
-        header.fadeOut();
-      }
-    } else {
-      if (Modernizr.mq('(min-width: 992px)')) {
-        header.fadeIn();
-      }
-    }
-    lastScrollTop = scrollTop;
-  });
+  // var lastScrollTop = 0;
+  // var header = $('#header');
+  // $(window).scroll(function (event) {
+  //   var scrollTop = $(this).scrollTop();
+  //   if (scrollTop > lastScrollTop) {
+  //     if (Modernizr.mq('(min-width: 992px)')) {
+  //       header.fadeOut();
+  //     }
+  //   } else {
+  //     if (Modernizr.mq('(min-width: 992px)')) {
+  //       header.fadeIn();
+  //     }
+  //   }
+  //   lastScrollTop = scrollTop;
+  // });
 
   //-------------------- Dropdown menu --------------------
 
