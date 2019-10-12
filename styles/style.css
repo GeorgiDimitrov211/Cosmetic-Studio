@@ -30,8 +30,12 @@ img {
   max-width: 100%;
 }
 
-strong {
-  font-weight: 700;
+.bold {
+  font-weight: 600 !important;
+}
+
+.caps {
+  text-transform: uppercase !important;
 }
 
 body * {
@@ -324,7 +328,7 @@ footer #socialMedia a:hover {
 }
 
 #homePage #cards .card:first-child .imageHeading {
-  background-image: url('../assets/images/Home/PochistvaneLice.jpg');
+  background-image: url('../assets/images/Home/proceduri-za-lice-pochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -496,7 +500,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row:first-child .therapy:first-child {
-  background-image: url('../assets/images/Services/PochistvaneLice.jpg');
+  background-image: url('../assets/images/Services/proceduri-za-lice-pochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -792,10 +796,6 @@ footer #socialMedia a:hover {
 
 /* medik8 */
 
-#medik8Page #medik8 .bold {
-  font-weight: bold;
-}
-
 #medik8Page #medik8 {
   margin-top: 22%;
 }
@@ -865,10 +865,6 @@ footer #socialMedia a:hover {
 }
 
 /* gatineau */
-
-#gatineauPage #gatineau .bold {
-  font-weight: bold;
-}
 
 #gatineauPage #gatineau {
   margin-top: 22%;
@@ -1098,10 +1094,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#vacuumPage #vacuum .text .caps {
-  text-transform: uppercase;
-}
-
 #vacuumPage #vacuum .btn {
   border-color: #7c616c;
   font-weight: bold;
@@ -1160,10 +1152,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#eyelashesPage #eyelashes .text .caps {
-  text-transform: uppercase;
 }
 
 #eyelashesPage #eyelashes .btn {
@@ -1226,10 +1214,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#mikrodermaobrazioPage #mikrodermaobrazio .text .caps {
-  text-transform: uppercase;
-}
-
 #mikrodermaobrazioPage #mikrodermaobrazio .btn {
   border-color: #7c616c;
   font-weight: bold;
@@ -1242,17 +1226,17 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* pochistvane */
+/* proceduri-za-lice-pochistvane */
 
-#pochistvanePage #pochistvane .pochistvanebg {
-  background-image: url('../assets/images/Services/terapiesSub/PochistvaneLice.jpg');
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .proceduri-za-lice-pochistvanebg {
+  background-image: url('../assets/images/Services/terapiesSub/proceduri-za-lice-pochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
   height: 50vh;
   position: relative;
 }
 
-#pochistvanePage #pochistvane .pochistvanebg p {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .proceduri-za-lice-pochistvanebg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1267,41 +1251,37 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#pochistvanePage #pochistvane .text * {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text * {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
-#pochistvanePage #pochistvane .text p {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text p {
   font-size: 1rem;
 }
 
-#pochistvanePage #pochistvane .text ul {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text ul {
   color: #980c4a;
 }
 
-#pochistvanePage #pochistvane .text ul p {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text ul p {
   color: black;
 }
 
-#pochistvanePage #pochistvane .text h4 {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#pochistvanePage #pochistvane .text .caps {
-  text-transform: uppercase;
-}
-
-#pochistvanePage #pochistvane .btn {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#pochistvanePage #pochistvane .btn:hover {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -1353,14 +1333,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#aquafacialPage #aquafacial .text .bold {
-  font-weight: bold;
-}
-
-#aquafacialPage #aquafacial .text .caps {
-  text-transform: uppercase;
 }
 
 #aquafacialPage #aquafacial .btn {
@@ -1424,14 +1396,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#meso-celulitPage #meso-celulit .text .bold {
-  font-weight: bold;
-}
-
-#meso-celulitPage #meso-celulit .text .caps {
-  text-transform: uppercase;
-}
-
 #meso-celulitPage #meso-celulit .btn {
   border-color: #7c616c;
   font-weight: bold;
@@ -1493,14 +1457,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#meso-facePage #meso-face .text .bold {
-  font-weight: bold;
-}
-
-#meso-facePage #meso-face .text .caps {
-  text-transform: uppercase;
-}
-
 #meso-facePage #meso-face .btn {
   border-color: #7c616c;
   font-weight: bold;
@@ -1555,18 +1511,10 @@ footer #socialMedia a:hover {
   color: black;
 }
 
-#himichenPage #himichen .text p.bold {
-  font-weight: bold;
-}
-
 #himichenPage #himichen .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#himichenPage #himichen .text .caps {
-  text-transform: uppercase;
 }
 
 #himichenPage #himichen .btn {
@@ -1611,14 +1559,6 @@ footer #socialMedia a:hover {
 
 #enerpeelBrandPage #enerpeelBrand .text p.pink {
   color: #980c4a;
-}
-
-#enerpeelBrandPage #enerpeelBrand .text p.bold {
-  font-weight: bold;
-}
-
-#enerpeelBrandPage #enerpeelBrand .text .caps {
-  text-transform: uppercase;
 }
 
 #enerpeelBrandPage #enerpeelBrand .text ul p {
@@ -1678,14 +1618,6 @@ footer #socialMedia a:hover {
 
 #gatineauBrandPage #gatineauBrand .text .pink {
   color: #980c4a;
-}
-
-#gatineauBrandPage #gatineauBrand .text .bold {
-  font-weight: bold;
-}
-
-#gatineauBrandPage #gatineauBrand .text .caps {
-  text-transform: uppercase;
 }
 
 #gatineauBrandPage #gatineauBrand .text ul p {
@@ -1755,14 +1687,6 @@ footer #socialMedia a:hover {
 
 #medik8BrandPage #medik8Brand .text .pink {
   color: #980c4a;
-}
-
-#medik8BrandPage #medik8Brand .text .bold {
-  font-weight: bold;
-}
-
-#medik8BrandPage #medik8Brand .text .caps {
-  text-transform: uppercase;
 }
 
 #medik8BrandPage #medik8Brand .text ul p {
@@ -1840,14 +1764,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
 }
 
-#promoitaliaBrandPage #promoitaliaBrand .text .bold {
-  font-weight: bold;
-}
-
-#promoitaliaBrandPage #promoitaliaBrand .text .caps {
-  text-transform: uppercase;
-}
-
 #promoitaliaBrandPage #promoitaliaBrand .text ul p {
   text-transform: none;
 }
@@ -1921,14 +1837,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#proceduri-za-licePage #proceduri-za-lice .text .bold {
-  font-weight: bold;
-}
-
-#proceduri-za-licePage #proceduri-za-lice .text .caps {
-  text-transform: uppercase;
-}
-
 #proceduri-za-licePage #proceduri-za-lice .text .pink {
   color: #980c4a;
 }
@@ -1994,14 +1902,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .bold {
-  font-weight: bold;
-}
-
-#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .caps {
-  text-transform: uppercase;
 }
 
 #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .pink {
@@ -2070,10 +1970,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#medicinska-kozmetikaPage #medicinska-kozmetika .text .caps {
-  text-transform: uppercase;
 }
 
 #medicinska-kozmetikaPage #medicinska-kozmetika .text .pink {
@@ -2267,10 +2163,6 @@ footer #socialMedia a:hover {
 
   #vacuumPage #vacuum .vacuumbg {
     height: 60vh;
-  }
-
-  #vacuumPage #vacuum .text .bold {
-    font-weight: bold;
   }
 
   #eyelashesPage #eyelashes .eyelashesbg {
@@ -2580,7 +2472,7 @@ footer #socialMedia a:hover {
     margin: 0 10%;
   }
 
-  #pochistvanePage #pochistvane .pochistvanebg {
+  #proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .proceduri-za-lice-pochistvanebg {
     height: 80vh;
     margin: 0 10%;
   }
