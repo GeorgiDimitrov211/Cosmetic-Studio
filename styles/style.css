@@ -26,16 +26,44 @@
   }
 }
 
+h2 {
+  color: #980c4a;
+  font-size: 1.5rem;
+  font-family: 'Comfortaa', cursive !important;
+}
+
+h3 {
+  color: #980c4a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive !important;
+}
+
+h4 {
+  color: #980c4a;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive !important;
+}
+
+ul li {
+  color: black;
+}
+
 img {
   max-width: 100%;
 }
 
-strong {
-  font-weight: 700;
+.bold {
+  font-weight: 600 !important;
+}
+
+.caps {
+  text-transform: uppercase !important;
 }
 
 body * {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto Slab', serif;
 }
 
 html,
@@ -792,10 +820,6 @@ footer #socialMedia a:hover {
 
 /* medik8 */
 
-#medik8Page #medik8 .bold {
-  font-weight: bold;
-}
-
 #medik8Page #medik8 {
   margin-top: 22%;
 }
@@ -865,10 +889,6 @@ footer #socialMedia a:hover {
 }
 
 /* gatineau */
-
-#gatineauPage #gatineau .bold {
-  font-weight: bold;
-}
 
 #gatineauPage #gatineau {
   margin-top: 22%;
@@ -963,11 +983,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#therapiesPQPage #therapiesPQ .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #therapiesPQPage #therapiesPQ .text p {
   font-size: 1rem;
 }
@@ -1013,11 +1028,6 @@ footer #socialMedia a:hover {
   line-height: 3rem;
   font-family: 'Bad Script', cursive;
   color: #661c3a;
-}
-
-#oxygenPage #oxygen .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
 }
 
 #oxygenPage #oxygen .text p {
@@ -1075,11 +1085,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#vacuumPage #vacuum .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #vacuumPage #vacuum .text p {
   font-size: 1rem;
 }
@@ -1096,10 +1101,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#vacuumPage #vacuum .text .caps {
-  text-transform: uppercase;
 }
 
 #vacuumPage #vacuum .btn {
@@ -1139,11 +1140,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#eyelashesPage #eyelashes .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #eyelashesPage #eyelashes .text p {
   font-size: 1rem;
 }
@@ -1160,10 +1156,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#eyelashesPage #eyelashes .text .caps {
-  text-transform: uppercase;
 }
 
 #eyelashesPage #eyelashes .btn {
@@ -1203,11 +1195,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#mikrodermaobrazioPage #mikrodermaobrazio .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #mikrodermaobrazioPage #mikrodermaobrazio .text p {
   font-size: 1rem;
 }
@@ -1226,10 +1213,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#mikrodermaobrazioPage #mikrodermaobrazio .text .caps {
-  text-transform: uppercase;
-}
-
 #mikrodermaobrazioPage #mikrodermaobrazio .btn {
   border-color: #7c616c;
   font-weight: bold;
@@ -1242,9 +1225,9 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* pochistvane */
+/* proceduri-za-lice-pochistvane */
 
-#pochistvanePage #pochistvane .pochistvanebg {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .proceduri-za-lice-pochistvanebg {
   background-image: url('../assets/images/Services/terapiesSub/PochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
@@ -1252,7 +1235,7 @@ footer #socialMedia a:hover {
   position: relative;
 }
 
-#pochistvanePage #pochistvane .pochistvanebg p {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .proceduri-za-lice-pochistvanebg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1267,41 +1250,32 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#pochistvanePage #pochistvane .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
-#pochistvanePage #pochistvane .text p {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text p {
   font-size: 1rem;
 }
 
-#pochistvanePage #pochistvane .text ul {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text ul {
   color: #980c4a;
 }
 
-#pochistvanePage #pochistvane .text ul p {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text ul p {
   color: black;
 }
 
-#pochistvanePage #pochistvane .text h4 {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#pochistvanePage #pochistvane .text .caps {
-  text-transform: uppercase;
-}
-
-#pochistvanePage #pochistvane .btn {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#pochistvanePage #pochistvane .btn:hover {
+#proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -1332,11 +1306,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#aquafacialPage #aquafacial .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #aquafacialPage #aquafacial .text p {
   font-size: 1rem;
 }
@@ -1353,14 +1322,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#aquafacialPage #aquafacial .text .bold {
-  font-weight: bold;
-}
-
-#aquafacialPage #aquafacial .text .caps {
-  text-transform: uppercase;
 }
 
 #aquafacialPage #aquafacial .btn {
@@ -1401,11 +1362,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#meso-celulitPage #meso-celulit .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #meso-celulitPage #meso-celulit .text p {
   font-size: 1rem;
 }
@@ -1422,14 +1378,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#meso-celulitPage #meso-celulit .text .bold {
-  font-weight: bold;
-}
-
-#meso-celulitPage #meso-celulit .text .caps {
-  text-transform: uppercase;
 }
 
 #meso-celulitPage #meso-celulit .btn {
@@ -1470,11 +1418,6 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#meso-facePage #meso-face .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #meso-facePage #meso-face .text p {
   font-size: 1rem;
 }
@@ -1493,14 +1436,6 @@ footer #socialMedia a:hover {
   font-weight: normal;
 }
 
-#meso-facePage #meso-face .text .bold {
-  font-weight: bold;
-}
-
-#meso-facePage #meso-face .text .caps {
-  text-transform: uppercase;
-}
-
 #meso-facePage #meso-face .btn {
   border-color: #7c616c;
   font-weight: bold;
@@ -1513,9 +1448,9 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* himichen */
+/* himichen-piling */
 
-#himichenPage #himichen .himichenbg {
+#himichen-pilingPage #himichen-piling .himichen-pilingbg {
   background-image: url('../assets/images/Services/terapiesSub/химичен.jpg');
   background-position: center;
   background-size: cover;
@@ -1523,7 +1458,7 @@ footer #socialMedia a:hover {
   position: relative;
 }
 
-#himichenPage #himichen .himichenbg p {
+#himichen-pilingPage #himichen-piling .himichen-pilingbg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1538,45 +1473,32 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#himichenPage #himichen .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
-#himichenPage #himichen .text p {
+#himichen-pilingPage #himichen-piling .text p {
   font-size: 1rem;
 }
 
-#himichenPage #himichen .text ul {
+#himichen-pilingPage #himichen-piling .text ul {
   color: #980c4a;
 }
 
-#himichenPage #himichen .text ul p {
+#himichen-pilingPage #himichen-piling .text ul p {
   color: black;
 }
 
-#himichenPage #himichen .text p.bold {
-  font-weight: bold;
-}
-
-#himichenPage #himichen .text h4 {
+#himichen-pilingPage #himichen-piling .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#himichenPage #himichen .text .caps {
-  text-transform: uppercase;
-}
-
-#himichenPage #himichen .btn {
+#himichen-pilingPage #himichen-piling .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#himichenPage #himichen .btn:hover {
+#himichen-pilingPage #himichen-piling .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -1596,11 +1518,6 @@ footer #socialMedia a:hover {
   font-weight: 200;
 }
 
-#enerpeelBrandPage #enerpeelBrand .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #enerpeelBrandPage #enerpeelBrand .text p {
   font-size: 1rem;
 }
@@ -1611,14 +1528,6 @@ footer #socialMedia a:hover {
 
 #enerpeelBrandPage #enerpeelBrand .text p.pink {
   color: #980c4a;
-}
-
-#enerpeelBrandPage #enerpeelBrand .text p.bold {
-  font-weight: bold;
-}
-
-#enerpeelBrandPage #enerpeelBrand .text .caps {
-  text-transform: uppercase;
 }
 
 #enerpeelBrandPage #enerpeelBrand .text ul p {
@@ -1667,25 +1576,12 @@ footer #socialMedia a:hover {
   font-weight: 200;
 }
 
-#gatineauBrandPage #gatineauBrand .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #gatineauBrandPage #gatineauBrand .text p {
   font-size: 1rem;
 }
 
 #gatineauBrandPage #gatineauBrand .text .pink {
   color: #980c4a;
-}
-
-#gatineauBrandPage #gatineauBrand .text .bold {
-  font-weight: bold;
-}
-
-#gatineauBrandPage #gatineauBrand .text .caps {
-  text-transform: uppercase;
 }
 
 #gatineauBrandPage #gatineauBrand .text ul p {
@@ -1744,25 +1640,12 @@ footer #socialMedia a:hover {
   font-weight: 200;
 }
 
-#medik8BrandPage #medik8Brand .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #medik8BrandPage #medik8Brand .text p {
   font-size: 1rem;
 }
 
 #medik8BrandPage #medik8Brand .text .pink {
   color: #980c4a;
-}
-
-#medik8BrandPage #medik8Brand .text .bold {
-  font-weight: bold;
-}
-
-#medik8BrandPage #medik8Brand .text .caps {
-  text-transform: uppercase;
 }
 
 #medik8BrandPage #medik8Brand .text ul p {
@@ -1827,25 +1710,12 @@ footer #socialMedia a:hover {
   padding-bottom: 5%;
 }
 
-#promoitaliaBrandPage #promoitaliaBrand .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #promoitaliaBrandPage #promoitaliaBrand .text p {
   font-size: 1rem;
 }
 
 #promoitaliaBrandPage #promoitaliaBrand .text .pink {
   color: #980c4a;
-}
-
-#promoitaliaBrandPage #promoitaliaBrand .text .bold {
-  font-weight: bold;
-}
-
-#promoitaliaBrandPage #promoitaliaBrand .text .caps {
-  text-transform: uppercase;
 }
 
 #promoitaliaBrandPage #promoitaliaBrand .text ul p {
@@ -1898,11 +1768,6 @@ footer #socialMedia a:hover {
   color: #980c4a
 }
 
-#proceduri-za-licePage #proceduri-za-lice .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #proceduri-za-licePage #proceduri-za-lice .text p {
   font-size: 1rem;
 }
@@ -1919,14 +1784,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#proceduri-za-licePage #proceduri-za-lice .text .bold {
-  font-weight: bold;
-}
-
-#proceduri-za-licePage #proceduri-za-lice .text .caps {
-  text-transform: uppercase;
 }
 
 #proceduri-za-licePage #proceduri-za-lice .text .pink {
@@ -1973,11 +1830,6 @@ footer #socialMedia a:hover {
   color: #980c4a
 }
 
-#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text p {
   font-size: 1rem;
 }
@@ -1994,14 +1846,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .bold {
-  font-weight: bold;
-}
-
-#kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .caps {
-  text-transform: uppercase;
 }
 
 #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .text .pink {
@@ -2045,11 +1889,6 @@ footer #socialMedia a:hover {
   color: #980c4a
 }
 
-#medicinska-kozmetikaPage #medicinska-kozmetika .text * {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
 #medicinska-kozmetikaPage #medicinska-kozmetika .text p {
   font-size: 1rem;
 }
@@ -2070,10 +1909,6 @@ footer #socialMedia a:hover {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
-}
-
-#medicinska-kozmetikaPage #medicinska-kozmetika .text .caps {
-  text-transform: uppercase;
 }
 
 #medicinska-kozmetikaPage #medicinska-kozmetika .text .pink {
@@ -2245,7 +2080,7 @@ footer #socialMedia a:hover {
     height: 250px;
   }
 
-  #himichenPage #himichen .himichenbg {
+  #himichen-pilingPage #himichen-piling .himichen-pilingbg {
     height: 60vh;
   }
 
@@ -2267,10 +2102,6 @@ footer #socialMedia a:hover {
 
   #vacuumPage #vacuum .vacuumbg {
     height: 60vh;
-  }
-
-  #vacuumPage #vacuum .text .bold {
-    font-weight: bold;
   }
 
   #eyelashesPage #eyelashes .eyelashesbg {
@@ -2369,7 +2200,7 @@ footer #socialMedia a:hover {
     margin-top: 12%;
   }
 
-  #himichenPage #himichen .himichenbg {
+  #himichen-pilingPage #himichen-piling .himichen-pilingbg {
     height: 70vh;
   }
 
@@ -2530,7 +2361,7 @@ footer #socialMedia a:hover {
     margin-top: 11%;
   }
 
-  #himichenPage #himichen .himichenbg {
+  #himichen-pilingPage #himichen-piling .himichen-pilingbg {
     margin: 0 10%;
     height: 80vh;
   }
@@ -2580,7 +2411,7 @@ footer #socialMedia a:hover {
     margin: 0 10%;
   }
 
-  #pochistvanePage #pochistvane .pochistvanebg {
+  #proceduri-za-lice-pochistvanePage #proceduri-za-lice-pochistvane .proceduri-za-lice-pochistvanebg {
     height: 80vh;
     margin: 0 10%;
   }
