@@ -46,6 +46,11 @@ h4 {
   font-family: 'Comfortaa', cursive !important;
 }
 
+.link {
+  color: #980c4a;
+  text-decoration: underline;
+}
+
 ul li {
   color: black;
 }
@@ -583,6 +588,12 @@ footer #socialMedia a:hover {
   background-size: cover;
 }
 
+#therapiesPage #therapies .row:last-child .therapy:nth-child(2) {
+  background-image: url('../assets/images/Services/razorlase.png');
+  background-position: center;
+  background-size: cover;
+}
+
 #therapiesPage .btn {
   font-weight: bold;
   border: 1px solid #7c616c;
@@ -1111,6 +1122,61 @@ footer #socialMedia a:hover {
 }
 
 #vacuumPage #vacuum .btn:hover {
+  color: white;
+  background-color: #7c616c;
+}
+
+/* lazerna-epilacia */
+
+#lazerna-epilaciaPage #lazerna-epilacia .lazerna-epilaciabg {
+  background-image: url('../assets/images/Services/terapiesSub/razorlase.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .lazerna-epilaciabg p {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding: 2%;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-family: 'Bad Script', cursive;
+  color: #661c3a;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .text p {
+  font-size: 1rem;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .text ul {
+  color: #980c4a;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .text ul p {
+  color: black;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .text h4 {
+  color: #980c4a;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .btn {
+  border-color: #7c616c;
+  font-weight: bold;
+  -webkit-transition: background-color 0.8s;
+  transition: background-color 0.8s;
+}
+
+#lazerna-epilaciaPage #lazerna-epilacia .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -2104,6 +2170,10 @@ footer #socialMedia a:hover {
     height: 60vh;
   }
 
+  #lazerna-epilaciaPage #lazerna-epilacia .lazerna-epilaciabg {
+    height: 60vh;
+  }
+
   #eyelashesPage #eyelashes .eyelashesbg {
     height: 60vh;
   }
@@ -2226,6 +2296,10 @@ footer #socialMedia a:hover {
   }
 
   #vacuumPage #vacuum .vacuumbg {
+    height: 70vh;
+  }
+
+  #lazerna-epilaciaPage #lazerna-epilacia .lazerna-epilaciabg {
     height: 70vh;
   }
 
@@ -2392,6 +2466,11 @@ footer #socialMedia a:hover {
   }
 
   #vacuumPage #vacuum .vacuumbg {
+    margin: 0 10%;
+    height: 80vh;
+  }
+
+  #lazerna-epilaciaPage #lazerna-epilacia .lazerna-epilaciabg {
     margin: 0 10%;
     height: 80vh;
   }
