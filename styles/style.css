@@ -352,7 +352,7 @@ footer #socialMedia a:hover {
 }
 
 #homePage #cards .card:first-child .imageHeading {
-  background-image: url('../assets/images/Home/PochistvaneLice.jpg');
+  background-image: url('../assets/images/Home/proceduri-za-lice-pochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -524,7 +524,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row:first-child .therapy:first-child {
-  background-image: url('../assets/images/Services/PochistvaneLice.jpg');
+  background-image: url('../assets/images/Services/proceduri-za-lice-pochistvaneLice.jpg');
   background-position: center;
   background-size: cover;
 }
