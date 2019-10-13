@@ -100,6 +100,34 @@ body {
   width: 140px;
 }
 
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-arrow {
+  width: 10px;
+}
+
+.dropdown-menu {
+  background: #191919;
+}
+
+.nav-link.dropdown-toggle {
+  color: #7c616c;
+}
+
+.dropdown-item.disabled {
+  color: #7c616c !important;
+  cursor: default;
+  pointer-events: none;
+}
+
+.therapies-dropdown.mobile .dropdown-item:hover {
+  color: inherit;
+  background-color: inherit;
+}
+
+
 /* Header
 -----------------------------------------------------------------------------*/
 

@@ -8,13 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link href="styles/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext"
     rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+  <link href="styles/style.css" rel="stylesheet">
   <meta name="format-detection" content="telephone=no">
   <meta name="image" content="https://kozmetikvasilena.com/assets/images/ogimage.jpg">
   <meta itemprop="name" content="Василена Янчева | козметик, кинезитерапевт | град Варна">
@@ -49,7 +50,29 @@
             <a class="nav-link" href="about.html">За мен</a>
           </li>
           <li class="nav-item align-middle">
-            <a class="nav-link" href="therapies.html">Терапии</a>
+            <div class="therapies-dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span>Терапии</span>
+                <span class="ml-2">
+                  <img class="dropdown-arrow" src="./assets/images/Icons/Header/drop-down-open.png" alt="">
+                </span>
+              </a>
+
+              <div class="dropdown-menu mt-0 border-0 rounded-0" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="mikrodermaobrazio.html">Диамантено микродермаобразио</a>
+                <a class="dropdown-item" href="kislorodna-terapia.html">Кислородна терапия</a>
+                <a class="dropdown-item" href="himichen-piling.html">Химичен пилинг</a>
+                <a class="dropdown-item" href="pq-age-himichen-piling.html">PQ Age пилинг от ново поколение</a>
+                <a class="dropdown-item" href="aquafacial-kozmetichni-proceduri.html">Aquafacial</a>
+                <a class="dropdown-item" href="mezoterapia-za-lice.html">Мезотерапия за подмладяване</a>
+                <a class="dropdown-item" href="premahvane-na-celulit-mezoterapia.html">Мезотерапия срещу целулит</a>
+                <a class="dropdown-item" href="postaviane-na-migli-kosum-po-kosum-varna.html">Поставяне на екстеншъни за
+                  мигли</a>
+                <a class="dropdown-item" href="otslabvane-bez-dieta-vacuum-shape.html">Vacuum Shape</a>
+                <a class="dropdown-item" href="lazerna-epilacia-varna.html">Лазерна епилация с Razorlase</a>
+              </div>
+            </div>
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" href="pricelist.html">Ценоразпис</a>
@@ -93,12 +116,51 @@
           </a>
         </div>
         <div class="hamburgerMenu">
-          <div id="hamburgerDropdown" class="dropdown-content d-flex flex-column justify-content-between align-items-center">
+          <div id="hamburgerDropdown"
+            class="dropdown-content d-flex flex-column justify-content-between align-items-center">
             <a class="nav-link p-2 w-75" href="index.html">Начало</a>
             <hr>
             <a class="nav-link p-2 w-75" href="about.html">За мен</a>
             <hr>
-            <a class="nav-link p-2 w-75" href="therapies.html">Терапии</a>
+            <div class="therapies-dropdown mobile col-12 p-2">
+
+              <a class=" bg-transparent border-0 w-100" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                <span>Терапии</span>
+                <span class="ml-1"><img class="dropdown-arrow" src="./assets/images/Icons/Header/drop-down-open.png"
+                    alt=""></span>
+              </a>
+              <div class="collapse" id="collapseExample">
+                <hr class="mt-4 px-2 mx-auto">
+                <div class="col-12 col-sm-8 col-md-6 m-auto py-3">
+                  <a class="dropdown-item px-0" href="mikrodermaobrazio.html">Диамантено микродермаобразио</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="kislorodna-terapia.html">Кислородна терапия</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="himichen-piling.html">Химичен пилинг</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="pq-age-himichen-piling.html">PQ Age пилинг от ново поколение</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="aquafacial-kozmetichni-proceduri.html">Aquafacial</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="mezoterapia-za-lice.html">Мезотерапия за подмладяване</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="premahvane-na-celulit-mezoterapia.html">Мезотерапия срещу
+                    целулит</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="postaviane-na-migli-kosum-po-kosum-varna.html">Поставяне на
+                    екстеншъни
+                    за
+                    мигли</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+
+                  <a class="dropdown-item px-0" href="otslabvane-bez-dieta-vacuum-shape.html">Vacuum Shape</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="lazerna-epilacia-varna.html">Лазерна епилация с Razorlase</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                </div>
+              </div>
+            </div>
             <hr>
             <a class="nav-link p-2 w-75" href="pricelist.html">Ценоразпис</a>
             <hr>
@@ -123,46 +185,69 @@
         <p>Защо трябва да използваме професионална и правилно подбрана козметика?</p>
       </div>
       <div class="text col-md-10 offset-md-1 col-12 offset-0 justify-content-center text-left mt-3">
-        <p>Всички искаме да сме млади и красиви. Хората от всички времена са мечтали да запазят младостта си и са измисляли
+        <p>Всички искаме да сме млади и красиви. Хората от всички времена са мечтали да запазят младостта си и са
+          измисляли
           различни начини да го правят. Все още на никой не се е отдало да постигне това, но
-          <strong>науката и технологиите, с които днешните изследователи са въоръжени, все пак носят плодове под формата на козметика,
-            която може да забави стареенето, да намали производството на себум, да изглади фините линии и бръчки, да въздейства
+          <strong>науката и технологиите, с които днешните изследователи са въоръжени, все пак носят плодове под формата
+            на козметика,
+            която може да забави стареенето, да намали производството на себум, да изглади фините линии и бръчки, да
+            въздейства
             върху хиперпигментацията и други.</strong>
         </p>
-        <p>Възможностите на козметичната индустрия днес стават все по-големи и по-неочаквани. Е, вярно, че няма магически кремове,
-          но със сигурност съществуват такива, които са с пъти по-качествени и „чудодейни” от продуктите, за масова употреба.
+        <p>Възможностите на козметичната индустрия днес стават все по-големи и по-неочаквани. Е, вярно, че няма
+          магически кремове,
+          но със сигурност съществуват такива, които са с пъти по-качествени и „чудодейни” от продуктите, за масова
+          употреба.
           Най-просто разделяна
           <strong>бялата козметика</strong> се категоризира на
           <strong>масова, аптечна, селективна и професионална: </strong>
         </p>
         <p>
-          <strong>Масовата </strong>е най-разпространеният и многочислен клас козметика, която не притежава никакви по-спецефични
-          почистващи, подхранващи или лечебни свойства, независимо дали такива са изброени на опаковката. Този вид козметика
+          <strong>Масовата </strong>е най-разпространеният и многочислен клас козметика, която не притежава никакви
+          по-спецефични
+          почистващи, подхранващи или лечебни свойства, независимо дали такива са изброени на опаковката. Този вид
+          козметика
           може само да ви избави от стягането на кожата след измиването с вода с високо съдържание на хлор.</p>
         <p>
-          <strong>Аптечната бяла козметика </strong>се продава предимно в аптеките, като там се предлага и специализирана лечебна
+          <strong>Аптечната бяла козметика </strong>се продава предимно в аптеките, като там се предлага и
+          специализирана лечебна
           козметика, на която не й достигат параметри, за да бъде селективна.
         </p>
         <p>
-          <strong>Селективната включва </strong>„маркова” козметика, която в повечето случаи е производство на големи модни къщи,
-          които разполагат със собствени интститути и лаборатории. Тя се предлага и продава от обучен консултант в специализирани
-          бутици или отдели на големите вериги магазини. Цената на селективната козметика е висока не само заради по-високото
-          си качество, но и заради името на марката и скъпата опаковка, които възлизат на около 30% от цената на един продукт.
-          Предимството на селективната козметика пред масовата, например, е че първата до голяма степен притежава козметични
-          и лечебни качества, способни да се справят с по-сериозни кожни проблеми като бръчки, пигментни петна, пъпки, акне,
+          <strong>Селективната включва </strong>„маркова” козметика, която в повечето случаи е производство на големи
+          модни къщи,
+          които разполагат със собствени интститути и лаборатории. Тя се предлага и продава от обучен консултант в
+          специализирани
+          бутици или отдели на големите вериги магазини. Цената на селективната козметика е висока не само заради
+          по-високото
+          си качество, но и заради името на марката и скъпата опаковка, които възлизат на около 30% от цената на един
+          продукт.
+          Предимството на селективната козметика пред масовата, например, е че първата до голяма степен притежава
+          козметични
+          и лечебни качества, способни да се справят с по-сериозни кожни проблеми като бръчки, пигментни петна, пъпки,
+          акне,
           дехидратация, прекалено омазняване, целулит и прочие.</p>
         <p>
-          <strong>Професионалната козметика</strong> е предназначена за използване в условията на козметичен кабинет, но има и домашни
-          серии, създадени, за да продължи третирането на кожата успешно и след специализираната козметична процедура. Тя
-          не се продава в магазините, нито в аптеките. Козметиците я закупуват от специализирани фирми, които разработват
-          тези средства. Същите тези фирми обучават козметиците как да ползват тяхната продукция. Професионалната козметика
-          съдържа съвършено различни компоненти, за разлика от обичайните козметики. В нея се съдържат активни вещества с
-          висока концентрация, които дават изключителна ефикасност при процедури като избелване, моделиране, кислородостимулиране,
-          пилинг, себорея, хиперпигментация, грижа за кожата около очите, антицелулитни, спа процедури и т.н. Разликата не
+          <strong>Професионалната козметика</strong> е предназначена за използване в условията на козметичен кабинет, но
+          има и домашни
+          серии, създадени, за да продължи третирането на кожата успешно и след специализираната козметична процедура.
+          Тя
+          не се продава в магазините, нито в аптеките. Козметиците я закупуват от специализирани фирми, които
+          разработват
+          тези средства. Същите тези фирми обучават козметиците как да ползват тяхната продукция. Професионалната
+          козметика
+          съдържа съвършено различни компоненти, за разлика от обичайните козметики. В нея се съдържат активни вещества
+          с
+          висока концентрация, които дават изключителна ефикасност при процедури като избелване, моделиране,
+          кислородостимулиране,
+          пилинг, себорея, хиперпигментация, грижа за кожата около очите, антицелулитни, спа процедури и т.н. Разликата
+          не
           е само в състава.</p>
         <p>
-          <strong>От основно значение е кожата да разпознае и усвои съставките. Това се постига с правилни и стабилизирани формули,
-            които масовите и аптечни продукти не притежават.</strong> Освен това се произвежда в пълни серии - почистване,
+          <strong>От основно значение е кожата да разпознае и усвои съставките. Това се постига с правилни и
+            стабилизирани формули,
+            които масовите и аптечни продукти не притежават.</strong> Освен това се произвежда в пълни серии -
+          почистване,
           тонизиране, интензивна грижа и защита.</p>
         <h4>Това са фактите, на Вас оставям да прецените, кое е по – добро за Вашата кожа.</h4>
       </div>
@@ -173,10 +258,12 @@
   <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
-    <div id="contact" class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
+    <div id="contact"
+      class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
       <div class="mb-lg-0 mb-3">
         <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="Location icon">
-        <a class="pb-1 align-baseline" target="_blank" rel="noopener" href="https://www.google.com/maps/place/ul.+%22Graf+Ignatiev%22+17,+9000+Varna+Center,+Varna,+Bulgaria/@43.1996488,27.9178259,19z/data=!4m5!3m4!1s0x40a453f0b0f635db:0xf4da935dafb6fb80!8m2!3d43.1995436!4d27.9182512"
+        <a class="pb-1 align-baseline" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/place/ul.+%22Graf+Ignatiev%22+17,+9000+Varna+Center,+Varna,+Bulgaria/@43.1996488,27.9178259,19z/data=!4m5!3m4!1s0x40a453f0b0f635db:0xf4da935dafb6fb80!8m2!3d43.1995436!4d27.9182512"
           target="_blank">гр. Варна, ул. "Граф Игнатиев" 17</a>
       </div>
       <div class="">
@@ -185,12 +272,14 @@
       </div>
       <div class="mt-lg-0 mt-3">
         <img class="mr-3 " src="./assets/images/Icons/Foote/Email.svg" alt="email icon">
-        <a class="pb-1 align-baseline" href="mailto:kozmetikvasilena@gmail.com" target="_top">kozmetikvasilena@gmail.com</a>
+        <a class="pb-1 align-baseline" href="mailto:kozmetikvasilena@gmail.com"
+          target="_top">kozmetikvasilena@gmail.com</a>
       </div>
     </div>
     <!-- end of contact -->
     <hr size="30">
-    <div id="workingHours" class="row col-xl-8 col-10 justify-content-around flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
+    <div id="workingHours"
+      class="row col-xl-8 col-10 justify-content-around flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
       <div class="mt-sm-0 mt-4">
         <p>Вторник - Събота</p>
         <p>10:00 - 19:00</p>
@@ -212,12 +301,14 @@
     <!-- end of socialMedia -->
   </footer>
   <!-- end of footer -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="scripts/script.js"></script>

@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link
     href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700 &subset=cyrillic,cyrillic-ext"
     rel="stylesheet">
@@ -50,7 +50,29 @@
             <a class="nav-link" href="">За мен</a>
           </li>
           <li class="nav-item align-middle">
-            <a class="nav-link" href="therapies.html">Терапии</a>
+            <div class="therapies-dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span>Терапии</span>
+                <span class="ml-2">
+                  <img class="dropdown-arrow" src="./assets/images/Icons/Header/drop-down-open.png" alt="">
+                </span>
+              </a>
+
+              <div class="dropdown-menu mt-0 border-0 rounded-0" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="mikrodermaobrazio.html">Диамантено микродермаобразио</a>
+                <a class="dropdown-item" href="kislorodna-terapia.html">Кислородна терапия</a>
+                <a class="dropdown-item" href="himichen-piling.html">Химичен пилинг</a>
+                <a class="dropdown-item" href="pq-age-himichen-piling.html">PQ Age пилинг от ново поколение</a>
+                <a class="dropdown-item" href="aquafacial-kozmetichni-proceduri.html">Aquafacial</a>
+                <a class="dropdown-item" href="mezoterapia-za-lice.html">Мезотерапия за подмладяване</a>
+                <a class="dropdown-item" href="premahvane-na-celulit-mezoterapia.html">Мезотерапия срещу целулит</a>
+                <a class="dropdown-item" href="postaviane-na-migli-kosum-po-kosum-varna.html">Поставяне на екстеншъни за
+                  мигли</a>
+                <a class="dropdown-item" href="otslabvane-bez-dieta-vacuum-shape.html">Vacuum Shape</a>
+                <a class="dropdown-item" href="lazerna-epilacia-varna.html">Лазерна епилация с Razorlase</a>
+              </div>
+            </div>
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" href="pricelist.html">Ценоразпис</a>
@@ -96,15 +118,53 @@
         <div class="hamburgerMenu">
           <div id="hamburgerDropdown"
             class="dropdown-content d-flex flex-column justify-content-between align-items-center">
-            <a class="nav-link p-2 w-75" href="index.html">Начало</a>
+            <a class="nav-link p-2 col-12 col-sm-9" href="index.html">Начало</a>
             <hr>
-            <a class="nav-link p-2 w-75" href="">За мен</a>
+            <a class="nav-link p-2 col-12 col-sm-9" href="">За мен</a>
             <hr>
-            <a class="nav-link p-2 w-75" href="therapies.html">Терапии</a>
+            <div class="therapies-dropdown mobile col-12 p-2">
+
+              <a class=" bg-transparent border-0 w-100" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                <span>Терапии</span>
+                <span class="ml-1"><img class="dropdown-arrow" src="./assets/images/Icons/Header/drop-down-open.png"
+                    alt=""></span>
+              </a>
+              <div class="collapse" id="collapseExample">
+                <hr class="mt-4 px-2 mx-auto">
+                <div class="col-12 col-sm-8 col-md-6 m-auto py-3">
+                  <a class="dropdown-item px-0" href="mikrodermaobrazio.html">Диамантено микродермаобразио</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="kislorodna-terapia.html">Кислородна терапия</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="himichen-piling.html">Химичен пилинг</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="pq-age-himichen-piling.html">PQ Age пилинг от ново поколение</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="aquafacial-kozmetichni-proceduri.html">Aquafacial</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="mezoterapia-za-lice.html">Мезотерапия за подмладяване</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="premahvane-na-celulit-mezoterapia.html">Мезотерапия срещу
+                    целулит</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="postaviane-na-migli-kosum-po-kosum-varna.html">Поставяне на
+                    екстеншъни
+                    за
+                    мигли</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+
+                  <a class="dropdown-item px-0" href="otslabvane-bez-dieta-vacuum-shape.html">Vacuum Shape</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="lazerna-epilacia-varna.html">Лазерна епилация с Razorlase</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                </div>
+              </div>
+            </div>
             <hr>
-            <a class="nav-link p-2 w-75" href="pricelist.html">Ценоразпис</a>
+            <a class="nav-link p-2 col-12 col-sm-9" href="pricelist.html">Ценоразпис</a>
             <hr>
-            <a class="nav-link p-2 w-75" href="contact.html">Контакти</a>
+            <a class="nav-link p-2 col-12 col-sm-9" href="contact.html">Контакти</a>
             <hr>
 
             <div class="d-flex">

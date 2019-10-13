@@ -8,11 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link href="styles/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css?family=Bad+Script|Comfortaa:300,400,700|Roboto+Slab:100,300,400,700&amp;subset=cyrillic,cyrillic-ext"
     rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
   <meta name="format-detection" content="telephone=no">
   <meta name="image" content="https://kozmetikvasilena.com/assets/images/ogimage.jpg">
   <meta itemprop="name" content="Василена Янчева | козметик, кинезитерапевт | град Варна">
@@ -49,7 +50,29 @@
             <a class="nav-link" href="about.html">За мен</a>
           </li>
           <li class="nav-item align-middle">
-            <a class="nav-link" href="therapies.html">Терапии</a>
+            <div class="therapies-dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span>Терапии</span>
+                <span class="ml-2">
+                  <img class="dropdown-arrow" src="./assets/images/Icons/Header/drop-down-open.png" alt="">
+                </span>
+              </a>
+
+              <div class="dropdown-menu mt-0 border-0 rounded-0" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="mikrodermaobrazio.html">Диамантено микродермаобразио</a>
+                <a class="dropdown-item" href="kislorodna-terapia.html">Кислородна терапия</a>
+                <a class="dropdown-item" href="himichen-piling.html">Химичен пилинг</a>
+                <a class="dropdown-item" href="pq-age-himichen-piling.html">PQ Age пилинг от ново поколение</a>
+                <a class="dropdown-item" href="aquafacial-kozmetichni-proceduri.html">Aquafacial</a>
+                <a class="dropdown-item" href="mezoterapia-za-lice.html">Мезотерапия за подмладяване</a>
+                <a class="dropdown-item" href="premahvane-na-celulit-mezoterapia.html">Мезотерапия срещу целулит</a>
+                <a class="dropdown-item" href="postaviane-na-migli-kosum-po-kosum-varna.html">Поставяне на екстеншъни за
+                  мигли</a>
+                <a class="dropdown-item" href="otslabvane-bez-dieta-vacuum-shape.html">Vacuum Shape</a>
+                <a class="dropdown-item" href="lazerna-epilacia-varna.html">Лазерна епилация с Razorlase</a>
+              </div>
+            </div>
           </li>
           <li class="nav-item align-middle">
             <a class="nav-link" href="pricelist.html">Ценоразпис</a>
@@ -93,12 +116,51 @@
           </a>
         </div>
         <div class="hamburgerMenu">
-          <div id="hamburgerDropdown" class="dropdown-content d-flex flex-column justify-content-between align-items-center">
+          <div id="hamburgerDropdown"
+            class="dropdown-content d-flex flex-column justify-content-between align-items-center">
             <a class="nav-link p-2 w-75" href="index.html">Начало</a>
             <hr>
             <a class="nav-link p-2 w-75" href="about.html">За мен</a>
             <hr>
-            <a class="nav-link p-2 w-75" href="therapies.html">Терапии</a>
+            <div class="therapies-dropdown mobile col-12 p-2">
+
+              <a class=" bg-transparent border-0 w-100" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                <span>Терапии</span>
+                <span class="ml-1"><img class="dropdown-arrow" src="./assets/images/Icons/Header/drop-down-open.png"
+                    alt=""></span>
+              </a>
+              <div class="collapse" id="collapseExample">
+                <hr class="mt-4 px-2 mx-auto">
+                <div class="col-12 col-sm-8 col-md-6 m-auto py-3">
+                  <a class="dropdown-item px-0" href="mikrodermaobrazio.html">Диамантено микродермаобразио</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="kislorodna-terapia.html">Кислородна терапия</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="himichen-piling.html">Химичен пилинг</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="pq-age-himichen-piling.html">PQ Age пилинг от ново поколение</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="aquafacial-kozmetichni-proceduri.html">Aquafacial</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="mezoterapia-za-lice.html">Мезотерапия за подмладяване</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="premahvane-na-celulit-mezoterapia.html">Мезотерапия срещу
+                    целулит</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="postaviane-na-migli-kosum-po-kosum-varna.html">Поставяне на
+                    екстеншъни
+                    за
+                    мигли</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+
+                  <a class="dropdown-item px-0" href="otslabvane-bez-dieta-vacuum-shape.html">Vacuum Shape</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                  <a class="dropdown-item px-0" href="lazerna-epilacia-varna.html">Лазерна епилация с Razorlase</a>
+                  <hr class="col-8 col-sm-12 mt-2">
+                </div>
+              </div>
+            </div>
             <hr>
             <a class="nav-link p-2 w-75" href="pricelist.html">Ценоразпис</a>
             <hr>
@@ -123,36 +185,55 @@
 
       </div>
       <div class="text col-xl-9 col-lg-8 d-flex flex-column justify-content-start text-left mt-xl-4 mt-lg-5 mt-md-2 ">
-        <p>Историята на Medik8 започва през 2004 година, когато група от фармаколози и биохимици, начело с Елиот Айзъкс, обединяват
-          своите усилия в изследователската лаборатория Панджиа в Лондон, за да създадат уникална козметична линия. Елиот
-          Айзъкс специализира „Физиология и фармакология” в Медицинския факултет на университета в Лийдс. Той е носител на
-          пет световни патента в областта на новите технологи в козметологията и автор на научни публикации в областта на
+        <p>Историята на Medik8 започва през 2004 година, когато група от фармаколози и биохимици, начело с Елиот Айзъкс,
+          обединяват
+          своите усилия в изследователската лаборатория Панджиа в Лондон, за да създадат уникална козметична линия.
+          Елиот
+          Айзъкс специализира „Физиология и фармакология” в Медицинския факултет на университета в Лийдс. Той е носител
+          на
+          пет световни патента в областта на новите технологи в козметологията и автор на научни публикации в областта
+          на
           системите за приникване на активни субстанции в кожата. </p>
         <h4 class="pt-3 bold caps pink">„Medik8” – английско качество в професионалната грижа за кожата!</h4>
-        <p>Medik8 е представена във Великобритания през 2008 година. „Зелената козметика” или симбиозата между козметология
-          и медицина е в основата на всеки продукт на марката. Лаборатория Панджиа се превръща в център на научни изследвания
-          и иновации в производството на козметични продукти на острова. Част от изследванията са финансирани от правителството
+        <p>Medik8 е представена във Великобритания през 2008 година. „Зелената козметика” или симбиозата между
+          козметология
+          и медицина е в основата на всеки продукт на марката. Лаборатория Панджиа се превръща в център на научни
+          изследвания
+          и иновации в производството на козметични продукти на острова. Част от изследванията са финансирани от
+          правителството
           на Великобритания. </p>
-        <p>Компанията придобива право на интелектуална собственост в областта на: лечение на купероза, антиоксиданти с широк
-          спектър на действие, мулекулярна инкапсулована формула трансретинол и много други. Лаборатория Панджиа използва
-          най - новите научни постижения в Европа и САЩ, които допълва и развива със свои патентовани научни открития и създава
-          козметични продукти от нова генерация, които отговарят на изискванията и на най-капризните клиенти от цял свят.</p>
+        <p>Компанията придобива право на интелектуална собственост в областта на: лечение на купероза, антиоксиданти с
+          широк
+          спектър на действие, мулекулярна инкапсулована формула трансретинол и много други. Лаборатория Панджиа
+          използва
+          най - новите научни постижения в Европа и САЩ, които допълва и развива със свои патентовани научни открития и
+          създава
+          козметични продукти от нова генерация, които отговарят на изискванията и на най-капризните клиенти от цял
+          свят.</p>
         <h4 class="caps pt-3 pink">Защо Medik8?</h4>
-        <p>В основата на противостареещата грижа на Medik8 са жизненоважните за кожата съставки : Витамин С, Витамин А, пептиди,
-          хидроксикиселини AHA/BHA, слънцезащитни агенти, осигуряващи видими резултати и подходящи за всеки тип кожа.</p>
-        <p>Бионалични активни съставки са тези, които кожата разпознава и усвоява. Бионаличността е гаранция за ефективността
-          на продуктите на Medik8. Стабилизирани иновативни серуми с висока концентрация на активните вещества за максимална
+        <p>В основата на противостареещата грижа на Medik8 са жизненоважните за кожата съставки : Витамин С, Витамин А,
+          пептиди,
+          хидроксикиселини AHA/BHA, слънцезащитни агенти, осигуряващи видими резултати и подходящи за всеки тип кожа.
+        </p>
+        <p>Бионалични активни съставки са тези, които кожата разпознава и усвоява. Бионаличността е гаранция за
+          ефективността
+          на продуктите на Medik8. Стабилизирани иновативни серуми с висока концентрация на активните вещества за
+          максимална
           ефективност.
         </p>
-        <p>Патентовани научни постижения на екипа на Medik8 в областта на системите за проникване на активните съставки в кожата.
+        <p>Патентовани научни постижения на екипа на Medik8 в областта на системите за проникване на активните съставки
+          в кожата.
         </p>
-        <p>Medik8 предлага стабилни формули Ретинол (Витамин А) серуми, които благогарение на специална молекулярна система
+        <p>Medik8 предлага стабилни формули Ретинол (Витамин А) серуми, които благогарение на специална молекулярна
+          система
           за постепенно освобождаване, осигуряват видими резултати, без да дразнят кожата.</p>
         <p>pH блансирани формули, които не нарушават крехкия баланс на кожата.
-          <br>Продукти, които не съдържат парабени, сулфати и консерванти (където е допустимо), което ги прави особено подходящи
+          <br>Продукти, които не съдържат парабени, сулфати и консерванти (където е допустимо), което ги прави особено
+          подходящи
           за клиенти с чувствителна кожа.</p>
         <h4 class="pt-3 caps pink bold">Medik8 предлага на пазара продукти с клинично доказани резултати.</h4>
-        <p>Продуктите на Medik8 решават проблеми с: преждевременно стареене, чувствителност на кожата, нежеланата пигментация,
+        <p>Продуктите на Medik8 решават проблеми с: преждевременно стареене, чувствителност на кожата, нежеланата
+          пигментация,
           проблеми на акнеичната и мазна кожа, както и продукти, които възстановяват нивата на хидратация.</p>
       </div>
     </div>
@@ -162,10 +243,12 @@
   <!-- end of main -->
   <footer class="text-center pt-4 pb-5 mt-5">
     <h2 class="mb-5">Василена Янчева</h2>
-    <div id="contact" class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
+    <div id="contact"
+      class="row col-xl-8 col-10 justify-content-lg-between justify-content-around flex-lg-row flex-column pb-4 offset-xl-2 offset-1 d-flex">
       <div class="mb-lg-0 mb-3">
         <img class="mr-3" src="./assets/images/Icons/Foote/Location.svg" alt="Location icon">
-        <a class="pb-1 align-baseline" target="_blank" rel="noopener" href="https://www.google.com/maps/place/ul.+%22Graf+Ignatiev%22+17,+9000+Varna+Center,+Varna,+Bulgaria/@43.1996488,27.9178259,19z/data=!4m5!3m4!1s0x40a453f0b0f635db:0xf4da935dafb6fb80!8m2!3d43.1995436!4d27.9182512"
+        <a class="pb-1 align-baseline" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/place/ul.+%22Graf+Ignatiev%22+17,+9000+Varna+Center,+Varna,+Bulgaria/@43.1996488,27.9178259,19z/data=!4m5!3m4!1s0x40a453f0b0f635db:0xf4da935dafb6fb80!8m2!3d43.1995436!4d27.9182512"
           target="_blank">гр. Варна, ул. "Граф Игнатиев" 17</a>
       </div>
       <div class="">
@@ -174,12 +257,14 @@
       </div>
       <div class="mt-lg-0 mt-3">
         <img class="mr-3 " src="./assets/images/Icons/Foote/Email.svg" alt="email icon">
-        <a class="pb-1 align-baseline" href="mailto:kozmetikvasilena@gmail.com" target="_top">kozmetikvasilena@gmail.com</a>
+        <a class="pb-1 align-baseline" href="mailto:kozmetikvasilena@gmail.com"
+          target="_top">kozmetikvasilena@gmail.com</a>
       </div>
     </div>
     <!-- end of contact -->
     <hr size="30">
-    <div id="workingHours" class="row col-xl-8 col-10 justify-content-around flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
+    <div id="workingHours"
+      class="row col-xl-8 col-10 justify-content-around flex-sm-row flex-column pt-4 offset-xl-2 offset-1">
       <div class="mt-sm-0 mt-4">
         <p>Вторник - Събота</p>
         <p>10:00 - 19:00</p>
@@ -201,12 +286,14 @@
     <!-- end of socialMedia -->
   </footer>
   <!-- end of footer -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="scripts/script.js"></script>

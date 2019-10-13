@@ -97,7 +97,7 @@ $(document).ready(function () {
 
     // when click on cross, hide links and cross, show hamburger image
     cross.on('click', hideLinks);
-    $('#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown a').on('click', hideLinks);
+    $("#mobileHeader #mobHead .hamburgerMenu #hamburgerDropdown .nav-link").on('click', hideLinks);
     $('#mobileHeader #mobHead .headerIcons .logo').on('click', hideLinks)
     // showLink function
     function showLinks() {
@@ -134,5 +134,27 @@ $(document).ready(function () {
     if (linkName == '') {
       $(this).addClass('disabled');
     }
+  });
+
+  $('.therapies-dropdown').on('hidden.bs.dropdown', function () {
+
+    $('.dropdown-arrow').attr("src", "assets/images/Icons/Header/drop-down-open.png")
+    console.log("hidden")
+  });
+  $('.therapies-dropdown').on('shown.bs.dropdown', function () {
+    $('.dropdown-arrow').attr("src", "assets/images/Icons/Header/drop-down-close.png")
+
+    console.log("shown")
+  });
+
+  $('.therapies-dropdown').on('hidden.bs.collapse', function () {
+
+    $('.dropdown-arrow').attr("src", "assets/images/Icons/Header/drop-down-open.png")
+    console.log("hidden")
+  });
+  $('.therapies-dropdown').on('shown.bs.collapse', function () {
+    $('.dropdown-arrow').attr("src", "assets/images/Icons/Header/drop-down-close.png")
+
+    console.log("shown")
   });
 });
