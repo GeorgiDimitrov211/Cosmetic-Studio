@@ -969,9 +969,9 @@ footer #socialMedia a:hover {
   font-family: 'Roboto Slab', serif;
 }
 
-/* TherapiesPQ */
+/* pq-age-himichen-piling */
 
-#therapiesPQPage #therapiesPQ .therapiesPQbg {
+#pq-age-himichen-pilingPage #pq-age-himichen-piling .pq-age-himichen-pilingbg {
   background-image: url('../assets/images/Services/terapiesSub/PQAge1.jpg');
   background-position: center;
   background-size: cover;
@@ -979,7 +979,7 @@ footer #socialMedia a:hover {
   position: relative;
 }
 
-#therapiesPQPage #therapiesPQ .therapiesPQbg p {
+#pq-age-himichen-pilingPage #pq-age-himichen-piling .pq-age-himichen-pilingbg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -994,24 +994,24 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#therapiesPQPage #therapiesPQ .text p {
+#pq-age-himichen-pilingPage #pq-age-himichen-piling .text p {
   font-size: 1rem;
 }
 
-#therapiesPQPage #therapiesPQ .text h4 {
+#pq-age-himichen-pilingPage #pq-age-himichen-piling .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#therapiesPQPage #therapiesPQ .btn {
+#pq-age-himichen-pilingPage #pq-age-himichen-piling .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#therapiesPQPage #therapiesPQ .btn:hover {
+#pq-age-himichen-pilingPage #pq-age-himichen-piling .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -1346,9 +1346,9 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* aquafacial */
+/* aquafacial-kozmetichni-proceduri */
 
-#aquafacialPage #aquafacial .aquafacialbg {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .aquafacial-kozmetichni-proceduribg {
   background-image: url('../assets/images/Services/terapiesSub/profacial.jpg');
   background-position: center;
   background-size: cover;
@@ -1357,7 +1357,7 @@ footer #socialMedia a:hover {
   margin-top: 10vh;
 }
 
-#aquafacialPage #aquafacial .aquafacialbg p {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .aquafacial-kozmetichni-proceduribg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1372,39 +1372,39 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#aquafacialPage #aquafacial .text p {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .text p {
   font-size: 1rem;
 }
 
-#aquafacialPage #aquafacial .text ul {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .text ul {
   color: #980c4a;
 }
 
-#aquafacialPage #aquafacial .text ul p {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .text ul p {
   color: black;
 }
 
-#aquafacialPage #aquafacial .text h4 {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#aquafacialPage #aquafacial .btn {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#aquafacialPage #aquafacial .btn:hover {
+#aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .btn:hover {
   color: white;
   background-color: #7c616c;
 }
 
-/* meso-celulit */
+/* premahvane-na-celulit-mezoterapia */
 
-#meso-celulitPage #meso-celulit .meso-celulitbg {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .premahvane-na-celulit-mezoterapiabg {
   background-image: url('../assets/images/Services/terapiesSub/mesotherapy.jpg');
   background-position: center;
   background-size: cover;
@@ -1413,7 +1413,7 @@ footer #socialMedia a:hover {
   margin-top: 10vh;
 }
 
-#meso-celulitPage #meso-celulit .meso-celulitbg p {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .premahvane-na-celulit-mezoterapiabg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1428,39 +1428,39 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#meso-celulitPage #meso-celulit .text p {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .text p {
   font-size: 1rem;
 }
 
-#meso-celulitPage #meso-celulit .text ul {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .text ul {
   color: #980c4a;
 }
 
-#meso-celulitPage #meso-celulit .text ul p {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .text ul p {
   color: black;
 }
 
-#meso-celulitPage #meso-celulit .text h4 {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#meso-celulitPage #meso-celulit .btn {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#meso-celulitPage #meso-celulit .btn:hover {
+#premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .btn:hover {
   color: white;
   background-color: #7c616c;
 }
 
-/* meso-celulit */
+/* premahvane-na-celulit-mezoterapia */
 
-#meso-facePage #meso-face .meso-facebg {
+#mezoterapia-za-licePage #mezoterapia-za-lice .mezoterapia-za-licebg {
   background-image: url('../assets/images/Services/terapiesSub/mesotherapy_face.jpg');
   background-position: center;
   background-size: cover;
@@ -1469,7 +1469,7 @@ footer #socialMedia a:hover {
   margin-top: 10vh;
 }
 
-#meso-facePage #meso-face .meso-facebg p {
+#mezoterapia-za-licePage #mezoterapia-za-lice .mezoterapia-za-licebg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1484,32 +1484,32 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#meso-facePage #meso-face .text p {
+#mezoterapia-za-licePage #mezoterapia-za-lice .text p {
   font-size: 1rem;
 }
 
-#meso-facePage #meso-face .text ul {
+#mezoterapia-za-licePage #mezoterapia-za-lice .text ul {
   color: #980c4a;
 }
 
-#meso-facePage #meso-face .text ul p {
+#mezoterapia-za-licePage #mezoterapia-za-lice .text ul p {
   color: black;
 }
 
-#meso-facePage #meso-face .text h4 {
+#mezoterapia-za-licePage #mezoterapia-za-lice .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#meso-facePage #meso-face .btn {
+#mezoterapia-za-licePage #mezoterapia-za-lice .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#meso-facePage #meso-face .btn:hover {
+#mezoterapia-za-licePage #mezoterapia-za-lice .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -1876,7 +1876,7 @@ footer #socialMedia a:hover {
 }
 
 #kozmetichni-proceduri-grijiPage #kozmetichni-proceduri-griji .kozmetichni-proceduri-grijibg {
-  background-image: url('../assets/images/Home/kozmetichni-proceduri-griji.jpg');
+  background-image: url('../assets/images/Home/Hubavakoja.jpeg');
   background-size: cover;
   position: relative;
   height: 60vh;
@@ -2158,11 +2158,11 @@ footer #socialMedia a:hover {
     height: 60vh;
   }
 
-  #meso-facePage #meso-face .meso-facebg {
+  #mezoterapia-za-licePage #mezoterapia-za-lice .mezoterapia-za-licebg {
     height: 60vh;
   }
 
-  #meso-celulitPage #meso-celulit .meso-celulitbg {
+  #premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .premahvane-na-celulit-mezoterapiabg {
     height: 60vh;
   }
 
@@ -2200,11 +2200,11 @@ footer #socialMedia a:hover {
     height: 60vh;
   }
 
-  #therapiesPQPage #therapiesPQ .therapiesPQbg {
+  #pq-age-himichen-pilingPage #pq-age-himichen-piling .pq-age-himichen-pilingbg {
     height: 60vh;
   }
 
-  #aquafacialPage #aquafacial .aquafacialbg {
+  #aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .aquafacial-kozmetichni-proceduribg {
     height: 60vh;
   }
 
@@ -2287,11 +2287,11 @@ footer #socialMedia a:hover {
     height: 70vh;
   }
 
-  #meso-facePage #meso-face .meso-facebg {
+  #mezoterapia-za-licePage #mezoterapia-za-lice .mezoterapia-za-licebg {
     height: 70vh;
   }
 
-  #meso-celulitPage #meso-celulit .meso-celulitbg {
+  #premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .premahvane-na-celulit-mezoterapiabg {
     height: 70vh;
   }
 
@@ -2319,11 +2319,11 @@ footer #socialMedia a:hover {
     height: 70vh;
   }
 
-  #therapiesPQPage #therapiesPQ .therapiesPQbg {
+  #pq-age-himichen-pilingPage #pq-age-himichen-piling .pq-age-himichen-pilingbg {
     height: 70vh;
   }
 
-  #aquafacialPage #aquafacial .aquafacialbg {
+  #aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .aquafacial-kozmetichni-proceduribg {
     height: 70vh;
   }
 }
@@ -2450,7 +2450,7 @@ footer #socialMedia a:hover {
     height: 80vh;
   }
 
-  #meso-facePage #meso-face .meso-facebg {
+  #mezoterapia-za-licePage #mezoterapia-za-lice .mezoterapia-za-licebg {
     margin: 0 10%;
     height: 80vh;
   }
@@ -2460,7 +2460,7 @@ footer #socialMedia a:hover {
     height: 80vh;
   }
 
-  #meso-celulitPage #meso-celulit .meso-celulitbg {
+  #premahvane-na-celulit-mezoterapiaPage #premahvane-na-celulit-mezoterapia .premahvane-na-celulit-mezoterapiabg {
     margin: 0 10%;
     height: 80vh;
   }
@@ -2495,12 +2495,12 @@ footer #socialMedia a:hover {
     margin: 0 10%;
   }
 
-  #therapiesPQPage #therapiesPQ .therapiesPQbg {
+  #pq-age-himichen-pilingPage #pq-age-himichen-piling .pq-age-himichen-pilingbg {
     height: 80vh;
     margin: 0 10%;
   }
 
-  #aquafacialPage #aquafacial .aquafacialbg {
+  #aquafacial-kozmetichni-proceduriPage #aquafacial-kozmetichni-proceduri .aquafacial-kozmetichni-proceduribg {
     height: 80vh;
     margin: 0 10%;
   }
