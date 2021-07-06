@@ -778,12 +778,12 @@ footer #socialMedia a:hover {
   background-color: #e8e8e8;
 }
 
-#pricelistPage #pricelist .card-body .woman {
-  color: #a225aa;
+#pricelistPage #pricelist .card-body .woman.odd {
+  background-color: #FFF8FB;
 }
 
-#pricelistPage #pricelist .card-body .man {
-  color: #135caa;
+#pricelistPage #pricelist .card-body .man.odd {
+  background-color: #F7FAFF;
 }
 
 #pricelistPage #pricelist .card-body div strong {
