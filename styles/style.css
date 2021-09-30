@@ -728,6 +728,12 @@ footer #socialMedia a:hover {
   background-size: cover;
 }
 
+#therapiesPage #therapies .row:last-child .therapy:last-child {
+  background-image: url('../assets/images/Services/probivane-na-ushi.png');
+  background-position: center;
+  background-size: cover;
+}
+
 #therapiesPage .btn {
   font-weight: bold;
   border: 1px solid #7c616c;
@@ -1154,6 +1160,52 @@ footer #socialMedia a:hover {
 }
 
 #pq-age-himichen-pilingPage #pq-age-himichen-piling .btn:hover {
+  color: white;
+  background-color: #7c616c;
+}
+/* probivane-na-ushi */
+
+#probivane-na-ushiPage #probivane-na-ushi .probivane-na-ushibg {
+  background-image: url('../assets/images/Services/terapiesSub/probivane-na-ushi.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+#probivane-na-ushiPage #probivane-na-ushi .probivane-na-ushibg p {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  padding: 2%;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-family: 'Bad Script', cursive;
+  color: #661c3a;
+}
+
+#probivane-na-ushiPage #probivane-na-ushi .text p {
+  font-size: 1rem;
+}
+
+#probivane-na-ushiPage #probivane-na-ushi .text h4 {
+  color: #980c4a;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#probivane-na-ushiPage #probivane-na-ushi .btn {
+  border-color: #7c616c;
+  font-weight: bold;
+  -webkit-transition: background-color 0.8s;
+  transition: background-color 0.8s;
+}
+
+#probivane-na-ushiPage #probivane-na-ushi .btn:hover {
   color: white;
   background-color: #7c616c;
 }
