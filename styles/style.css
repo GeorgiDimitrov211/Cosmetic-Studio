@@ -1167,7 +1167,7 @@ footer #socialMedia a:hover {
 
 #probivane-na-ushiPage #probivane-na-ushi .probivane-na-ushibg {
   background-image: url('../assets/images/Services/terapiesSub/probivane-na-ushi.png');
-  background-position: center;
+  background-position: -50px 0px;
   background-size: cover;
   height: 50vh;
   position: relative;
