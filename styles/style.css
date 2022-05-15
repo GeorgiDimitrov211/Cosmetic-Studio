@@ -720,7 +720,7 @@ footer #socialMedia a:hover {
 }
 
 #therapiesPage #therapies .row:nth-child(3) .therapy:last-child {
-  background-image: url('../assets/images/Services/migli.jpg');
+  background-image: url('../assets/images/Services/sugaring.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -1387,7 +1387,7 @@ footer #socialMedia a:hover {
 /* sugaring */
 
 #sugaringPage #sugaring .sugaringbg {
-  background-image: url('../assets/images/Services/terapiesSub/migli.jpg');
+  background-image: url('../assets/images/Services/terapiesSub/sugaring.jpg');
   background-position: center;
   background-size: cover;
   height: 50vh;
