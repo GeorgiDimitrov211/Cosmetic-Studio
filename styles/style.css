@@ -1384,9 +1384,9 @@ footer #socialMedia a:hover {
   background-color: #7c616c;
 }
 
-/* eyelashes */
+/* sugaring */
 
-#eyelashesPage #eyelashes .eyelashesbg {
+#sugaringPage #sugaring .sugaringbg {
   background-image: url('../assets/images/Services/terapiesSub/migli.jpg');
   background-position: center;
   background-size: cover;
@@ -1394,7 +1394,7 @@ footer #socialMedia a:hover {
   position: relative;
 }
 
-#eyelashesPage #eyelashes .eyelashesbg p {
+#sugaringPage #sugaring .sugaringbg p {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -1409,32 +1409,32 @@ footer #socialMedia a:hover {
   color: #661c3a;
 }
 
-#eyelashesPage #eyelashes .text p {
+#sugaringPage #sugaring .text p {
   font-size: 1rem;
 }
 
-#eyelashesPage #eyelashes .text ul {
+#sugaringPage #sugaring .text ul {
   color: #980c4a;
 }
 
-#eyelashesPage #eyelashes .text ul p {
+#sugaringPage #sugaring .text ul p {
   color: black;
 }
 
-#eyelashesPage #eyelashes .text h4 {
+#sugaringPage #sugaring .text h4 {
   color: #980c4a;
   font-size: 1rem;
   font-weight: normal;
 }
 
-#eyelashesPage #eyelashes .btn {
+#sugaringPage #sugaring .btn {
   border-color: #7c616c;
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
   transition: background-color 0.8s;
 }
 
-#eyelashesPage #eyelashes .btn:hover {
+#sugaringPage #sugaring .btn:hover {
   color: white;
   background-color: #7c616c;
 }
@@ -2377,7 +2377,7 @@ footer #socialMedia a:hover {
     height: 60vh;
   }
 
-  #eyelashesPage #eyelashes .eyelashesbg {
+  #sugaringPage #sugaring .sugaringbg {
     height: 60vh;
   }
 
@@ -2486,7 +2486,7 @@ footer #socialMedia a:hover {
     height: 70vh;
   }
 
-  #eyelashesPage #eyelashes .eyelashesbg {
+  #sugaringPage #sugaring .sugaringbg {
     height: 70vh;
   }
 
@@ -2648,7 +2648,7 @@ footer #socialMedia a:hover {
     height: 80vh;
   }
 
-  #eyelashesPage #eyelashes .eyelashesbg {
+  #sugaringPage #sugaring .sugaringbg {
     margin: 0 10%;
     height: 80vh;
   }
