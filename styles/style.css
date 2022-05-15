@@ -623,6 +623,15 @@ footer #socialMedia a:hover {
   font-weight: 700;
 }
 
+#aboutPage #text2 p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+#aboutPage #text2 p strong {
+  font-weight: 700;
+}
+
 #aboutPage .btn {
   font-weight: bold;
   -webkit-transition: background-color 0.8s;
